@@ -224,6 +224,20 @@ Examples:
 * incident_a-laptop01-prefetch-2019-11-18-13-30-00
 * customer_b-dektop1234-evtx-security-2019-11-18-13-30-00
 
+## Query the DB
+There is a known format of signatures called SIGMA (https://github.com/SigmaHQ/sigma). This is a very comfortable format
+which can be translated to many SIEM products. Under the SIGMA git repository, there is a tool called sigmac, which can
+preform this translation.
+As our backend is elasticsearch, we will wish to transform those rules to a format which will allow us a run suitable
+queries.
+
+For this reason, we added a directory called [sigma support](sigma support), which contain 2 files:
+* [fields.yml](fields.yml) - A yaml file which can be used as a config file for sigmac, for example:
+  > tools/sigmac -t es-qs -c fields.yml rules/windows/builtin/win_susp_lsass_dump.yml
+* [create_sigma_config.py](create_sigma_config.py) - A python script which can be used to generate this config. The
+advantage of the script is that it can be used to generate a config file which will match all the fields in the DB.
+  The source for this script is the dump result of chronos, and the destination is the result file path.
+  > create_sigma_config.py -d C:\temp\host-dump-dir -o C:\temp\fields.yml
 
 
 Thank You Industry 🙏

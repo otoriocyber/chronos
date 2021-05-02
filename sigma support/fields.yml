@@ -1,0 +1,6092 @@
+fieldmappings:
+  '#attributes':
+  - Event.System.Data.#attributes
+  '#text':
+  - Event.EventData.Data.#text
+  $schema:
+  - Payload.adaptiveContent.$schema
+  '@Context':
+  - Task.Actions.@Context
+  '@id':
+  - Task.Triggers.SessionStateChangeTrigger.@id
+  - Task.Triggers.LogonTrigger.@id
+  - Task.Triggers.EventTrigger.@id
+  - Task.Triggers.BootTrigger.@id
+  - Task.Triggers.IdleTrigger.@id
+  - Task.Actions.Exec.@id
+  - Task.Triggers.WnfStateChangeTrigger.@id
+  - Task.Triggers.TimeTrigger.@id
+  - Task.Triggers.CalendarTrigger.@id
+  - Task.Principals.Principal.@id
+  '@version':
+  - Task.@version
+  '@xmlns':
+  - Task.@xmlns
+  AADPrt:
+  - Event.System.Data.AADPrt
+  - Event.RawData.AADPrt
+  API:
+  - Event.RawData.API
+  - Event.System.Data.API
+  AS security intelligence creation time:
+  - Event.System.Data.AS security intelligence creation time
+  - Event.RawData.AS security intelligence creation time
+  AS security intelligence version:
+  - Event.RawData.AS security intelligence version
+  - Event.System.Data.AS security intelligence version
+  AV security intelligence creation time:
+  - Event.RawData.AV security intelligence creation time
+  - Event.System.Data.AV security intelligence creation time
+  AV security intelligence version:
+  - Event.RawData.AV security intelligence version
+  - Event.System.Data.AV security intelligence version
+  AbandonedBatteryCount:
+  - Event.RawData.AbandonedBatteryCount
+  - Event.System.Data.AbandonedBatteryCount
+  AbsolutePath:
+  - AbsolutePath
+  AcOnline:
+  - Event.System.Data.AcOnline
+  - Event.RawData.AcOnline
+  AccessList:
+  - Event.System.Data.AccessList
+  - Event.RawData.AccessList
+  AccessMask:
+  - Event.System.Data.AccessMask
+  - Event.RawData.AccessMask
+  AccessName:
+  - Event.UserData.VmlEventLog.Parameter0.Settings.AccessName
+  AccessReason:
+  - Event.System.Data.AccessReason
+  - Event.RawData.AccessReason
+  AccountName:
+  - Event.System.Data.AccountName
+  - Event.RawData.AccountName
+  Action:
+  - Event.RawData.Action
+  - Event.System.Data.Action
+  ActionName:
+  - Event.RawData.ActionName
+  - Event.System.Data.ActionName
+  ActivationUri:
+  - Payload.activationUri
+  Active:
+  - Event.System.Data.Active
+  - Event.RawData.Active
+  ActiveDurationSeconds:
+  - Payload.activeDurationSeconds
+  ActivityEngagementFlags:
+  - Payload.shellContentDescription.ActivityEngagementFlags
+  ActivityID:
+  - Event.System.Correlation.#attributes.ActivityID
+  ActivityStatus:
+  - ActivityStatus
+  ActivityType:
+  - ActivityType
+  Activity_profile_user:
+  - activity_profile_user
+  Adapter:
+  - Event.System.Data.Adapter
+  - Event.RawData.Adapter
+  AdapterAlignmentMask:
+  - Event.System.Data.AdapterAlignmentMask
+  - Event.RawData.AdapterAlignmentMask
+  AdapterGuid:
+  - Event.System.Data.AdapterGuid
+  - Event.RawData.AdapterGuid
+  AdapterId:
+  - Event.System.Data.AdapterId
+  - Event.RawData.AdapterId
+  AdapterMaximumTransferBytes:
+  - Event.System.Data.AdapterMaximumTransferBytes
+  - Event.RawData.AdapterMaximumTransferBytes
+  AdapterMaximumTransferPages:
+  - Event.RawData.AdapterMaximumTransferPages
+  - Event.System.Data.AdapterMaximumTransferPages
+  AdapterName:
+  - Event.System.Data.AdapterName
+  - Event.RawData.AdapterName
+  AdapterSerialNumber:
+  - Event.System.Data.AdapterSerialNumber
+  - Event.RawData.AdapterSerialNumber
+  AdapterSerialNumberLength:
+  - Event.RawData.AdapterSerialNumberLength
+  - Event.System.Data.AdapterSerialNumberLength
+  AdapterSuffixName:
+  - Event.System.Data.AdapterSuffixName
+  - Event.RawData.AdapterSuffixName
+  AddImageQuery:
+  - Payload.attribution.addImageQuery
+  AddSense:
+  - Event.RawData.AddSense
+  - Event.System.Data.AddSense
+  AddSenseQ:
+  - Event.System.Data.AddSenseQ
+  - Event.RawData.AddSenseQ
+  AddServiceStatus:
+  - Event.UserData.AddServiceID.AddServiceStatus
+  AdditionalInfo:
+  - Event.RawData.AdditionalInfo
+  - Event.UserData.SetupInstallPrinterDriver.AdditionalInfo
+  - Event.System.Data.AdditionalInfo
+  AdditionalInfo2:
+  - Event.RawData.AdditionalInfo2
+  - Event.System.Data.AdditionalInfo2
+  AdditionalInfoHr:
+  - Event.System.Data.AdditionalInfoHr
+  - Event.RawData.AdditionalInfoHr
+  AdditionalInformation:
+  - Event.RawData.AdditionalInformation
+  - Event.System.Data.AdditionalInformation
+  AdditionalSenseCode:
+  - Event.RawData.AdditionalSenseCode
+  - Event.System.Data.AdditionalSenseCode
+  AdditionalSenseCodeQualifier:
+  - Event.RawData.AdditionalSenseCodeQualifier
+  - Event.System.Data.AdditionalSenseCodeQualifier
+  Address:
+  - Event.UserData.EventXML.Address
+  - Event.RawData.Address
+  - Event.System.Data.Address
+  AddressLength:
+  - Event.RawData.AddressLength
+  - Event.System.Data.AddressLength
+  Addresses:
+  - Event.RawData.Addresses
+  - Event.System.Data.Addresses
+  AdjustmentPPM:
+  - Event.System.Data.AdjustmentPPM
+  - Event.RawData.AdjustmentPPM
+  AdvancedOptions:
+  - Event.System.Data.AdvancedOptions
+  - Event.RawData.AdvancedOptions
+  AlgorithmName:
+  - Event.RawData.AlgorithmName
+  - Event.System.Data.AlgorithmName
+  Alias:
+  - Event.EventData.Data.Alias
+  AllNtpServers:
+  - Event.System.Data.AllNtpServers
+  - Event.RawData.AllNtpServers
+  AllowHardTerminate:
+  - Task.Settings.AllowHardTerminate
+  AllowStartOnDemand:
+  - Task.Settings.AllowStartOnDemand
+  AlternateText:
+  - Payload.attribution.alternateText
+  AppActivityId:
+  - AppActivityId
+  AppContainerName:
+  - Event.RawData.AppContainerName
+  - Event.System.Data.AppContainerName
+  AppDisplayName:
+  - Payload.appDisplayName
+  AppID:
+  - Event.System.Data.AppID
+  - Event.RawData.AppID
+  AppId:
+  - Event.RawData.AppId
+  - AppId
+  - Event.System.Data.AppId
+  AppPackageFamilyName:
+  - Event.System.Data.AppPackageFamilyName
+  - Event.RawData.AppPackageFamilyName
+  AppSettings:
+  - Event.RawData.AppSettings
+  - Event.System.Data.AppSettings
+  AppSize:
+  - Event.RawData.appSize
+  - Event.System.Data.appSize
+  AppType:
+  - Event.RawData.AppType
+  - Event.System.Data.AppType
+  AppUserModelId:
+  - Event.RawData.AppUserModelId
+  - Event.System.Data.AppUserModelId
+  Appid:
+  - appid
+  ApplicableGPOList:
+  - Event.RawData.ApplicableGPOList
+  - Event.System.Data.ApplicableGPOList
+  Application:
+  - Event.RawData.Application
+  - Event.System.Data.Application
+  ApplicationName:
+  - Event.RawData.ApplicationName
+  - Event.System.Data.ApplicationName
+  ApplicationPath:
+  - Event.RawData.ApplicationPath
+  - Event.System.Data.ApplicationPath
+  AppliedGuids:
+  - Event.System.Data.AppliedGuids
+  - Event.RawData.AppliedGuids
+  Arguments:
+  - Event.RawData.Arguments
+  - Event.System.Data.Arguments
+  - Task.Actions.Exec.Arguments
+  AssociateId:
+  - Event.System.Data.AssociateId
+  - Event.RawData.AssociateId
+  AttemptAfter:
+  - Event.RawData.AttemptAfter
+  - Event.System.Data.AttemptAfter
+  Attributes:
+  - Event.System.Data.Attributes
+  - Event.RawData.Attributes
+  AuditPolicyChanges:
+  - Event.RawData.AuditPolicyChanges
+  - Event.System.Data.AuditPolicyChanges
+  AuditSourceName:
+  - Event.RawData.AuditSourceName
+  - Event.System.Data.AuditSourceName
+  Auth:
+  - Event.RawData.Auth
+  - Event.System.Data.Auth
+  AuthFailureMessage:
+  - Event.RawData.authFailureMessage
+  - Event.System.Data.authFailureMessage
+  AuthRequired:
+  - Event.System.Data.AuthRequired
+  - Event.RawData.AuthRequired
+  AuthVal:
+  - Event.System.Data.AuthVal
+  - Event.RawData.AuthVal
+  AuthenticationAlgorithm:
+  - Event.System.Data.AuthenticationAlgorithm
+  - Event.RawData.AuthenticationAlgorithm
+  AuthenticationPackageName:
+  - Event.System.Data.AuthenticationPackageName
+  - Event.RawData.AuthenticationPackageName
+  Author:
+  - Task.RegistrationInfo.Author
+  AuthorID:
+  - Event.RawData.AuthorID
+  - Event.System.Data.AuthorID
+  Auto Connect:
+  - Event.RawData.Auto Connect
+  - Event.System.Data.Auto Connect
+  Auto Filter control:
+  - Event.System.Data.Auto Filter control
+  - Event.RawData.Auto Filter control
+  Auto Profile Names:
+  - Event.System.Data.Auto Profile Names
+  - Event.RawData.Auto Profile Names
+  Available:
+  - Event.EventData.Data.Available
+  AvcEnabled:
+  - Event.System.Data.AvcEnabled
+  - Event.RawData.AvcEnabled
+  AverageResume:
+  - Event.RawData.AverageResume
+  - Event.System.Data.AverageResume
+  AvgFileLevelTrimSize:
+  - Event.RawData.AvgFileLevelTrimSize
+  - Event.System.Data.AvgFileLevelTrimSize
+  AvgFileLevelTrimTime:
+  - Event.RawData.AvgFileLevelTrimTime
+  - Event.System.Data.AvgFileLevelTrimTime
+  AvgVolumeTrimSize:
+  - Event.RawData.AvgVolumeTrimSize
+  - Event.System.Data.AvgVolumeTrimSize
+  AvgVolumeTrimTime:
+  - Event.System.Data.AvgVolumeTrimTime
+  - Event.RawData.AvgVolumeTrimTime
+  BClassGetEnvelope:
+  - Event.System.Data.bClassGetEnvelope
+  - Event.RawData.bClassGetEnvelope
+  BClassGetResponse:
+  - Event.System.Data.bClassGetResponse
+  - Event.RawData.bClassGetResponse
+  BIsSuspended:
+  - Event.RawData.bIsSuspended
+  - Event.System.Data.bIsSuspended
+  BM state:
+  - Event.System.Data.BM state
+  - Event.RawData.BM state
+  BMaxCCIDBusySlots:
+  - Event.RawData.bMaxCCIDBusySlots
+  - Event.System.Data.bMaxCCIDBusySlots
+  BMaxSlotIndex:
+  - Event.RawData.bMaxSlotIndex
+  - Event.System.Data.bMaxSlotIndex
+  BNumClockSupported:
+  - Event.System.Data.bNumClockSupported
+  - Event.RawData.bNumClockSupported
+  BNumDataRateSupported:
+  - Event.RawData.bNumDataRateSupported
+  - Event.System.Data.bNumDataRateSupported
+  BPINSupport:
+  - Event.RawData.bPINSupport
+  - Event.System.Data.bPINSupport
+  BSSType:
+  - Event.System.Data.BSSType
+  - Event.RawData.BSSType
+  BVoltageSupport:
+  - Event.System.Data.bVoltageSupport
+  - Event.RawData.bVoltageSupport
+  BackgroundColor:
+  - Payload.backgroundColor
+  BandwidthInkbps:
+  - Event.System.Data.BandwidthInkbps
+  - Event.RawData.BandwidthInkbps
+  BandwidthLimit:
+  - Event.RawData.bandwidthLimit
+  - Event.System.Data.bandwidthLimit
+  BankCount:
+  - Event.System.Data.BankCount
+  - Event.RawData.BankCount
+  BaseCpuNumber:
+  - Event.RawData.BaseCpuNumber
+  - Event.System.Data.BaseCpuNumber
+  BcdCCID:
+  - Event.System.Data.bcdCCID
+  - Event.RawData.bcdCCID
+  Binary:
+  - Event.EventData.Binary
+  - Event.System.Data.Binary
+  - Event.RawData.Binary
+  BiometricSensor:
+  - Event.System.Data.BiometricSensor
+  - Event.RawData.BiometricSensor
+  BiosInitDuration:
+  - Event.System.Data.BiosInitDuration
+  - Event.RawData.BiosInitDuration
+  BitlockerUserInputTime:
+  - Event.System.Data.BitlockerUserInputTime
+  - Event.RawData.BitlockerUserInputTime
+  BitmapReadBytes:
+  - Event.System.Data.BitmapReadBytes
+  - Event.RawData.BitmapReadBytes
+  BitmapReads:
+  - Event.RawData.BitmapReads
+  - Event.System.Data.BitmapReads
+  BitmapWriteBytes:
+  - Event.System.Data.BitmapWriteBytes
+  - Event.RawData.BitmapWriteBytes
+  BitmapWrites:
+  - Event.RawData.BitmapWrites
+  - Event.System.Data.BitmapWrites
+  BlockTime:
+  - Event.System.Data.BlockTime
+  - Event.RawData.BlockTime
+  Body:
+  - Payload.adaptiveContent.body
+  BootAppStatus:
+  - Event.System.Data.BootAppStatus
+  - Event.RawData.BootAppStatus
+  BootDevice:
+  - Event.System.Data.BootDevice
+  - Event.RawData.BootDevice
+  BootMenuPolicy:
+  - Event.System.Data.BootMenuPolicy
+  - Event.RawData.BootMenuPolicy
+  BootMode:
+  - Event.System.Data.BootMode
+  - Event.RawData.BootMode
+  BootStatusPolicy:
+  - Event.RawData.BootStatusPolicy
+  - Event.System.Data.BootStatusPolicy
+  BootTrigger:
+  - Task.Triggers.BootTrigger
+  BootType:
+  - Event.RawData.BootType
+  - Event.System.Data.BootType
+  Browser_profile:
+  - browser_profile
+  BucketIoFailed1:
+  - Event.RawData.BucketIoFailed1
+  - Event.System.Data.BucketIoFailed1
+  BucketIoFailed10:
+  - Event.RawData.BucketIoFailed10
+  - Event.System.Data.BucketIoFailed10
+  BucketIoFailed11:
+  - Event.RawData.BucketIoFailed11
+  - Event.System.Data.BucketIoFailed11
+  BucketIoFailed12:
+  - Event.System.Data.BucketIoFailed12
+  - Event.RawData.BucketIoFailed12
+  BucketIoFailed2:
+  - Event.RawData.BucketIoFailed2
+  - Event.System.Data.BucketIoFailed2
+  BucketIoFailed3:
+  - Event.System.Data.BucketIoFailed3
+  - Event.RawData.BucketIoFailed3
+  BucketIoFailed4:
+  - Event.System.Data.BucketIoFailed4
+  - Event.RawData.BucketIoFailed4
+  BucketIoFailed5:
+  - Event.RawData.BucketIoFailed5
+  - Event.System.Data.BucketIoFailed5
+  BucketIoFailed6:
+  - Event.RawData.BucketIoFailed6
+  - Event.System.Data.BucketIoFailed6
+  BucketIoFailed7:
+  - Event.System.Data.BucketIoFailed7
+  - Event.RawData.BucketIoFailed7
+  BucketIoFailed8:
+  - Event.RawData.BucketIoFailed8
+  - Event.System.Data.BucketIoFailed8
+  BucketIoFailed9:
+  - Event.System.Data.BucketIoFailed9
+  - Event.RawData.BucketIoFailed9
+  BucketIoLatency10_100ns:
+  - Event.System.Data.BucketIoLatency10_100ns
+  - Event.RawData.BucketIoLatency10_100ns
+  BucketIoLatency11_100ns:
+  - Event.System.Data.BucketIoLatency11_100ns
+  - Event.RawData.BucketIoLatency11_100ns
+  BucketIoLatency12_100ns:
+  - Event.System.Data.BucketIoLatency12_100ns
+  - Event.RawData.BucketIoLatency12_100ns
+  BucketIoLatency1_100ns:
+  - Event.RawData.BucketIoLatency1_100ns
+  - Event.System.Data.BucketIoLatency1_100ns
+  BucketIoLatency2_100ns:
+  - Event.RawData.BucketIoLatency2_100ns
+  - Event.System.Data.BucketIoLatency2_100ns
+  BucketIoLatency3_100ns:
+  - Event.RawData.BucketIoLatency3_100ns
+  - Event.System.Data.BucketIoLatency3_100ns
+  BucketIoLatency4_100ns:
+  - Event.System.Data.BucketIoLatency4_100ns
+  - Event.RawData.BucketIoLatency4_100ns
+  BucketIoLatency5_100ns:
+  - Event.RawData.BucketIoLatency5_100ns
+  - Event.System.Data.BucketIoLatency5_100ns
+  BucketIoLatency6_100ns:
+  - Event.RawData.BucketIoLatency6_100ns
+  - Event.System.Data.BucketIoLatency6_100ns
+  BucketIoLatency7_100ns:
+  - Event.RawData.BucketIoLatency7_100ns
+  - Event.System.Data.BucketIoLatency7_100ns
+  BucketIoLatency8_100ns:
+  - Event.RawData.BucketIoLatency8_100ns
+  - Event.System.Data.BucketIoLatency8_100ns
+  BucketIoLatency9_100ns:
+  - Event.RawData.BucketIoLatency9_100ns
+  - Event.System.Data.BucketIoLatency9_100ns
+  BucketIoSuccess1:
+  - Event.RawData.BucketIoSuccess1
+  - Event.System.Data.BucketIoSuccess1
+  BucketIoSuccess10:
+  - Event.System.Data.BucketIoSuccess10
+  - Event.RawData.BucketIoSuccess10
+  BucketIoSuccess11:
+  - Event.System.Data.BucketIoSuccess11
+  - Event.RawData.BucketIoSuccess11
+  BucketIoSuccess12:
+  - Event.System.Data.BucketIoSuccess12
+  - Event.RawData.BucketIoSuccess12
+  BucketIoSuccess2:
+  - Event.RawData.BucketIoSuccess2
+  - Event.System.Data.BucketIoSuccess2
+  BucketIoSuccess3:
+  - Event.RawData.BucketIoSuccess3
+  - Event.System.Data.BucketIoSuccess3
+  BucketIoSuccess4:
+  - Event.System.Data.BucketIoSuccess4
+  - Event.RawData.BucketIoSuccess4
+  BucketIoSuccess5:
+  - Event.RawData.BucketIoSuccess5
+  - Event.System.Data.BucketIoSuccess5
+  BucketIoSuccess6:
+  - Event.RawData.BucketIoSuccess6
+  - Event.System.Data.BucketIoSuccess6
+  BucketIoSuccess7:
+  - Event.System.Data.BucketIoSuccess7
+  - Event.RawData.BucketIoSuccess7
+  BucketIoSuccess8:
+  - Event.RawData.BucketIoSuccess8
+  - Event.System.Data.BucketIoSuccess8
+  BucketIoSuccess9:
+  - Event.RawData.BucketIoSuccess9
+  - Event.System.Data.BucketIoSuccess9
+  BufferFlushNeeded:
+  - Event.RawData.BufferFlushNeeded
+  - Event.System.Data.BufferFlushNeeded
+  BugcheckCode:
+  - Event.System.Data.BugcheckCode
+  - Event.RawData.BugcheckCode
+  BugcheckInfoFromEFI:
+  - Event.System.Data.BugcheckInfoFromEFI
+  - Event.RawData.BugcheckInfoFromEFI
+  BugcheckParameter1:
+  - Event.RawData.BugcheckParameter1
+  - Event.System.Data.BugcheckParameter1
+  BugcheckParameter2:
+  - Event.RawData.BugcheckParameter2
+  - Event.System.Data.BugcheckParameter2
+  BugcheckParameter3:
+  - Event.RawData.BugcheckParameter3
+  - Event.System.Data.BugcheckParameter3
+  BugcheckParameter4:
+  - Event.System.Data.BugcheckParameter4
+  - Event.RawData.BugcheckParameter4
+  Build Name:
+  - Event.System.Data.Build Name
+  - Event.RawData.Build Name
+  BuildArch:
+  - Event.RawData.BuildArch
+  - Event.System.Data.BuildArch
+  BuildBranch:
+  - Event.System.Data.BuildBranch
+  - Event.RawData.BuildBranch
+  BuildNumber:
+  - Event.RawData.BuildNumber
+  - Event.System.Data.BuildNumber
+  BuildVersion:
+  - Event.RawData.BuildVersion
+  - Event.System.Data.BuildVersion
+  Bus:
+  - Event.System.Data.Bus
+  - Event.RawData.Bus
+  BusType:
+  - Event.System.Data.BusType
+  - Event.RawData.BusType
+  Bytes:
+  - Event.System.Data.Bytes
+  - Event.RawData.Bytes
+  BytesOffsetForSectorAlignment:
+  - Event.RawData.BytesOffsetForSectorAlignment
+  - Event.System.Data.BytesOffsetForSectorAlignment
+  BytesPerLogicalSector:
+  - Event.RawData.BytesPerLogicalSector
+  - Event.System.Data.BytesPerLogicalSector
+  BytesPerPhysicalSector:
+  - Event.System.Data.BytesPerPhysicalSector
+  - Event.RawData.BytesPerPhysicalSector
+  BytesPerSector:
+  - Event.System.Data.BytesPerSector
+  - Event.RawData.BytesPerSector
+  BytesTotal:
+  - Event.RawData.bytesTotal
+  - Event.System.Data.bytesTotal
+  BytesTransferred:
+  - Event.RawData.bytesTransferred
+  - Event.System.Data.bytesTransferred
+  BytesTransferredFromPeer:
+  - Event.RawData.bytesTransferredFromPeer
+  - Event.System.Data.bytesTransferredFromPeer
+  BytesUploaded:
+  - Event.RawData.BytesUploaded
+  - Event.System.Data.BytesUploaded
+  Bytesrecvd:
+  - bytesrecvd
+  Bytessent:
+  - bytessent
+  CLFlushSize:
+  - Event.System.Data.CLFlushSize
+  - Event.RawData.CLFlushSize
+  CLSID:
+  - Event.UserData.UMDFServiceInstall.CLSID
+  CONSUMER:
+  - Event.UserData.Operation_ESStoConsumerBinding.CONSUMER
+  CSEElaspedTimeInMilliSeconds:
+  - Event.System.Data.CSEElaspedTimeInMilliSeconds
+  - Event.RawData.CSEElaspedTimeInMilliSeconds
+  CSEExtensionId:
+  - Event.System.Data.CSEExtensionId
+  - Event.RawData.CSEExtensionId
+  CSEExtensionName:
+  - Event.RawData.CSEExtensionName
+  - Event.System.Data.CSEExtensionName
+  CacheEntryPosition:
+  - CacheEntryPosition
+  CacheFlushNeeded:
+  - Event.System.Data.CacheFlushNeeded
+  - Event.RawData.CacheFlushNeeded
+  CacheFlushSupported:
+  - Event.System.Data.CacheFlushSupported
+  - Event.RawData.CacheFlushSupported
+  CachedCopyStatus:
+  - Event.System.Data.CachedCopyStatus
+  - Event.RawData.CachedCopyStatus
+  CalendarTrigger:
+  - Task.Triggers.CalendarTrigger
+  CallOrigin:
+  - Event.RawData.CallOrigin
+  - Event.System.Data.CallOrigin
+  CallerAppPackageFamilyName:
+  - Event.System.Data.CallerAppPackageFamilyName
+  - Event.RawData.CallerAppPackageFamilyName
+  CallerPID:
+  - Event.RawData.CallerPID
+  - Event.System.Data.CallerPID
+  CallerPackageFamilyName:
+  - Event.RawData.CallerPackageFamilyName
+  - Event.System.Data.CallerPackageFamilyName
+  CallerProcessId:
+  - Event.System.Data.CallerProcessId
+  - Event.RawData.CallerProcessId
+  CallerProcessName:
+  - Event.RawData.CallerProcessName
+  - Event.System.Data.CallerProcessName
+  CallerUserSid:
+  - Event.RawData.CallerUserSid
+  - Event.System.Data.CallerUserSid
+  CallingProcess:
+  - Event.System.Data.CallingProcess
+  - Event.RawData.CallingProcess
+  CallingProcessCreateTime:
+  - Event.RawData.CallingProcessCreateTime
+  - Event.System.Data.CallingProcessCreateTime
+  CallingProcessId:
+  - Event.RawData.CallingProcessId
+  - Event.System.Data.CallingProcessId
+  CallingProcessProtection:
+  - Event.RawData.CallingProcessProtection
+  - Event.System.Data.CallingProcessProtection
+  CallingProcessSectionSignatureLevel:
+  - Event.System.Data.CallingProcessSectionSignatureLevel
+  - Event.RawData.CallingProcessSectionSignatureLevel
+  CallingProcessSignatureLevel:
+  - Event.RawData.CallingProcessSignatureLevel
+  - Event.System.Data.CallingProcessSignatureLevel
+  CallingProcessStartKey:
+  - Event.RawData.CallingProcessStartKey
+  - Event.System.Data.CallingProcessStartKey
+  CallingThreadCreateTime:
+  - Event.RawData.CallingThreadCreateTime
+  - Event.System.Data.CallingThreadCreateTime
+  CallingThreadId:
+  - Event.RawData.CallingThreadId
+  - Event.System.Data.CallingThreadId
+  CapDurationInSeconds:
+  - Event.RawData.CapDurationInSeconds
+  - Event.System.Data.CapDurationInSeconds
+  Capability:
+  - Event.RawData.Capability
+  - Event.System.Data.Capability
+  CapabilityChangeReason:
+  - Event.RawData.CapabilityChangeReason
+  - Event.System.Data.CapabilityChangeReason
+  Capacity:
+  - Event.RawData.Capacity
+  - Event.System.Data.Capacity
+  Caption:
+  - Event.RawData.Caption
+  - Event.System.Data.Caption
+  Category:
+  - Event.RawData.Category
+  - Event.System.Data.Category
+  CategoryId:
+  - Event.RawData.CategoryId
+  - Event.System.Data.CategoryId
+  CdbByteCount:
+  - Event.RawData.CdbByteCount
+  - Event.System.Data.CdbByteCount
+  CdbBytes:
+  - Event.RawData.CdbBytes
+  - Event.System.Data.CdbBytes
+  Certificate:
+  - Event.EventData.Data.Certificate
+  Channel:
+  - Event.RenderingInfo.Channel
+  - Event.System.Channel
+  ChannelId:
+  - Event.RawData.ChannelId
+  - Event.System.Data.ChannelId
+  ChannelIndex:
+  - Event.System.Data.ChannelIndex
+  - Event.RawData.ChannelIndex
+  ChannelName:
+  - Event.RawData.ChannelName
+  - Event.System.Data.ChannelName
+  ChannelOperation:
+  - Event.RawData.ChannelOperation
+  - Event.System.Data.ChannelOperation
+  ChannelsExist:
+  - Event.System.Data.ChannelsExist
+  - Event.RawData.ChannelsExist
+  Characteristics:
+  - Event.RawData.Characteristics
+  - Event.System.Data.Characteristics
+  Checkpoint:
+  - Event.System.Data.Checkpoint
+  - Event.RawData.Checkpoint
+  CheckpointDuration:
+  - Event.System.Data.CheckpointDuration
+  - Event.RawData.CheckpointDuration
+  CheckpointStatus:
+  - Event.RawData.CheckpointStatus
+  - Event.System.Data.CheckpointStatus
+  ChildBags:
+  - ChildBags
+  ChildCommandLine:
+  - Event.RawData.ChildCommandLine
+  - Event.System.Data.ChildCommandLine
+  ChildCommandLineLength:
+  - Event.RawData.ChildCommandLineLength
+  - Event.System.Data.ChildCommandLineLength
+  ChildImagePathName:
+  - Event.System.Data.ChildImagePathName
+  - Event.RawData.ChildImagePathName
+  ChildImagePathNameLength:
+  - Event.RawData.ChildImagePathNameLength
+  - Event.System.Data.ChildImagePathNameLength
+  ChosenReferenceNtpServer:
+  - Event.RawData.ChosenReferenceNtpServer
+  - Event.System.Data.ChosenReferenceNtpServer
+  Cipher:
+  - Event.RawData.Cipher
+  - Event.System.Data.Cipher
+  CipherAlgorithm:
+  - Event.System.Data.CipherAlgorithm
+  - Event.RawData.CipherAlgorithm
+  CipherVal:
+  - Event.RawData.CipherVal
+  - Event.System.Data.CipherVal
+  Class:
+  - Event.UserData.data_0x8000003F.Class
+  - Event.UserData.EventXML.Class
+  ClassDeviceGuid:
+  - Event.System.Data.ClassDeviceGuid
+  - Event.RawData.ClassDeviceGuid
+  ClassGuid:
+  - Event.RawData.ClassGuid
+  - Event.System.Data.ClassGuid
+  ClassId:
+  - Task.Actions.ComHandler.ClassId
+  Client:
+  - Event.UserData.CbsPackageInitiateChanges.Client
+  - Event.UserData.CbsPackageChangeState.Client
+  ClientCreationTime:
+  - Event.System.Data.ClientCreationTime
+  - Event.RawData.ClientCreationTime
+  ClientDomainName:
+  - Event.RawData.ClientDomainName
+  - Event.System.Data.ClientDomainName
+  ClientIP:
+  - Event.RawData.ClientIP
+  - Event.System.Data.ClientIP
+  ClientLUID:
+  - Event.System.Data.ClientLUID
+  - Event.RawData.ClientLUID
+  ClientMachine:
+  - Event.UserData.Operation_ClientFailure.ClientMachine
+  - Event.UserData.Operation_TemporaryEssStarted.ClientMachine
+  ClientMode:
+  - Event.System.Data.ClientMode
+  - Event.RawData.ClientMode
+  ClientProcessId:
+  - Event.System.Data.ClientProcessId
+  - Event.UserData.Operation_ClientFailure.ClientProcessId
+  - Event.RawData.ClientProcessId
+  ClientProcessStartKey:
+  - Event.RawData.ClientProcessStartKey
+  - Event.System.Data.ClientProcessStartKey
+  ClientUserName:
+  - Event.System.Data.ClientUserName
+  - Event.RawData.ClientUserName
+  ClipboardDataId:
+  - Payload.clipboardDataId
+  ClipboardPayload:
+  - ClipboardPayload
+  ClockRate:
+  - Event.RawData.ClockRate
+  - Event.System.Data.ClockRate
+  Code:
+  - Event.UserData.Operation_StartedOperational.Code
+  CollectionName:
+  - Event.RawData.collectionName
+  - Event.System.Data.collectionName
+  Command:
+  - Event.RawData.Command
+  - Task.Actions.Exec.Command
+  - Event.System.Data.Command
+  CommandLine:
+  - Event.RawData.CommandLine
+  - Event.EventData.Data.CommandLine
+  - Event.System.Data.CommandLine
+  CommandLineSize:
+  - Event.RawData.CommandLineSize
+  - Event.System.Data.CommandLineSize
+  CommandName:
+  - Event.EventData.Data.CommandName
+  CommandPath:
+  - Event.EventData.Data.CommandPath
+  CommandType:
+  - Event.EventData.Data.CommandType
+  CommitTime:
+  - Event.System.Data.CommitTime
+  - Event.RawData.CommitTime
+  Company:
+  - Event.System.Data.Company
+  - Event.RawData.Company
+  CompanyName:
+  - Event.RawData.CompanyName
+  - Event.System.Data.CompanyName
+  CompanyNameLength:
+  - Event.RawData.CompanyNameLength
+  - Event.System.Data.CompanyNameLength
+  Component:
+  - Event.UserData.Operation_ClientFailure.Component
+  - Event.RawData.Component
+  - Event.System.Data.Component
+  ComponentName:
+  - Event.RawData.ComponentName
+  - Event.System.Data.ComponentName
+  Computer:
+  - Event.System.Computer
+  Config:
+  - Event.RawData.Config
+  - Event.System.Data.Config
+  ConfigAccessPolicy:
+  - Event.System.Data.ConfigAccessPolicy
+  - Event.RawData.ConfigAccessPolicy
+  Configuration:
+  - Event.System.Data.Configuration
+  - Event.RawData.Configuration
+  ConfigurationFileHash:
+  - Event.RawData.ConfigurationFileHash
+  - Event.System.Data.ConfigurationFileHash
+  ConnType:
+  - Event.RawData.ConnType
+  - Event.System.Data.ConnType
+  ConnectedStandbyInProgress:
+  - Event.RawData.ConnectedStandbyInProgress
+  - Event.System.Data.ConnectedStandbyInProgress
+  ConnectionCostChanged:
+  - Event.RawData.ConnectionCostChanged
+  - Event.System.Data.ConnectionCostChanged
+  ConnectionId:
+  - Event.RawData.ConnectionId
+  - Event.System.Data.ConnectionId
+  ConnectionMode:
+  - Event.System.Data.ConnectionMode
+  - Event.RawData.ConnectionMode
+  ConnectionName:
+  - Event.System.Data.ConnectionName
+  - Event.RawData.ConnectionName
+  ConnectionType:
+  - Event.System.Data.ConnectionType
+  - Event.RawData.ConnectionType
+  ConsentID:
+  - Event.RawData.ConsentID
+  - Event.System.Data.ConsentID
+  Consumer:
+  - Event.System.Data.Consumer
+  - Event.RawData.Consumer
+  ContainerId:
+  - Event.RawData.ContainerId
+  - Event.RawData.containerId
+  - Event.System.Data.ContainerId
+  - Event.System.Data.containerId
+  ContainerName:
+  - Event.RawData.containerName
+  - Event.RawData.ContainerName
+  - Event.System.Data.ContainerName
+  - Event.System.Data.containerName
+  ContainerXPosition:
+  - Event.System.Data.containerXPosition
+  - Event.RawData.containerXPosition
+  ContainerYPosition:
+  - Event.RawData.containerYPosition
+  - Event.System.Data.containerYPosition
+  ContainsRawVolumes:
+  - Event.RawData.ContainsRawVolumes
+  - Event.System.Data.ContainsRawVolumes
+  ContentType:
+  - Payload.contentType
+  ContentUri:
+  - Payload.contentUri
+  Contents:
+  - Event.RawData.Contents
+  - Event.System.Data.Contents
+  Context:
+  - Event.System.Data.Context
+  - Event.RawData.Context
+  ControlSet:
+  - ControlSet
+  CoreDriverDependencies:
+  - Event.UserData.SetupInstallPrinterDriver.CoreDriverDependencies
+  Correlation:
+  - Event.System.Correlation
+  CorrelationVector:
+  - Event.RawData.CorrelationVector
+  - Event.System.Data.CorrelationVector
+  CorruptionActionState:
+  - Event.System.Data.CorruptionActionState
+  - Event.RawData.CorruptionActionState
+  Count:
+  - Event.RawData.Count
+  - Task.Settings.RestartOnFailure.Count
+  - Event.System.Data.Count
+  CountDeleteFile:
+  - Event.RawData.CountDeleteFile
+  - Event.System.Data.CountDeleteFile
+  CountDeleted:
+  - Event.RawData.CountDeleted
+  - Event.System.Data.CountDeleted
+  CountNew:
+  - Event.System.Data.CountNew
+  - Event.RawData.CountNew
+  CountOfCredentialsReturned:
+  - Event.RawData.CountOfCredentialsReturned
+  - Event.System.Data.CountOfCredentialsReturned
+  CountOld:
+  - Event.System.Data.CountOld
+  - Event.RawData.CountOld
+  CountVisible:
+  - Event.System.Data.CountVisible
+  - Event.RawData.CountVisible
+  CounterId:
+  - Event.System.Data.CounterId
+  - Event.RawData.CounterId
+  CounterSetGuid:
+  - Event.System.Data.CounterSetGuid
+  - Event.RawData.CounterSetGuid
+  Created:
+  - Event.RawData.Created
+  - Event.System.Data.Created
+  CreationUtcTime:
+  - Event.System.Data.CreationUtcTime
+  - Event.RawData.CreationUtcTime
+  CredKeyIdentifier:
+  - Event.RawData.CredKeyIdentifier
+  - Event.System.Data.CredKeyIdentifier
+  CsEntryScenarioInstanceId:
+  - Event.RawData.CsEntryScenarioInstanceId
+  - Event.System.Data.CsEntryScenarioInstanceId
+  CsEntryScenarioInstanceIdV2:
+  - Event.RawData.CsEntryScenarioInstanceIdV2
+  - Event.System.Data.CsEntryScenarioInstanceIdV2
+  Culture:
+  - Event.RenderingInfo.#attributes.Culture
+  Current Engine Version:
+  - Event.System.Data.Current Engine Version
+  - Event.RawData.Current Engine Version
+  Current State:
+  - Event.System.Data.Current State
+  - Event.RawData.Current State
+  Current security intelligence Version:
+  - Event.System.Data.Current security intelligence Version
+  - Event.RawData.Current security intelligence Version
+  CurrentBias:
+  - Event.System.Data.CurrentBias
+  - Event.RawData.CurrentBias
+  CurrentDirectory:
+  - Event.RawData.CurrentDirectory
+  - Event.System.Data.CurrentDirectory
+  CurrentOrNextState:
+  - Event.RawData.CurrentOrNextState
+  - Event.System.Data.CurrentOrNextState
+  CurrentPnpState:
+  - Event.RawData.CurrentPnpState
+  - Event.System.Data.CurrentPnpState
+  CurrentStatus:
+  - Event.RawData.CurrentStatus
+  - Event.System.Data.CurrentStatus
+  CurrentStratumNumber:
+  - Event.System.Data.CurrentStratumNumber
+  - Event.RawData.CurrentStratumNumber
+  CurrentTime(UTC):
+  - Event.RawData.CurrentTime(UTC)
+  - Event.System.Data.CurrentTime(UTC)
+  CurrentTimeZoneID:
+  - Event.RawData.CurrentTimeZoneID
+  - Event.System.Data.CurrentTimeZoneID
+  CurrentUtcOffset:
+  - Event.System.Data.CurrentUtcOffset
+  - Event.RawData.CurrentUtcOffset
+  CustomLevel:
+  - Event.System.Data.CustomLevel
+  - Event.RawData.CustomLevel
+  DCDiscoveryTimeInMilliSeconds:
+  - Event.System.Data.DCDiscoveryTimeInMilliSeconds
+  - Event.RawData.DCDiscoveryTimeInMilliSeconds
+  DCDomainName:
+  - Event.RawData.DCDomainName
+  - Event.System.Data.DCDomainName
+  DCIPAddress:
+  - Event.RawData.DCIPAddress
+  - Event.System.Data.DCIPAddress
+  DCName:
+  - Event.System.Data.DCName
+  - Event.RawData.DCName
+  DUID:
+  - Event.RawData.DUID
+  - Event.System.Data.DUID
+  DUIDLength:
+  - Event.System.Data.DUIDLength
+  - Event.RawData.DUIDLength
+  DailyUploadQuotaInBytes:
+  - Event.RawData.DailyUploadQuotaInBytes
+  - Event.System.Data.DailyUploadQuotaInBytes
+  Data:
+  - Task.Triggers.WnfStateChangeTrigger.Data
+  - Task.Actions.ComHandler.Data
+  DataOffset:
+  - Task.Triggers.WnfStateChangeTrigger.DataOffset
+  DataTransferLength:
+  - Event.System.Data.DataTransferLength
+  - Event.RawData.DataTransferLength
+  DatabaseID:
+  - Event.System.Data.DatabaseID
+  - Event.RawData.DatabaseID
+  Date:
+  - Event.System.Data.Date
+  - Event.RawData.Date
+  - Task.RegistrationInfo.Date
+  DaysInterval:
+  - Task.Triggers.CalendarTrigger.ScheduleByDay.DaysInterval
+  Deadline:
+  - Task.Settings.MaintenanceSettings.Deadline
+  Debug:
+  - Event.System.Data.Debug
+  - Event.RawData.Debug
+  DebugOutput:
+  - Event.RawData.DebugOutput
+  - Event.System.Data.DebugOutput
+  'Default SD String:':
+  - 'Event.System.Data.Default SD String:'
+  - 'Event.RawData.Default SD String:'
+  DegradationTime:
+  - Event.RawData.DegradationTime
+  - Event.System.Data.DegradationTime
+  Delay:
+  - Task.Triggers.EventTrigger.Delay
+  - Task.Triggers.LogonTrigger.Delay
+  - Task.Triggers.WnfStateChangeTrigger.Delay
+  - Task.Triggers.BootTrigger.Delay
+  - Task.Triggers.RegistrationTrigger.Delay
+  - Task.Triggers.SessionStateChangeTrigger.Delay
+  DeleteUnitCount:
+  - Event.RawData.DeleteUnitCount
+  - Event.System.Data.DeleteUnitCount
+  Deleted:
+  - Event.System.Data.Deleted
+  - Event.RawData.Deleted
+  Delta (100 ns):
+  - Event.System.Data.delta (100 ns)
+  - Event.RawData.delta (100 ns)
+  DependencyPaths:
+  - Event.RawData.DependencyPaths
+  - Event.System.Data.DependencyPaths
+  DeploymentDatabase_Pages:
+  - Event.System.Data.DeploymentDatabase_Pages
+  - Event.RawData.DeploymentDatabase_Pages
+  DeploymentDatabase_PagesCheckpointed:
+  - Event.RawData.DeploymentDatabase_PagesCheckpointed
+  - Event.System.Data.DeploymentDatabase_PagesCheckpointed
+  DeploymentDisposition:
+  - Event.System.Data.DeploymentDisposition
+  - Event.RawData.DeploymentDisposition
+  DeploymentJournalSize_After:
+  - Event.RawData.DeploymentJournalSize_After
+  - Event.System.Data.DeploymentJournalSize_After
+  DeploymentJournalSize_Before:
+  - Event.System.Data.DeploymentJournalSize_Before
+  - Event.RawData.DeploymentJournalSize_Before
+  DeploymentOperation:
+  - Event.RawData.DeploymentOperation
+  - Event.System.Data.DeploymentOperation
+  DeploymentOptions:
+  - Event.System.Data.DeploymentOptions
+  - Event.RawData.DeploymentOptions
+  DeploymentSize_After:
+  - Event.System.Data.DeploymentSize_After
+  - Event.RawData.DeploymentSize_After
+  DeploymentSize_Before:
+  - Event.RawData.DeploymentSize_Before
+  - Event.System.Data.DeploymentSize_Before
+  DeploymentState:
+  - Event.RawData.DeploymentState
+  - Event.System.Data.DeploymentState
+  Description:
+  - Payload.description
+  - Event.System.Data.Description
+  - Task.RegistrationInfo.Description
+  - Event.RawData.Description
+  DescriptionLength:
+  - Event.RawData.DescriptionLength
+  - Event.System.Data.DescriptionLength
+  DescriptionSize:
+  - Event.System.Data.DescriptionSize
+  - Event.RawData.DescriptionSize
+  DescriptionString:
+  - Event.System.Data.DescriptionString
+  - Event.RawData.DescriptionString
+  DesiredAccess:
+  - Event.RawData.DesiredAccess
+  - Event.System.Data.DesiredAccess
+  DesiredStatus:
+  - Event.RawData.DesiredStatus
+  - Event.System.Data.DesiredStatus
+  DestAddress:
+  - Event.System.Data.DestAddress
+  - Event.RawData.DestAddress
+  DestPort:
+  - Event.System.Data.DestPort
+  - Event.RawData.DestPort
+  Destination:
+  - Event.System.Data.Destination
+  - Event.RawData.Destination
+  DestinationFolderPath:
+  - Event.RawData.DestinationFolderPath
+  - Event.System.Data.DestinationFolderPath
+  DestinationHostname:
+  - Event.System.Data.DestinationHostname
+  - Event.RawData.DestinationHostname
+  DestinationIp:
+  - Event.System.Data.DestinationIp
+  - Event.RawData.DestinationIp
+  DestinationIsIpv6:
+  - Event.RawData.DestinationIsIpv6
+  - Event.System.Data.DestinationIsIpv6
+  DestinationPort:
+  - Event.RawData.DestinationPort
+  - Event.System.Data.DestinationPort
+  DestinationPortName:
+  - Event.System.Data.DestinationPortName
+  - Event.RawData.DestinationPortName
+  DetailedMessageInfo:
+  - Event.RawData.DetailedMessageInfo
+  - Event.System.Data.DetailedMessageInfo
+  Details:
+  - Event.System.Data.Details
+  - Event.RawData.Details
+  Device:
+  - Event.RawData.Device
+  - Event.System.Data.Device
+  DeviceClass:
+  - Event.System.Data.DeviceClass
+  - Event.RawData.DeviceClass
+  DeviceGUID:
+  - Event.System.Data.DeviceGUID
+  - Event.RawData.DeviceGUID
+  DeviceGuid:
+  - Event.System.Data.DeviceGuid
+  - Event.RawData.DeviceGuid
+  DeviceId:
+  - Event.UserData.UMDFDeviceInstallBegin.DeviceId
+  - Event.UserData.ERR_DEVICE_ID.DeviceId
+  - Event.RawData.DeviceId
+  - Event.System.Data.DeviceId
+  DeviceInstance:
+  - Event.RawData.DeviceInstance
+  - Event.System.Data.DeviceInstance
+  DeviceInstanceID:
+  - Event.UserData.AddServiceID.DeviceInstanceID
+  DeviceInstanceId:
+  - Event.System.Data.DeviceInstanceId
+  - Event.RawData.DeviceInstanceId
+  DeviceInstanceLength:
+  - Event.System.Data.DeviceInstanceLength
+  - Event.RawData.DeviceInstanceLength
+  DeviceIsJoined:
+  - Event.RawData.DeviceIsJoined
+  - Event.System.Data.DeviceIsJoined
+  DeviceName:
+  - Event.RawData.DeviceName
+  - Event.System.Data.DeviceName
+  DeviceNameLength:
+  - Event.System.Data.DeviceNameLength
+  - Event.RawData.DeviceNameLength
+  DeviceNumber:
+  - Event.RawData.DeviceNumber
+  - Event.System.Data.DeviceNumber
+  DeviceQueueIoBusyCount:
+  - Event.RawData.DeviceQueueIoBusyCount
+  - Event.System.Data.DeviceQueueIoBusyCount
+  DeviceQueueIoPausedCount:
+  - Event.System.Data.DeviceQueueIoPausedCount
+  - Event.RawData.DeviceQueueIoPausedCount
+  DeviceQueueIoPausedForUntaggedCount:
+  - Event.RawData.DeviceQueueIoPausedForUntaggedCount
+  - Event.System.Data.DeviceQueueIoPausedForUntaggedCount
+  DeviceQueueIoUntaggedCommandOutstandingCount:
+  - Event.System.Data.DeviceQueueIoUntaggedCommandOutstandingCount
+  - Event.RawData.DeviceQueueIoUntaggedCommandOutstandingCount
+  DeviceQueueIoWaitExceededTimeoutCount:
+  - Event.System.Data.DeviceQueueIoWaitExceededTimeoutCount
+  - Event.RawData.DeviceQueueIoWaitExceededTimeoutCount
+  DeviceSerialNumber:
+  - Event.System.Data.DeviceSerialNumber
+  - Event.RawData.DeviceSerialNumber
+  DeviceSerialNumberLength:
+  - Event.System.Data.DeviceSerialNumberLength
+  - Event.RawData.DeviceSerialNumberLength
+  DeviceTime:
+  - Event.RawData.DeviceTime
+  - Event.System.Data.DeviceTime
+  DeviceUpdated:
+  - Event.System.Data.DeviceUpdated
+  - Event.RawData.DeviceUpdated
+  DeviceVersionMajor:
+  - Event.System.Data.DeviceVersionMajor
+  - Event.RawData.DeviceVersionMajor
+  DeviceVersionMinor:
+  - Event.System.Data.DeviceVersionMinor
+  - Event.RawData.DeviceVersionMinor
+  DiagnosticModuleId:
+  - Event.RawData.DiagnosticModuleId
+  - Event.System.Data.DiagnosticModuleId
+  DiagnosticModuleImageName:
+  - Event.System.Data.DiagnosticModuleImageName
+  - Event.RawData.DiagnosticModuleImageName
+  DidWaitTimeout:
+  - Event.RawData.DidWaitTimeout
+  - Event.System.Data.DidWaitTimeout
+  Direction:
+  - Event.RawData.Direction
+  - Event.System.Data.Direction
+  Directories:
+  - Directories
+  DirectoryFlushAvgLatencyNs:
+  - Event.System.Data.DirectoryFlushAvgLatencyNs
+  - Event.RawData.DirectoryFlushAvgLatencyNs
+  DirectoryFlushCount:
+  - Event.RawData.DirectoryFlushCount
+  - Event.System.Data.DirectoryFlushCount
+  DirtyPages:
+  - Event.RawData.DirtyPages
+  - Event.System.Data.DirtyPages
+  DisableIntegrityChecks:
+  - Event.System.Data.DisableIntegrityChecks
+  - Event.RawData.DisableIntegrityChecks
+  DisabledLoadOption:
+  - Event.RawData.DisabledLoadOption
+  - Event.System.Data.DisabledLoadOption
+  DisallowStartIfOnBatteries:
+  - Task.Settings.DisallowStartIfOnBatteries
+  DisallowStartOnRemoteAppSession:
+  - Task.Settings.DisallowStartOnRemoteAppSession
+  DiskId:
+  - Event.RawData.DiskId
+  - Event.System.Data.DiskId
+  DiskIndex:
+  - Event.System.Data.DiskIndex
+  - Event.RawData.DiskIndex
+  DiskNumber:
+  - Event.System.Data.DiskNumber
+  - Event.RawData.DiskNumber
+  DiskResourceFailure:
+  - Event.RawData.DiskResourceFailure
+  - Event.System.Data.DiskResourceFailure
+  DiskSizeInBytes:
+  - Event.System.Data.DiskSizeInBytes
+  - Event.RawData.DiskSizeInBytes
+  DisplayDriverName:
+  - Event.RawData.DisplayDriverName
+  - Event.System.Data.DisplayDriverName
+  DisplayText:
+  - Payload.displayText
+  DmaProtection:
+  - Event.RawData.DmaProtection
+  - Event.System.Data.DmaProtection
+  DnsServerList:
+  - Event.System.Data.DnsServerList
+  - Event.RawData.DnsServerList
+  Domain:
+  - Event.System.Data.Domain
+  - Event.RawData.Domain
+  DomainConnectivityLevelChanged:
+  - Event.RawData.DomainConnectivityLevelChanged
+  - Event.System.Data.DomainConnectivityLevelChanged
+  DomainName:
+  - Event.RawData.DomainName
+  - Event.UserData.EventData.DomainName
+  - Event.System.Data.DomainName
+  DomainNameLength:
+  - Event.UserData.EventData.DomainNameLength
+  DomainPeer:
+  - Event.System.Data.DomainPeer
+  - Event.RawData.DomainPeer
+  DownLevelIrpStatus:
+  - Event.System.Data.DownLevelIrpStatus
+  - Event.RawData.DownLevelIrpStatus
+  DriveId:
+  - Event.RawData.DriveId
+  - Event.System.Data.DriveId
+  DriveManufacturer:
+  - Event.RawData.DriveManufacturer
+  - Event.System.Data.DriveManufacturer
+  DriveModel:
+  - Event.System.Data.DriveModel
+  - Event.RawData.DriveModel
+  DriveName:
+  - Event.RawData.DriveName
+  - Event.System.Data.DriveName
+  DriveSerial:
+  - Event.System.Data.DriveSerial
+  - Event.RawData.DriveSerial
+  DriverDate:
+  - Event.RawData.DriverDate
+  - Event.System.Data.DriverDate
+  DriverFileName:
+  - Event.UserData.AddServiceID.DriverFileName
+  DriverInbox:
+  - Event.System.Data.DriverInbox
+  - Event.RawData.DriverInbox
+  DriverInitDuration:
+  - Event.RawData.DriverInitDuration
+  - Event.System.Data.DriverInitDuration
+  DriverName:
+  - Event.RawData.DriverName
+  - Event.System.Data.DriverName
+  - Event.UserData.SetupInstallPrinterDriver.DriverName
+  DriverNameLength:
+  - Event.RawData.DriverNameLength
+  - Event.System.Data.DriverNameLength
+  DriverObject:
+  - Event.System.Data.DriverObject
+  - Event.RawData.DriverObject
+  DriverProvider:
+  - Event.System.Data.DriverProvider
+  - Event.RawData.DriverProvider
+  DriverRank:
+  - Event.RawData.DriverRank
+  - Event.System.Data.DriverRank
+  DriverSection:
+  - Event.System.Data.DriverSection
+  - Event.RawData.DriverSection
+  DriverVersion:
+  - Event.System.Data.DriverVersion
+  - Event.RawData.DriverVersion
+  DropReasonCode:
+  - Event.UserData.DroppedLeakDiagnosisEventInfo.DropReasonCode
+  DumpCount:
+  - Event.System.Data.DumpCount
+  - Event.RawData.DumpCount
+  DumpPathUsageCount:
+  - Event.RawData.DumpPathUsageCount
+  - Event.System.Data.DumpPathUsageCount
+  Duplicate:
+  - Duplicate
+  Duration:
+  - Task.Settings.IdleSettings.Duration
+  - Event.RawData.Duration
+  - Event.System.Data.Duration
+  - Task.Triggers.EventTrigger.Repetition.Duration
+  - Task.Triggers.CalendarTrigger.Repetition.Duration
+  DurationMS:
+  - DurationMS
+  DwDataRate:
+  - Event.RawData.dwDataRate
+  - Event.System.Data.dwDataRate
+  DwDefaultClock:
+  - Event.RawData.dwDefaultClock
+  - Event.System.Data.dwDefaultClock
+  DwFeatures:
+  - Event.RawData.dwFeatures
+  - Event.System.Data.dwFeatures
+  DwMaxCCIDMessageLength:
+  - Event.RawData.dwMaxCCIDMessageLength
+  - Event.System.Data.dwMaxCCIDMessageLength
+  DwMaxDataRate:
+  - Event.RawData.dwMaxDataRate
+  - Event.System.Data.dwMaxDataRate
+  DwMaxIFSD:
+  - Event.RawData.dwMaxIFSD
+  - Event.System.Data.dwMaxIFSD
+  DwMaximumClock:
+  - Event.System.Data.dwMaximumClock
+  - Event.RawData.dwMaximumClock
+  DwMechanical:
+  - Event.RawData.dwMechanical
+  - Event.System.Data.dwMechanical
+  DwProtocols:
+  - Event.RawData.dwProtocols
+  - Event.System.Data.dwProtocols
+  DwSyncProtocols:
+  - Event.RawData.dwSyncProtocols
+  - Event.System.Data.dwSyncProtocols
+  DwordVal:
+  - Event.System.Data.DwordVal
+  - Event.RawData.DwordVal
+  Dynamic security intelligence Compilation Timestamp:
+  - Event.System.Data.Dynamic security intelligence Compilation Timestamp
+  - Event.RawData.Dynamic security intelligence Compilation Timestamp
+  Dynamic security intelligence Type:
+  - Event.System.Data.Dynamic security intelligence Type
+  - Event.RawData.Dynamic security intelligence Type
+  Dynamic security intelligence Type Index:
+  - Event.System.Data.Dynamic security intelligence Type Index
+  - Event.RawData.Dynamic security intelligence Type Index
+  Dynamic security intelligence Version:
+  - Event.RawData.Dynamic security intelligence Version
+  - Event.System.Data.Dynamic security intelligence Version
+  EAPErrorCode:
+  - Event.RawData.EAPErrorCode
+  - Event.System.Data.EAPErrorCode
+  EAPReasonCode:
+  - Event.RawData.EAPReasonCode
+  - Event.System.Data.EAPReasonCode
+  EAPRootCauseString:
+  - Event.System.Data.EAPRootCauseString
+  - Event.RawData.EAPRootCauseString
+  ESS:
+  - Event.UserData.Operation_ESStoConsumerBinding.ESS
+  ETag:
+  - ETag
+  EapType:
+  - Event.RawData.EapType
+  - Event.System.Data.EapType
+  EdgeTraversal:
+  - Event.RawData.EdgeTraversal
+  - Event.System.Data.EdgeTraversal
+  EffectiveConsentValue:
+  - Event.System.Data.EffectiveConsentValue
+  - Event.RawData.EffectiveConsentValue
+  EffectiveState:
+  - Event.RawData.EffectiveState
+  - Event.System.Data.EffectiveState
+  EfiDaylightFlags:
+  - Event.RawData.EfiDaylightFlags
+  - Event.System.Data.EfiDaylightFlags
+  EfiTimeZoneBias:
+  - Event.System.Data.EfiTimeZoneBias
+  - Event.RawData.EfiTimeZoneBias
+  Elapsed:
+  - Event.RawData.Elapsed
+  - Event.System.Data.Elapsed
+  ElapsedTimeMSec:
+  - Event.RawData.ElapsedTimeMSec
+  - Event.System.Data.ElapsedTimeMSec
+  ElevatedToken:
+  - Event.RawData.ElevatedToken
+  - Event.System.Data.ElevatedToken
+  EmbeddedContext:
+  - Event.RawData.EmbeddedContext
+  - Event.System.Data.EmbeddedContext
+  EnableDisableReason:
+  - Event.System.Data.EnableDisableReason
+  - Event.RawData.EnableDisableReason
+  Enabled:
+  - Event.RawData.Enabled
+  - Event.System.Data.Enabled
+  - Task.Triggers.IdleTrigger.Enabled
+  - Task.Triggers.CalendarTrigger.Enabled
+  - Task.Triggers.TimeTrigger.Enabled
+  - Task.Settings.Enabled
+  - Task.Triggers.LogonTrigger.Enabled
+  - Task.Triggers.WnfStateChangeTrigger.Enabled
+  - Task.Triggers.BootTrigger.Enabled
+  - Task.Triggers.SessionStateChangeTrigger.Enabled
+  EnabledFeatures:
+  - Event.System.Data.EnabledFeatures
+  - Event.RawData.EnabledFeatures
+  EnabledNew:
+  - Event.RawData.EnabledNew
+  - Event.System.Data.EnabledNew
+  EndBoundary:
+  - Task.Triggers.LogonTrigger.EndBoundary
+  - Task.Triggers.CalendarTrigger.EndBoundary
+  EndOfLifePackageList:
+  - Event.RawData.EndOfLifePackageList
+  - Event.System.Data.EndOfLifePackageList
+  EndTime:
+  - EndTime
+  - endTime
+  Endpoint:
+  - Event.RawData.Endpoint
+  - Event.System.Data.Endpoint
+  EndpointId:
+  - Event.UserData.VmlEventLog.Parameter0.Settings.EndpointId
+  Engine version:
+  - Event.System.Data.Engine version
+  - Event.RawData.Engine version
+  EngineAdapter:
+  - Event.RawData.EngineAdapter
+  - Event.System.Data.EngineAdapter
+  EnginePID:
+  - Event.System.Data.EnginePID
+  - Event.RawData.EnginePID
+  EngineVersion:
+  - Event.EventData.Data.EngineVersion
+  Entity:
+  - Event.RawData.Entity
+  - Event.System.Data.Entity
+  - Event.EventData.Entity
+  EntryCount:
+  - Event.RawData.EntryCount
+  - Event.System.Data.EntryCount
+  EntryPointLength:
+  - Event.System.Data.EntryPointLength
+  - Event.RawData.EntryPointLength
+  Environment:
+  - Event.System.Data.Environment
+  - Event.RawData.Environment
+  - Event.EventData.Data.Environment
+  Epoch:
+  - Event.RawData.Epoch
+  - Event.System.Data.Epoch
+  Error:
+  - Event.RawData.Error
+  - Event.System.Data.error
+  - Event.RawData.error
+  - Event.System.Data.Error
+  Error Code:
+  - Event.System.Data.Error Code
+  - Event.RawData.Error Code
+  Error Description:
+  - Event.System.Data.Error Description
+  - Event.RawData.Error Description
+  ErrorBatteryCount:
+  - Event.System.Data.ErrorBatteryCount
+  - Event.RawData.ErrorBatteryCount
+  ErrorCode:
+  - Event.RawData.errorCode
+  - Event.UserData.CbsPackageChangeState.ErrorCode
+  - Event.System.Data.ErrorCode
+  - Event.UserData.VmlEventLog.ErrorCode
+  - Event.RawData.ErrorCode
+  - Event.System.Data.errorCode
+  ErrorCodeString:
+  - Event.UserData.VmlEventLog.ErrorCodeString
+  ErrorCodev4:
+  - Event.RawData.ErrorCodev4
+  - Event.System.Data.ErrorCodev4
+  ErrorCodev6:
+  - Event.System.Data.ErrorCodev6
+  - Event.RawData.ErrorCodev6
+  ErrorDescription:
+  - Event.RawData.ErrorDescription
+  - Event.System.Data.ErrorDescription
+  ErrorFileInfo:
+  - Event.RawData.ErrorFileInfo
+  - Event.System.Data.ErrorFileInfo
+  ErrorMessage:
+  - Event.System.Data.ErrorMessage
+  - Event.RawData.ErrorMessage
+  ErrorRecordFormat:
+  - Event.RawData.ErrorRecordFormat
+  - Event.System.Data.ErrorRecordFormat
+  ErrorSourceCount:
+  - Event.RawData.ErrorSourceCount
+  - Event.System.Data.ErrorSourceCount
+  ErrorSourceTable:
+  - Event.RawData.ErrorSourceTable
+  - Event.System.Data.ErrorSourceTable
+  ErrorSourceTableLength:
+  - Event.System.Data.ErrorSourceTableLength
+  - Event.RawData.ErrorSourceTableLength
+  ErrorText:
+  - Event.System.Data.ErrorText
+  - Event.RawData.ErrorText
+  Event:
+  - Event.System.Data.Event
+  - Event.RawData.Event
+  - Event.UserData.EventInfo.Event
+  - event
+  Event Name:
+  - Event.System.Data.Event Name
+  - Event.RawData.Event Name
+  EventData:
+  - Event.EventData
+  EventID:
+  - Event.System.EventID
+  EventName:
+  - Event.System.Data.EventName
+  - Event.RawData.EventName
+  EventNamespace:
+  - Event.RawData.EventNamespace
+  - Event.System.Data.EventNamespace
+  EventProvider:
+  - Event.UserData.data_0x8000003F.EventProvider
+  EventRecordID:
+  - Event.System.EventRecordID
+  EventSourceId:
+  - Event.System.Data.EventSourceId
+  - Event.RawData.EventSourceId
+  EventSourceName:
+  - Event.System.Provider.#attributes.EventSourceName
+  EventTrigger:
+  - Task.Triggers.EventTrigger
+  EventType:
+  - Event.RawData.EventType
+  - Event.System.Data.EventType
+  EventsDropped:
+  - Event.System.Data.EventsDropped
+  - Event.RawData.EventsDropped
+  EventsUploaded:
+  - Event.System.Data.EventsUploaded
+  - Event.RawData.EventsUploaded
+  Exception Details:
+  - Event.System.Data.Exception Details
+  - Event.RawData.Exception Details
+  Exclusive:
+  - Task.Settings.MaintenanceSettings.Exclusive
+  ExePath:
+  - Event.UserData.CompatibilityFixEvent.ExePath
+  - Event.UserData.ResolverFiredEvent.ExePath
+  ExecutableName:
+  - ExecutableName
+  Executed:
+  - Executed
+  ExecutionTimeLimit:
+  - Task.Triggers.LogonTrigger.ExecutionTimeLimit
+  - Task.Triggers.IdleTrigger.ExecutionTimeLimit
+  - Task.Triggers.SessionStateChangeTrigger.ExecutionTimeLimit
+  - Task.Settings.ExecutionTimeLimit
+  - Task.Triggers.CalendarTrigger.ExecutionTimeLimit
+  - Task.Triggers.EventTrigger.ExecutionTimeLimit
+  Exemption:
+  - Event.RawData.Exemption
+  - Event.System.Data.Exemption
+  ExitBootServicesEntry:
+  - Event.System.Data.ExitBootServicesEntry
+  - Event.RawData.ExitBootServicesEntry
+  ExitBootServicesExit:
+  - Event.RawData.ExitBootServicesExit
+  - Event.System.Data.ExitBootServicesExit
+  ExitCode:
+  - Event.System.Data.ExitCode
+  - Event.RawData.ExitCode
+  ExitReason:
+  - Event.System.Data.ExitReason
+  - Event.RawData.ExitReason
+  Expires:
+  - Event.RawData.Expires
+  - Event.System.Data.Expires
+  ExplicitCredentials:
+  - Event.System.Data.ExplicitCredentials
+  - Event.RawData.ExplicitCredentials
+  Expression:
+  - Event.RawData.Expression
+  - Event.System.Data.Expression
+  ExtOrUriScheme:
+  - Event.RawData.ExtOrUriScheme
+  - Event.System.Data.ExtOrUriScheme
+  ExtendedFlag:
+  - Event.RawData.ExtendedFlag
+  - Event.System.Data.ExtendedFlag
+  ExtensibleModulePath:
+  - Event.System.Data.ExtensibleModulePath
+  - Event.RawData.ExtensibleModulePath
+  ExtensionBlockCount:
+  - ExtensionBlockCount
+  ExtentsBucketsCount:
+  - Event.System.Data.ExtentsBucketsCount
+  - Event.RawData.ExtentsBucketsCount
+  ExternalLocation:
+  - Event.RawData.ExternalLocation
+  - Event.System.Data.ExternalLocation
+  ExtraInfo:
+  - Event.System.Data.ExtraInfo
+  - Event.RawData.ExtraInfo
+  ExtraString:
+  - Event.RawData.ExtraString
+  - Event.System.Data.ExtraString
+  ExtraStringLength:
+  - Event.RawData.ExtraStringLength
+  - Event.System.Data.ExtraStringLength
+  FAutoDetect:
+  - Event.RawData.fAutoDetect
+  - Event.System.Data.fAutoDetect
+  FIPSMode:
+  - Event.RawData.FIPSMode
+  - Event.System.Data.FIPSMode
+  FQDN:
+  - Event.RawData.FQDN
+  - Event.System.Data.FQDN
+  FailedConnections:
+  - Event.RawData.FailedConnections
+  - Event.System.Data.FailedConnections
+  Failure reason:
+  - Event.RawData.Failure reason
+  - Event.System.Data.Failure reason
+  FailureAddress:
+  - Event.System.Data.FailureAddress
+  - Event.RawData.FailureAddress
+  FailureName:
+  - Event.RawData.FailureName
+  - Event.System.Data.FailureName
+  FailureNameLength:
+  - Event.RawData.FailureNameLength
+  - Event.System.Data.FailureNameLength
+  FailureReason:
+  - Event.RawData.FailureReason
+  - Event.System.Data.FailureReason
+  Family:
+  - Event.RawData.Family
+  - Event.System.Data.Family
+  FaultTolerance:
+  - Event.System.Data.FaultTolerance
+  - Event.RawData.FaultTolerance
+  Feature Index:
+  - Event.System.Data.Feature Index
+  - Event.RawData.Feature Index
+  Feature Name:
+  - Event.RawData.Feature Name
+  - Event.System.Data.Feature Name
+  Field:
+  - Event.RawData.Field
+  - Event.System.Data.Field
+  File:
+  - Event.System.Data.File
+  - Event.RawData.File
+  File Name:
+  - Event.RawData.File Name
+  - Event.System.Data.File Name
+  FileCount:
+  - Event.RawData.fileCount
+  - Event.System.Data.fileCount
+  FileFlushAvgLatencyNs:
+  - Event.RawData.FileFlushAvgLatencyNs
+  - Event.System.Data.FileFlushAvgLatencyNs
+  FileFlushCount:
+  - Event.RawData.FileFlushCount
+  - Event.System.Data.FileFlushCount
+  FileLength:
+  - Event.System.Data.fileLength
+  - Event.RawData.fileLength
+  FileLevelTrimAvgLatencyNs:
+  - Event.RawData.FileLevelTrimAvgLatencyNs
+  - Event.System.Data.FileLevelTrimAvgLatencyNs
+  FileLevelTrimCount:
+  - Event.RawData.FileLevelTrimCount
+  - Event.System.Data.FileLevelTrimCount
+  FileLevelTrimExtentsCount:
+  - Event.RawData.FileLevelTrimExtentsCount
+  - Event.System.Data.FileLevelTrimExtentsCount
+  FileLevelTrimSize:
+  - Event.RawData.FileLevelTrimSize
+  - Event.System.Data.FileLevelTrimSize
+  FileLevelTrimTime:
+  - Event.System.Data.FileLevelTrimTime
+  - Event.RawData.FileLevelTrimTime
+  FileLevelTrimTotalBytes:
+  - Event.System.Data.FileLevelTrimTotalBytes
+  - Event.RawData.FileLevelTrimTotalBytes
+  FileName:
+  - Event.System.Data.FileName
+  - Event.RawData.FileName
+  FileNameBuffer:
+  - Event.System.Data.FileNameBuffer
+  - Event.RawData.FileNameBuffer
+  FileNameLength:
+  - Event.System.Data.FileNameLength
+  - Event.RawData.FileNameLength
+  FileObject:
+  - Event.System.Data.FileObject
+  - Event.RawData.FileObject
+  FilePath:
+  - Event.RawData.FilePath
+  - Event.System.Data.FilePath
+  FileSystem:
+  - Event.RawData.FileSystem
+  - Event.System.Data.FileSystem
+  - Event.EventData.Data.FileSystem
+  FileTime:
+  - Event.System.Data.fileTime
+  - Event.RawData.fileTime
+  FileVersion:
+  - Event.System.Data.FileVersion
+  - Event.RawData.FileVersion
+  Filename:
+  - Event.System.Data.Filename
+  - Event.RawData.Filename
+  FilesCachedFirstPass:
+  - Event.RawData.FilesCachedFirstPass
+  - Event.System.Data.FilesCachedFirstPass
+  FilesLoaded:
+  - FilesLoaded
+  FilesMissedSecondPass:
+  - Event.System.Data.FilesMissedSecondPass
+  - Event.RawData.FilesMissedSecondPass
+  FilesResident:
+  - Event.System.Data.FilesResident
+  - Event.RawData.FilesResident
+  FilesScoped:
+  - Event.System.Data.FilesScoped
+  - Event.RawData.FilesScoped
+  Filter:
+  - Event.System.Data.Filter
+  - Event.RawData.Filter
+  FilterRTID:
+  - Event.RawData.FilterRTID
+  - Event.System.Data.FilterRTID
+  FinalStatus:
+  - Event.UserData.UMDFDeviceInstallEnd.FinalStatus
+  - Event.RawData.FinalStatus
+  - Event.System.Data.FinalStatus
+  FirmwareRevision:
+  - Event.System.Data.FirmwareRevision
+  - Event.RawData.FirmwareRevision
+  FirmwareSlotCount:
+  - Event.RawData.FirmwareSlotCount
+  - Event.System.Data.FirmwareSlotCount
+  FirmwareSupportsUpgrade:
+  - Event.System.Data.FirmwareSupportsUpgrade
+  - Event.RawData.FirmwareSupportsUpgrade
+  FirmwareVersion:
+  - Event.System.Data.FirmwareVersion
+  - Event.RawData.FirmwareVersion
+  FirstGraphicsReceived:
+  - Event.RawData.FirstGraphicsReceived
+  - Event.System.Data.FirstGraphicsReceived
+  FirstRefresh:
+  - Event.System.Data.FirstRefresh
+  - Event.RawData.FirstRefresh
+  FixCount:
+  - Event.System.Data.FixCount
+  - Event.RawData.FixCount
+  FixID:
+  - Event.UserData.CompatibilityFixEvent.FixID
+  FixName:
+  - Event.UserData.CompatibilityFixEvent.FixName
+  Flag1:
+  - Event.System.Data.Flag1
+  - Event.RawData.Flag1
+  Flag2:
+  - Event.RawData.Flag2
+  - Event.System.Data.Flag2
+  FlagSource:
+  - Event.RawData.FlagSource
+  - Event.System.Data.FlagSource
+  Flags:
+  - Event.RawData.Flags
+  - Event.UserData.VmlEventLog.Parameter0.Settings.Flags
+  - Event.System.Data.Flags
+  - Event.UserData.CompatibilityFixEvent.Flags
+  FlagsHigh:
+  - Event.System.Data.FlagsHigh
+  - Event.RawData.FlagsHigh
+  FlightSigning:
+  - Event.RawData.FlightSigning
+  - Event.System.Data.FlightSigning
+  Flow:
+  - Event.System.Data.flow
+  - Event.RawData.flow
+  FlushCacheSupported:
+  - Event.System.Data.FlushCacheSupported
+  - Event.RawData.FlushCacheSupported
+  FlushLatencyBucket1:
+  - Event.RawData.FlushLatencyBucket1
+  - Event.System.Data.FlushLatencyBucket1
+  FlushLatencyBucket2:
+  - Event.RawData.FlushLatencyBucket2
+  - Event.System.Data.FlushLatencyBucket2
+  FlushLatencyBucket3:
+  - Event.System.Data.FlushLatencyBucket3
+  - Event.RawData.FlushLatencyBucket3
+  FlushLatencyBucket4:
+  - Event.System.Data.FlushLatencyBucket4
+  - Event.RawData.FlushLatencyBucket4
+  FlushLatencyBucket5:
+  - Event.RawData.FlushLatencyBucket5
+  - Event.System.Data.FlushLatencyBucket5
+  FlushLatencyBucket6:
+  - Event.RawData.FlushLatencyBucket6
+  - Event.System.Data.FlushLatencyBucket6
+  FlushLatencyBucket7:
+  - Event.RawData.FlushLatencyBucket7
+  - Event.System.Data.FlushLatencyBucket7
+  FolderId:
+  - Event.System.Data.FolderId
+  - Event.RawData.FolderId
+  Found:
+  - Event.RawData.Found
+  - Event.System.Data.Found
+  FoundSchemaVersion:
+  - Event.System.Data.FoundSchemaVersion
+  - Event.RawData.FoundSchemaVersion
+  FrameworkVersion:
+  - Event.UserData.UMDFDeviceInstallBegin.FrameworkVersion
+  FreeFallLength:
+  - Event.System.Data.FreeFallLength
+  - Event.RawData.FreeFallLength
+  Freefall:
+  - Event.RawData.Freefall
+  - Event.System.Data.Freefall
+  Friday:
+  - Task.Triggers.CalendarTrigger.ScheduleByWeek.DaysOfWeek.Friday
+  FriendlyName:
+  - Event.RawData.FriendlyName
+  - Event.System.Data.FriendlyName
+  FriendlyNameLength:
+  - Event.System.Data.FriendlyNameLength
+  - Event.RawData.FriendlyNameLength
+  From:
+  - Event.System.Data.From
+  - Event.RawData.From
+  FullChargeCapacity:
+  - Event.System.Data.FullChargeCapacity
+  - Event.RawData.FullChargeCapacity
+  FullResume:
+  - Event.RawData.FullResume
+  - Event.System.Data.FullResume
+  Function:
+  - Event.RawData.Function
+  - Event.EventData.Data.Function
+  - Event.System.Data.Function
+  FunctionName:
+  - Event.System.Data.FunctionName
+  - Event.RawData.FunctionName
+  GPODownloadTimeElapsedInMilliseconds:
+  - Event.System.Data.GPODownloadTimeElapsedInMilliseconds
+  - Event.RawData.GPODownloadTimeElapsedInMilliseconds
+  GPOInfoList:
+  - Event.RawData.GPOInfoList
+  - Event.System.Data.GPOInfoList
+  GPOListStatusString:
+  - Event.RawData.GPOListStatusString
+  - Event.System.Data.GPOListStatusString
+  GdprType:
+  - Payload.gdprType
+  General:
+  - Event.System.Data.General
+  - Event.RawData.General
+  GeneralErrors:
+  - Event.RawData.GeneralErrors
+  - Event.System.Data.GeneralErrors
+  GeneralErrorsLength:
+  - Event.RawData.GeneralErrorsLength
+  - Event.System.Data.GeneralErrorsLength
+  GeneralLength:
+  - Event.RawData.GeneralLength
+  - Event.System.Data.GeneralLength
+  GetInfoOnly:
+  - Event.System.Data.GetInfoOnly
+  - Event.RawData.GetInfoOnly
+  GfxChannelOpened:
+  - Event.RawData.GfxChannelOpened
+  - Event.System.Data.GfxChannelOpened
+  GnsId:
+  - Event.RawData.GnsId
+  - Event.System.Data.GnsId
+  GnsState:
+  - Event.System.Data.GnsState
+  - Event.RawData.GnsState
+  GpsvcInitTimeElapsedInMilliseconds:
+  - Event.RawData.GpsvcInitTimeElapsedInMilliseconds
+  - Event.System.Data.GpsvcInitTimeElapsedInMilliseconds
+  GpsvcTimeElapsedInMilliseconds:
+  - Event.RawData.GpsvcTimeElapsedInMilliseconds
+  - Event.System.Data.GpsvcTimeElapsedInMilliseconds
+  Group:
+  - Event.System.Data.Group
+  - Event.RawData.Group
+  GroupId:
+  - Task.Principals.Principal.GroupId
+  GroupPolicyValue:
+  - Event.System.Data.GroupPolicyValue
+  - Event.RawData.GroupPolicyValue
+  Guid:
+  - Event.System.Data.Guid
+  - Event.System.Provider.#attributes.Guid
+  - Event.RawData.Guid
+  HRESULT:
+  - Event.RawData.HRESULT
+  - Event.System.Data.HRESULT
+  HResult:
+  - Event.System.Data.HResult
+  - Event.RawData.HResult
+  - Event.UserData.SetupInstallPrinterDriver.HResult
+  HVCI:
+  - Event.System.Data.HVCI
+  - Event.RawData.HVCI
+  HWAddress:
+  - Event.RawData.HWAddress
+  - Event.System.Data.HWAddress
+  HWLength:
+  - Event.System.Data.HWLength
+  - Event.RawData.HWLength
+  HandleContext:
+  - Event.System.Data.HandleContext
+  - Event.RawData.HandleContext
+  HandleId:
+  - Event.RawData.HandleId
+  - Event.System.Data.HandleId
+  HardwareEnabled:
+  - Event.System.Data.HardwareEnabled
+  - Event.RawData.HardwareEnabled
+  HardwarePresent:
+  - Event.System.Data.HardwarePresent
+  - Event.RawData.HardwarePresent
+  HasAuthUrl:
+  - Event.RawData.HasAuthUrl
+  - Event.System.Data.HasAuthUrl
+  HasEndAuthUrl:
+  - Event.RawData.HasEndAuthUrl
+  - Event.System.Data.HasEndAuthUrl
+  HasExplored:
+  - HasExplored
+  HasFlowUrl:
+  - Event.RawData.HasFlowUrl
+  - Event.System.Data.HasFlowUrl
+  HasFullTrust:
+  - Event.RawData.HasFullTrust
+  - Event.System.Data.HasFullTrust
+  HasWin32alacarte:
+  - Event.RawData.HasWin32alacarte
+  - Event.System.Data.HasWin32alacarte
+  Hash:
+  - Hash
+  - Event.System.Data.Hash
+  - Event.RawData.Hash
+  HashInformation:
+  - Event.RawData.HashInformation
+  - Event.System.Data.HashInformation
+  HashSecretKeyOffset:
+  - Event.RawData.HashSecretKeyOffset
+  - Event.System.Data.HashSecretKeyOffset
+  HashSecretKeySize:
+  - Event.RawData.HashSecretKeySize
+  - Event.System.Data.HashSecretKeySize
+  Hashes:
+  - Event.RawData.Hashes
+  - Event.System.Data.Hashes
+  Hc_stateid:
+  - Event.RawData.hc_stateid
+  - Event.System.Data.hc_stateid
+  HexInt1:
+  - Event.System.Data.HexInt1
+  - Event.RawData.HexInt1
+  HexInt2:
+  - Event.System.Data.HexInt2
+  - Event.RawData.HexInt2
+  HexInt3:
+  - Event.System.Data.HexInt3
+  - Event.RawData.HexInt3
+  HiberPagesWritten:
+  - Event.RawData.HiberPagesWritten
+  - Event.System.Data.HiberPagesWritten
+  HiberReadDuration:
+  - Event.RawData.HiberReadDuration
+  - Event.System.Data.HiberReadDuration
+  HiberWriteDuration:
+  - Event.RawData.HiberWriteDuration
+  - Event.System.Data.HiberWriteDuration
+  HibernationCount:
+  - Event.System.Data.HibernationCount
+  - Event.RawData.HibernationCount
+  HibernationPathUsageCount:
+  - Event.System.Data.HibernationPathUsageCount
+  - Event.RawData.HibernationPathUsageCount
+  Hidden:
+  - Task.Settings.Hidden
+  HierarchicalResetSuccessCount:
+  - Event.System.Data.HierarchicalResetSuccessCount
+  - Event.RawData.HierarchicalResetSuccessCount
+  HighIoLatencyCount:
+  - Event.System.Data.HighIoLatencyCount
+  - Event.RawData.HighIoLatencyCount
+  HighLatencyIoCount:
+  - Event.RawData.HighLatencyIoCount
+  - Event.System.Data.HighLatencyIoCount
+  HighestFreeSpaceInBytes:
+  - Event.RawData.HighestFreeSpaceInBytes
+  - Event.System.Data.HighestFreeSpaceInBytes
+  History_file:
+  - history_file
+  HiveName:
+  - Event.RawData.HiveName
+  - Event.System.Data.HiveName
+  HiveNameLength:
+  - Event.RawData.HiveNameLength
+  - Event.System.Data.HiveNameLength
+  Host OS Build number:
+  - Event.RawData.Host OS Build number
+  - Event.System.Data.Host OS Build number
+  Host OS Major version:
+  - Event.System.Data.Host OS Major version
+  - Event.RawData.Host OS Major version
+  Host OS Minor version:
+  - Event.System.Data.Host OS Minor version
+  - Event.RawData.Host OS Minor version
+  Host OS Service pack major number:
+  - Event.System.Data.Host OS Service pack major number
+  - Event.RawData.Host OS Service pack major number
+  Host OS Service pack minor number:
+  - Event.System.Data.Host OS Service pack minor number
+  - Event.RawData.Host OS Service pack minor number
+  HostApplication:
+  - Event.EventData.Data.HostApplication
+  HostId:
+  - Event.EventData.Data.HostId
+  HostName:
+  - Event.RawData.HostName
+  - Event.EventData.Data.HostName
+  - Event.System.Data.HostName
+  HostNameChanged:
+  - Event.RawData.HostNameChanged
+  - Event.System.Data.HostNameChanged
+  HostProcess:
+  - Event.UserData.Operation_StartedOperational.HostProcess
+  HostVersion:
+  - Event.EventData.Data.HostVersion
+  Hr:
+  - Event.RawData.hr
+  - Event.System.Data.hr
+  HrError:
+  - Event.System.Data.hrError
+  - Event.RawData.hrError
+  HybridCacheBytes:
+  - Event.RawData.HybridCacheBytes
+  - Event.System.Data.HybridCacheBytes
+  HybridSupported:
+  - Event.System.Data.HybridSupported
+  - Event.RawData.HybridSupported
+  HypervisorDebug:
+  - Event.RawData.HypervisorDebug
+  - Event.System.Data.HypervisorDebug
+  HypervisorLaunchType:
+  - Event.System.Data.HypervisorLaunchType
+  - Event.RawData.HypervisorLaunchType
+  HypervisorLoadOptions:
+  - Event.System.Data.HypervisorLoadOptions
+  - Event.RawData.HypervisorLoadOptions
+  ID:
+  - Event.RawData.ID
+  - Event.System.Data.ID
+  IFTSTMP:
+  - Event.System.Data.IFTSTMP
+  - Event.RawData.IFTSTMP
+  IKey:
+  - Event.System.Data.IKey
+  - Event.RawData.IKey
+  IOAV state:
+  - Event.RawData.IOAV state
+  - Event.System.Data.IOAV state
+  IPVersion:
+  - Event.RawData.IPVersion
+  - Event.System.Data.IPVersion
+  IconUri:
+  - Payload.attribution.iconUri
+  Id:
+  - Event.RawData.Id
+  - Event.UserData.Operation_ClientFailure.Id
+  - Event.EventData.Id
+  - Event.System.Data.Id
+  IdFlags:
+  - Event.RawData.IdFlags
+  - Event.System.Data.IdFlags
+  Identity:
+  - Event.RawData.Identity
+  - Event.System.Data.Identity
+  IdkGenerationStatus:
+  - Event.RawData.IdkGenerationStatus
+  - Event.System.Data.IdkGenerationStatus
+  IdleImplementation:
+  - Event.System.Data.IdleImplementation
+  - Event.RawData.IdleImplementation
+  IdleSeconds:
+  - Event.RawData.IdleSeconds
+  - Event.System.Data.IdleSeconds
+  IdleSeconds1:
+  - Event.System.Data.IdleSeconds1
+  - Event.RawData.IdleSeconds1
+  IdleSeconds2:
+  - Event.RawData.IdleSeconds2
+  - Event.System.Data.IdleSeconds2
+  IdleStateCount:
+  - Event.RawData.IdleStateCount
+  - Event.System.Data.IdleStateCount
+  IdleTrigger:
+  - Task.Triggers.IdleTrigger
+  IfIndex:
+  - Event.System.Data.IfIndex
+  - Event.RawData.IfIndex
+  IfLuid:
+  - Event.System.Data.IfLuid
+  - Event.RawData.IfLuid
+  IgnoreBandwidthLimitsOnLan:
+  - Event.RawData.ignoreBandwidthLimitsOnLan
+  - Event.System.Data.ignoreBandwidthLimitsOnLan
+  IhvConnectivitySetting:
+  - Event.System.Data.IhvConnectivitySetting
+  - Event.RawData.IhvConnectivitySetting
+  Image:
+  - Event.RawData.Image
+  - Event.System.Data.Image
+  ImageLoaded:
+  - Event.System.Data.ImageLoaded
+  - Event.RawData.ImageLoaded
+  ImageName:
+  - Event.RawData.ImageName
+  - Event.System.Data.ImageName
+  ImagePath:
+  - Event.System.Data.ImagePath
+  - Event.RawData.ImagePath
+  ImpersonationLevel:
+  - Event.System.Data.ImpersonationLevel
+  - Event.RawData.ImpersonationLevel
+  ImplementedAddressBits:
+  - Event.UserData.VmlEventLog.ImplementedAddressBits
+  InProc:
+  - Event.System.Data.InProc
+  - Event.RawData.InProc
+  IncursSeekPenalty:
+  - Event.System.Data.IncursSeekPenalty
+  - Event.RawData.IncursSeekPenalty
+  IndirectionTableOffset:
+  - Event.System.Data.IndirectionTableOffset
+  - Event.RawData.IndirectionTableOffset
+  IndirectionTableSize:
+  - Event.System.Data.IndirectionTableSize
+  - Event.RawData.IndirectionTableSize
+  InfPath:
+  - Event.UserData.SetupInstallPrinterDriver.InfPath
+  Info:
+  - Event.RawData.Info
+  - Event.System.Data.Info
+  InfoDescription:
+  - Event.System.Data.InfoDescription
+  - Event.RawData.InfoDescription
+  InitState:
+  - Event.System.Data.InitState
+  - Event.RawData.InitState
+  InitialAllocationNumaPolicy:
+  - Event.System.Data.InitialAllocationNumaPolicy
+  - Event.RawData.InitialAllocationNumaPolicy
+  InitialPackageState:
+  - Event.UserData.CbsPackageInitiateChanges.InitialPackageState
+  InitialPackageStateTextized:
+  - Event.UserData.CbsPackageInitiateChanges.InitialPackageStateTextized
+  InitializationReason:
+  - Event.System.Data.initializationReason
+  - Event.RawData.initializationReason
+  Initiated:
+  - Event.RawData.Initiated
+  - Event.System.Data.Initiated
+  InstallPackageList:
+  - Event.System.Data.InstallPackageList
+  - Event.RawData.InstallPackageList
+  InstallSection:
+  - Event.UserData.SetupInstallPrinterDriver.InstallSection
+  InstallState:
+  - Event.System.Data.InstallState
+  - Event.RawData.InstallState
+  Installation choice:
+  - Event.RawData.Installation choice
+  - Event.System.Data.Installation choice
+  InstanceID:
+  - Event.System.Data.InstanceID
+  - Event.RawData.InstanceID
+  InstanceId:
+  - Event.System.Data.InstanceId
+  - Event.RawData.InstanceId
+  InstanceName:
+  - Event.RawData.InstanceName
+  - Event.System.Data.InstanceName
+  InstanceNameLength:
+  - Event.RawData.InstanceNameLength
+  - Event.System.Data.InstanceNameLength
+  InstancePath:
+  - Event.RawData.InstancePath
+  - Event.System.Data.InstancePath
+  IntegrityLevel:
+  - Event.System.Data.IntegrityLevel
+  - Event.RawData.IntegrityLevel
+  IntendedPackageState:
+  - Event.UserData.CbsPackageChangeState.IntendedPackageState
+  - Event.UserData.CbsPackageInitiateChanges.IntendedPackageState
+  IntendedPackageStateTextized:
+  - Event.UserData.CbsPackageInitiateChanges.IntendedPackageStateTextized
+  - Event.UserData.CbsPackageChangeState.IntendedPackageStateTextized
+  Interface GUID:
+  - Event.RawData.Interface GUID
+  - Event.System.Data.Interface GUID
+  Interface Name:
+  - Event.RawData.Interface Name
+  - Event.System.Data.Interface Name
+  InterfaceDescription:
+  - Event.System.Data.InterfaceDescription
+  - Event.RawData.InterfaceDescription
+  InterfaceGUID:
+  - Event.System.Data.InterfaceGUID
+  - Event.RawData.InterfaceGUID
+  InterfaceGuid:
+  - Event.System.Data.InterfaceGuid
+  - Event.RawData.InterfaceGuid
+  InterfaceId:
+  - Event.System.Data.InterfaceId
+  - Event.RawData.InterfaceId
+  InterfaceName:
+  - Event.RawData.InterfaceName
+  - Event.System.Data.InterfaceName
+  Interfaceluid:
+  - interfaceluid
+  InterleaveBytes:
+  - Event.RawData.InterleaveBytes
+  - Event.System.Data.InterleaveBytes
+  InternalCode:
+  - Event.RawData.InternalCode
+  - Event.System.Data.InternalCode
+  InternalInfo:
+  - Event.RawData.InternalInfo
+  - Event.System.Data.InternalInfo
+  Interval:
+  - Task.Triggers.IdleTrigger.Repetition.Interval
+  - Task.Triggers.TimeTrigger.Repetition.Interval
+  - Task.Triggers.CalendarTrigger.Repetition.Interval
+  - Task.Settings.RestartOnFailure.Interval
+  - Task.Triggers.BootTrigger.Repetition.Interval
+  - Task.Triggers.LogonTrigger.Repetition.Interval
+  - Task.Triggers.EventTrigger.Repetition.Interval
+  IntervalDurationUs:
+  - Event.System.Data.IntervalDurationUs
+  - Event.RawData.IntervalDurationUs
+  IoBucketsCount:
+  - Event.System.Data.IoBucketsCount
+  - Event.RawData.IoBucketsCount
+  IoCount:
+  - Event.System.Data.IoCount
+  - Event.RawData.IoCount
+  IoLatencyBuckets:
+  - Event.System.Data.IoLatencyBuckets
+  - Event.RawData.IoLatencyBuckets
+  IoSize:
+  - Event.RawData.IoSize
+  - Event.System.Data.IoSize
+  IoTimeout_s:
+  - Event.RawData.IoTimeout_s
+  - Event.System.Data.IoTimeout_s
+  IoTypeIndex:
+  - Event.RawData.IoTypeIndex
+  - Event.System.Data.IoTypeIndex
+  IoctlCode:
+  - Event.RawData.ioctlCode
+  - Event.System.Data.ioctlCode
+  IoctlSupport:
+  - Event.System.Data.IoctlSupport
+  - Event.RawData.IoctlSupport
+  IpAddress:
+  - Event.System.Data.IpAddress
+  - Event.RawData.IpAddress
+  IpPort:
+  - Event.RawData.IpPort
+  - Event.System.Data.IpPort
+  Ipaddress:
+  - Event.RawData.Ipaddress
+  - Event.System.Data.Ipaddress
+  Irp:
+  - Event.System.Data.Irp
+  - Event.RawData.Irp
+  IrpMinorFunction:
+  - Event.System.Data.IrpMinorFunction
+  - Event.RawData.IrpMinorFunction
+  IrpStatus:
+  - Event.System.Data.IrpStatus
+  - Event.RawData.IrpStatus
+  IsAsyncProcessing:
+  - Event.System.Data.IsAsyncProcessing
+  - Event.RawData.IsAsyncProcessing
+  IsBackgroundProcessing:
+  - Event.RawData.IsBackgroundProcessing
+  - Event.System.Data.IsBackgroundProcessing
+  IsBootVolume:
+  - Event.System.Data.IsBootVolume
+  - Event.RawData.IsBootVolume
+  IsCentennial:
+  - Event.RawData.IsCentennial
+  - Event.System.Data.IsCentennial
+  IsConnected:
+  - Event.RawData.IsConnected
+  - Event.System.Data.IsConnected
+  IsConnectivityFailure:
+  - Event.RawData.IsConnectivityFailure
+  - Event.System.Data.IsConnectivityFailure
+  IsDomainJoined:
+  - Event.RawData.IsDomainJoined
+  - Event.System.Data.IsDomainJoined
+  IsEnabled:
+  - Event.System.Data.IsEnabled
+  - Event.RawData.IsEnabled
+  IsExtensionAsyncProcessing:
+  - Event.RawData.IsExtensionAsyncProcessing
+  - Event.System.Data.IsExtensionAsyncProcessing
+  IsGPOListChanged:
+  - Event.RawData.IsGPOListChanged
+  - Event.System.Data.IsGPOListChanged
+  IsIdle:
+  - Event.RawData.IsIdle
+  - Event.System.Data.IsIdle
+  IsInPlaceUpdate:
+  - Event.RawData.IsInPlaceUpdate
+  - Event.System.Data.IsInPlaceUpdate
+  IsInRelatedSet:
+  - Event.RawData.IsInRelatedSet
+  - Event.System.Data.IsInRelatedSet
+  IsMachine:
+  - Event.System.Data.IsMachine
+  - Event.RawData.IsMachine
+  IsMachineBoot:
+  - Event.System.Data.IsMachineBoot
+  - Event.RawData.IsMachineBoot
+  IsOptional:
+  - Event.RawData.IsOptional
+  - Event.System.Data.IsOptional
+  IsPackageEncrypted:
+  - Event.System.Data.IsPackageEncrypted
+  - Event.RawData.IsPackageEncrypted
+  IsPackageUsingBDC:
+  - Event.RawData.IsPackageUsingBDC
+  - Event.System.Data.IsPackageUsingBDC
+  IsPolicyConfigured:
+  - Event.System.Data.IsPolicyConfigured
+  - Event.RawData.IsPolicyConfigured
+  IsPowerProtected:
+  - Event.System.Data.IsPowerProtected
+  - Event.RawData.IsPowerProtected
+  IsRoaming:
+  - Event.System.Data.isRoaming
+  - Event.RawData.isRoaming
+  IsServiceRestart:
+  - Event.System.Data.IsServiceRestart
+  - Event.RawData.IsServiceRestart
+  IsSetByHigherAuthority:
+  - Event.RawData.IsSetByHigherAuthority
+  - Event.System.Data.IsSetByHigherAuthority
+  IsSlowLink:
+  - Event.RawData.IsSlowLink
+  - Event.System.Data.IsSlowLink
+  IsSpecialUserProfile:
+  - Event.System.Data.IsSpecialUserProfile
+  - Event.RawData.IsSpecialUserProfile
+  IsStreamingPackage:
+  - Event.System.Data.IsStreamingPackage
+  - Event.RawData.IsStreamingPackage
+  IsSystemCritical:
+  - Event.RawData.IsSystemCritical
+  - Event.System.Data.IsSystemCritical
+  IsTestConfig:
+  - Event.System.Data.IsTestConfig
+  - Event.RawData.IsTestConfig
+  IsThinProvisioned:
+  - Event.System.Data.IsThinProvisioned
+  - Event.RawData.IsThinProvisioned
+  IsTrimSupported:
+  - Event.System.Data.IsTrimSupported
+  - Event.RawData.IsTrimSupported
+  IsolationEngineAdapter:
+  - Event.RawData.IsolationEngineAdapter
+  - Event.System.Data.IsolationEngineAdapter
+  IsolationLevel:
+  - Event.RawData.IsolationLevel
+  - Event.System.Data.IsolationLevel
+  IsolationSensorAdapter:
+  - Event.RawData.IsolationSensorAdapter
+  - Event.System.Data.IsolationSensorAdapter
+  IsolationStorageAdapter:
+  - Event.System.Data.IsolationStorageAdapter
+  - Event.RawData.IsolationStorageAdapter
+  ItemId:
+  - Event.System.Data.itemId
+  - Event.RawData.itemId
+  ItemName:
+  - Event.RawData.itemName
+  - Event.System.Data.itemName
+  JobId:
+  - Event.RawData.jobId
+  - Event.System.Data.jobId
+  JobName:
+  - Event.RawData.jobName
+  - Event.System.Data.jobName
+  JobOwner:
+  - Event.System.Data.jobOwner
+  - Event.RawData.jobOwner
+  JobTitle:
+  - Event.RawData.jobTitle
+  - Event.System.Data.jobTitle
+  JoinType:
+  - Event.System.Data.JoinType
+  - Event.RawData.JoinType
+  KaMinLimit:
+  - Event.RawData.KaMinLimit
+  - Event.System.Data.KaMinLimit
+  KaValue:
+  - Event.System.Data.KaValue
+  - Event.RawData.KaValue
+  KaValueType:
+  - Event.RawData.KaValueType
+  - Event.System.Data.KaValueType
+  KernelDebug:
+  - Event.System.Data.KernelDebug
+  - Event.RawData.KernelDebug
+  Key:
+  - Event.System.Data.Key
+  - Event.RawData.Key
+  KeyFileName:
+  - Event.System.Data.KeyFileName
+  - Event.RawData.KeyFileName
+  KeyFilePath:
+  - Event.System.Data.KeyFilePath
+  - Event.RawData.KeyFilePath
+  KeyGenerationAndSaveStatus:
+  - Event.System.Data.KeyGenerationAndSaveStatus
+  - Event.RawData.KeyGenerationAndSaveStatus
+  KeyLength:
+  - Event.System.Data.KeyLength
+  - Event.RawData.KeyLength
+  KeyModificationType:
+  - Event.System.Data.KeyModificationType
+  - Event.RawData.KeyModificationType
+  KeyName:
+  - Event.System.Data.KeyName
+  - Event.RawData.KeyName
+  KeyType:
+  - Event.System.Data.KeyType
+  - Event.RawData.KeyType
+  KeysUpdated:
+  - Event.RawData.KeysUpdated
+  - Event.System.Data.KeysUpdated
+  Keyword:
+  - Event.RenderingInfo.Keywords.Keyword
+  Keywords:
+  - Event.System.Keywords
+  L2profileid:
+  - l2profileid
+  LBA:
+  - Event.RawData.LBA
+  - Event.System.Data.LBA
+  LSA:
+  - Event.RawData.LSA
+  - Event.System.Data.LSA
+  LUN:
+  - Event.System.Data.LUN
+  - Event.RawData.LUN
+  Label:
+  - Event.UserData.SetupInstallPrinterDriver.Label
+  LargeReadCount:
+  - Event.System.Data.LargeReadCount
+  - Event.RawData.LargeReadCount
+  Last AS security intelligence age:
+  - Event.System.Data.Last AS security intelligence age
+  - Event.RawData.Last AS security intelligence age
+  Last AV security intelligence age:
+  - Event.RawData.Last AV security intelligence age
+  - Event.System.Data.Last AV security intelligence age
+  Last full scan age:
+  - Event.System.Data.Last full scan age
+  - Event.RawData.Last full scan age
+  Last full scan end time:
+  - Event.System.Data.Last full scan end time
+  - Event.RawData.Last full scan end time
+  Last full scan source:
+  - Event.System.Data.Last full scan source
+  - Event.RawData.Last full scan source
+  Last full scan start time:
+  - Event.System.Data.Last full scan start time
+  - Event.RawData.Last full scan start time
+  Last quick scan age:
+  - Event.System.Data.Last quick scan age
+  - Event.RawData.Last quick scan age
+  Last quick scan end time:
+  - Event.RawData.Last quick scan end time
+  - Event.System.Data.Last quick scan end time
+  Last quick scan source:
+  - Event.RawData.Last quick scan source
+  - Event.System.Data.Last quick scan source
+  Last quick scan start time:
+  - Event.System.Data.Last quick scan start time
+  - Event.RawData.Last quick scan start time
+  LastBootGood:
+  - Event.RawData.LastBootGood
+  - Event.System.Data.LastBootGood
+  LastBootId:
+  - Event.RawData.LastBootId
+  - Event.System.Data.LastBootId
+  LastDeviceInstanceId:
+  - Event.System.Data.LastDeviceInstanceId
+  - Event.RawData.LastDeviceInstanceId
+  LastError:
+  - Event.System.Data.LastError
+  - Event.RawData.LastError
+  - Event.UserData.SetupInstallPrinterDriver.LastError
+  LastError_AddSense:
+  - Event.System.Data.LastError_AddSense
+  - Event.RawData.LastError_AddSense
+  LastError_AddSenseQ:
+  - Event.RawData.LastError_AddSenseQ
+  - Event.System.Data.LastError_AddSenseQ
+  LastError_Command:
+  - Event.RawData.LastError_Command
+  - Event.System.Data.LastError_Command
+  LastError_IoSize:
+  - Event.System.Data.LastError_IoSize
+  - Event.RawData.LastError_IoSize
+  LastError_LBA:
+  - Event.System.Data.LastError_LBA
+  - Event.RawData.LastError_LBA
+  LastError_QueueDepth:
+  - Event.System.Data.LastError_QueueDepth
+  - Event.RawData.LastError_QueueDepth
+  LastError_RequestDuration_ms:
+  - Event.RawData.LastError_RequestDuration_ms
+  - Event.System.Data.LastError_RequestDuration_ms
+  LastError_ScsiStatus:
+  - Event.System.Data.LastError_ScsiStatus
+  - Event.RawData.LastError_ScsiStatus
+  LastError_SenseKey:
+  - Event.System.Data.LastError_SenseKey
+  - Event.RawData.LastError_SenseKey
+  LastError_SrbStatus:
+  - Event.RawData.LastError_SrbStatus
+  - Event.System.Data.LastError_SrbStatus
+  LastError_WaitDuration_ms:
+  - Event.RawData.LastError_WaitDuration_ms
+  - Event.System.Data.LastError_WaitDuration_ms
+  LastEventlogWrittenTime:
+  - Event.System.Data.LastEventlogWrittenTime
+  - Event.RawData.LastEventlogWrittenTime
+  LastHttpError:
+  - Event.RawData.LastHttpError
+  - Event.System.Data.LastHttpError
+  LastRunDateTime:
+  - Event.System.Data.LastRunDateTime
+  - Event.RawData.LastRunDateTime
+  LastShutdownGood:
+  - Event.System.Data.LastShutdownGood
+  - Event.RawData.LastShutdownGood
+  LastSuccessfulSyncTime:
+  - Event.RawData.LastSuccessfulSyncTime
+  - Event.System.Data.LastSuccessfulSyncTime
+  LastSyncError:
+  - Event.System.Data.LastSyncError
+  - Event.RawData.LastSyncError
+  LayerName:
+  - Event.RawData.LayerName
+  - Event.System.Data.LayerName
+  LayerRTID:
+  - Event.System.Data.LayerRTID
+  - Event.RawData.LayerRTID
+  LayoutProviderName:
+  - Event.System.Data.layoutProviderName
+  - Event.RawData.layoutProviderName
+  LayoutSelectionSerializedString:
+  - Event.System.Data.layoutSelectionSerializedString
+  - Event.RawData.layoutSelectionSerializedString
+  LeapIndicator:
+  - Event.RawData.LeapIndicator
+  - Event.System.Data.LeapIndicator
+  LeapSecondCount:
+  - Event.RawData.LeapSecondCount
+  - Event.System.Data.LeapSecondCount
+  Length:
+  - Event.System.Data.Length
+  - Event.RawData.Length
+  Level:
+  - Event.System.Level
+  - Event.RenderingInfo.Level
+  LicenseId:
+  - Event.System.Data.LicenseId
+  - Event.RawData.LicenseId
+  Line:
+  - Event.System.Data.Line
+  - Event.RawData.Line
+  Line Number:
+  - Event.RawData.Line Number
+  - Event.System.Data.Line Number
+  LineNumber:
+  - Event.RawData.LineNumber
+  - Event.System.Data.LineNumber
+  LinkDescription:
+  - Event.RawData.LinkDescription
+  - Event.System.Data.LinkDescription
+  ListenerName:
+  - Event.UserData.EventXML.listenerName
+  - Event.UserData.EventXML.ListenerName
+  LmPackageName:
+  - Event.System.Data.LmPackageName
+  - Event.RawData.LmPackageName
+  LoadOSImageStart:
+  - Event.System.Data.LoadOSImageStart
+  - Event.RawData.LoadOSImageStart
+  LoadOptions:
+  - Event.System.Data.LoadOptions
+  - Event.RawData.LoadOptions
+  LocalAddress:
+  - Event.RawData.LocalAddress
+  - Event.System.Data.LocalAddress
+  LocalAddresses:
+  - Event.RawData.LocalAddresses
+  - Event.System.Data.LocalAddresses
+  LocalMac:
+  - Event.RawData.LocalMac
+  - Event.System.Data.LocalMac
+  LocalName:
+  - Event.RawData.LocalName
+  - Event.System.Data.LocalName
+  LocalOnlyMapped:
+  - Event.RawData.LocalOnlyMapped
+  - Event.System.Data.LocalOnlyMapped
+  LocalPath:
+  - Event.RawData.LocalPath
+  - Event.System.Data.LocalPath
+  LocalPorts:
+  - Event.RawData.LocalPorts
+  - Event.System.Data.LocalPorts
+  LocalStratumNumber:
+  - Event.System.Data.LocalStratumNumber
+  - Event.RawData.LocalStratumNumber
+  Location:
+  - Event.System.Data.Location
+  - Event.RawData.Location
+  LocationPath:
+  - Event.RawData.LocationPath
+  - Event.System.Data.LocationPath
+  LogFileFull:
+  - Event.RawData.LogFileFull
+  - Event.System.Data.LogFileFull
+  LogFileFullReasonBucket1:
+  - Event.System.Data.LogFileFullReasonBucket1
+  - Event.RawData.LogFileFullReasonBucket1
+  LogFileFullReasonBucket10:
+  - Event.System.Data.LogFileFullReasonBucket10
+  - Event.RawData.LogFileFullReasonBucket10
+  LogFileFullReasonBucket11:
+  - Event.System.Data.LogFileFullReasonBucket11
+  - Event.RawData.LogFileFullReasonBucket11
+  LogFileFullReasonBucket12:
+  - Event.RawData.LogFileFullReasonBucket12
+  - Event.System.Data.LogFileFullReasonBucket12
+  LogFileFullReasonBucket13:
+  - Event.System.Data.LogFileFullReasonBucket13
+  - Event.RawData.LogFileFullReasonBucket13
+  LogFileFullReasonBucket14:
+  - Event.System.Data.LogFileFullReasonBucket14
+  - Event.RawData.LogFileFullReasonBucket14
+  LogFileFullReasonBucket15:
+  - Event.RawData.LogFileFullReasonBucket15
+  - Event.System.Data.LogFileFullReasonBucket15
+  LogFileFullReasonBucket2:
+  - Event.System.Data.LogFileFullReasonBucket2
+  - Event.RawData.LogFileFullReasonBucket2
+  LogFileFullReasonBucket3:
+  - Event.RawData.LogFileFullReasonBucket3
+  - Event.System.Data.LogFileFullReasonBucket3
+  LogFileFullReasonBucket4:
+  - Event.RawData.LogFileFullReasonBucket4
+  - Event.System.Data.LogFileFullReasonBucket4
+  LogFileFullReasonBucket5:
+  - Event.System.Data.LogFileFullReasonBucket5
+  - Event.RawData.LogFileFullReasonBucket5
+  LogFileFullReasonBucket6:
+  - Event.RawData.LogFileFullReasonBucket6
+  - Event.System.Data.LogFileFullReasonBucket6
+  LogFileFullReasonBucket7:
+  - Event.RawData.LogFileFullReasonBucket7
+  - Event.System.Data.LogFileFullReasonBucket7
+  LogFileFullReasonBucket8:
+  - Event.System.Data.LogFileFullReasonBucket8
+  - Event.RawData.LogFileFullReasonBucket8
+  LogFileFullReasonBucket9:
+  - Event.RawData.LogFileFullReasonBucket9
+  - Event.System.Data.LogFileFullReasonBucket9
+  LogFileReadBytes:
+  - Event.System.Data.LogFileReadBytes
+  - Event.RawData.LogFileReadBytes
+  LogFileReads:
+  - Event.System.Data.LogFileReads
+  - Event.RawData.LogFileReads
+  LogFileWriteBytes:
+  - Event.RawData.LogFileWriteBytes
+  - Event.System.Data.LogFileWriteBytes
+  LogFileWrites:
+  - Event.RawData.LogFileWrites
+  - Event.System.Data.LogFileWrites
+  LoggingMode:
+  - Event.RawData.LoggingMode
+  - Event.System.Data.LoggingMode
+  LogonCertRequired:
+  - Event.RawData.LogonCertRequired
+  - Event.System.Data.LogonCertRequired
+  LogonGuid:
+  - Event.RawData.LogonGuid
+  - Event.System.Data.LogonGuid
+  LogonId:
+  - Event.RawData.LogonId
+  - Event.System.Data.LogonId
+  LogonProcessName:
+  - Event.RawData.LogonProcessName
+  - Event.System.Data.LogonProcessName
+  LogonTrigger:
+  - Task.Triggers.LogonTrigger
+  LogonType:
+  - Task.Principals.Principal.LogonType
+  - Event.RawData.LogonType
+  - Event.System.Data.LogonType
+  LongPowerButtonPressDetected:
+  - Event.System.Data.LongPowerButtonPressDetected
+  - Event.RawData.LongPowerButtonPressDetected
+  LooseSourceMapped:
+  - Event.RawData.LooseSourceMapped
+  - Event.System.Data.LooseSourceMapped
+  LowerFilters:
+  - Event.RawData.LowerFilters
+  - Event.System.Data.LowerFilters
+  LowestFreeSpaceInBytes:
+  - Event.System.Data.LowestFreeSpaceInBytes
+  - Event.RawData.LowestFreeSpaceInBytes
+  Lun:
+  - Event.System.Data.Lun
+  - Event.RawData.Lun
+  MDMPolicyValue:
+  - Event.System.Data.MDMPolicyValue
+  - Event.RawData.MDMPolicyValue
+  MFTEntry:
+  - MFTEntry
+  MFTSequenceNumber:
+  - MFTSequenceNumber
+  MRUPosition:
+  - MRUPosition
+  MacAddress:
+  - Event.UserData.VmlEventLog.Parameter0.Settings.MacAddress
+  MachineDatabase_Pages:
+  - Event.System.Data.MachineDatabase_Pages
+  - Event.RawData.MachineDatabase_Pages
+  MachineDatabase_PagesCheckpointed:
+  - Event.RawData.MachineDatabase_PagesCheckpointed
+  - Event.System.Data.MachineDatabase_PagesCheckpointed
+  MachineDisposition:
+  - Event.System.Data.MachineDisposition
+  - Event.RawData.MachineDisposition
+  MachineJournalSize_After:
+  - Event.RawData.MachineJournalSize_After
+  - Event.System.Data.MachineJournalSize_After
+  MachineJournalSize_Before:
+  - Event.RawData.MachineJournalSize_Before
+  - Event.System.Data.MachineJournalSize_Before
+  MachinePolicySource:
+  - Event.System.Data.MachinePolicySource
+  - Event.RawData.MachinePolicySource
+  MachineRole:
+  - Event.System.Data.MachineRole
+  - Event.RawData.MachineRole
+  MachineSize_After:
+  - Event.RawData.MachineSize_After
+  - Event.System.Data.MachineSize_After
+  MachineSize_Before:
+  - Event.System.Data.MachineSize_Before
+  - Event.RawData.MachineSize_Before
+  MainPackageFamilyName:
+  - Event.RawData.MainPackageFamilyName
+  - Event.System.Data.MainPackageFamilyName
+  MainPackageFullName:
+  - Event.RawData.MainPackageFullName
+  - Event.System.Data.MainPackageFullName
+  MainPackageMoniker:
+  - Event.RawData.MainPackageMoniker
+  - Event.System.Data.MainPackageMoniker
+  MajorType:
+  - Event.RawData.MajorType
+  - Event.System.Data.MajorType
+  MajorVersion:
+  - Event.System.Data.MajorVersion
+  - Event.RawData.MajorVersion
+  MandatoryLabel:
+  - Event.System.Data.MandatoryLabel
+  - Event.RawData.MandatoryLabel
+  Manual Connect:
+  - Event.RawData.Manual Connect
+  - Event.System.Data.Manual Connect
+  Manual Filter control:
+  - Event.RawData.Manual Filter control
+  - Event.System.Data.Manual Filter control
+  Manual Profile Names:
+  - Event.RawData.Manual Profile Names
+  - Event.System.Data.Manual Profile Names
+  Manufacturer:
+  - Event.System.Data.Manufacturer
+  - Event.RawData.Manufacturer
+  MasterKeyDisposition:
+  - Event.RawData.MasterKeyDisposition
+  - Event.System.Data.MasterKeyDisposition
+  MasterKeyGUID:
+  - Event.RawData.MasterKeyGUID
+  - Event.System.Data.MasterKeyGUID
+  MatchingDeviceId:
+  - Event.System.Data.MatchingDeviceId
+  - Event.RawData.MatchingDeviceId
+  MaxDeviceQueueCount:
+  - Event.RawData.MaxDeviceQueueCount
+  - Event.System.Data.MaxDeviceQueueCount
+  MaxDeviceQueueIoWaitDuration_100ns:
+  - Event.System.Data.MaxDeviceQueueIoWaitDuration_100ns
+  - Event.RawData.MaxDeviceQueueIoWaitDuration_100ns
+  MaxFileSize:
+  - Event.System.Data.MaxFileSize
+  - Event.RawData.MaxFileSize
+  MaxFlushLatency_100ns:
+  - Event.System.Data.MaxFlushLatency_100ns
+  - Event.RawData.MaxFlushLatency_100ns
+  MaxLatencyMs:
+  - Event.RawData.MaxLatencyMs
+  - Event.System.Data.MaxLatencyMs
+  MaxOutstandingCount:
+  - Event.System.Data.MaxOutstandingCount
+  - Event.RawData.MaxOutstandingCount
+  MaxReadWriteLatency_100ns:
+  - Event.System.Data.MaxReadWriteLatency_100ns
+  - Event.RawData.MaxReadWriteLatency_100ns
+  MaxTimeToWait:
+  - Event.RawData.MaxTimeToWait
+  - Event.System.Data.MaxTimeToWait
+  MaxUnmapLatency_100ns:
+  - Event.RawData.MaxUnmapLatency_100ns
+  - Event.System.Data.MaxUnmapLatency_100ns
+  MaximumPerformancePercent:
+  - Event.System.Data.MaximumPerformancePercent
+  - Event.RawData.MaximumPerformancePercent
+  Mbr:
+  - Event.RawData.Mbr
+  - Event.System.Data.Mbr
+  MbrBytes:
+  - Event.RawData.MbrBytes
+  - Event.System.Data.MbrBytes
+  MdClearSupported:
+  - Event.RawData.MdClearSupported
+  - Event.System.Data.MdClearSupported
+  MeasuringStatus:
+  - Event.RawData.MeasuringStatus
+  - Event.System.Data.MeasuringStatus
+  MechanismOID:
+  - Event.System.Data.MechanismOID
+  - Event.RawData.MechanismOID
+  MediaType:
+  - Event.RawData.MediaType
+  - Event.System.Data.MediaType
+  Mediatype:
+  - Event.System.Data.Mediatype
+  - Event.RawData.Mediatype
+  Member Name:
+  - Event.RawData.Member Name
+  - Event.System.Data.Member Name
+  MergedGap:
+  - Payload.shellContentDescription.MergedGap
+  Message:
+  - Event.RenderingInfo.Message
+  - Event.RawData.Message
+  - Event.System.Data.Message
+  - Event.UserData.SetupInstallPrinterDriver.Message
+  Message1:
+  - Event.RawData.Message1
+  - Event.System.Data.Message1
+  Message2:
+  - Event.System.Data.Message2
+  - Event.RawData.Message2
+  Message3:
+  - Event.RawData.Message3
+  - Event.System.Data.Message3
+  Message4:
+  - Event.RawData.Message4
+  - Event.System.Data.Message4
+  MessageId:
+  - Event.RawData.MessageId
+  - Event.System.Data.MessageId
+  MessageName:
+  - Event.UserData.EventXML.messageName
+  MessageNumber:
+  - Event.System.Data.MessageNumber
+  - Event.RawData.MessageNumber
+  MessageTotal:
+  - Event.RawData.MessageTotal
+  - Event.System.Data.MessageTotal
+  MetaDataDiskReads:
+  - Event.RawData.MetaDataDiskReads
+  - Event.System.Data.MetaDataDiskReads
+  MetaDataDiskWrites:
+  - Event.RawData.MetaDataDiskWrites
+  - Event.System.Data.MetaDataDiskWrites
+  MetaDataReadBytes:
+  - Event.RawData.MetaDataReadBytes
+  - Event.System.Data.MetaDataReadBytes
+  MetaDataReads:
+  - Event.RawData.MetaDataReads
+  - Event.System.Data.MetaDataReads
+  MetaDataWriteBytes:
+  - Event.System.Data.MetaDataWriteBytes
+  - Event.RawData.MetaDataWriteBytes
+  MetaDataWrites:
+  - Event.System.Data.MetaDataWrites
+  - Event.RawData.MetaDataWrites
+  MethodName:
+  - Event.RawData.MethodName
+  - Event.System.Data.MethodName
+  Mft2WriteBytes:
+  - Event.RawData.Mft2WriteBytes
+  - Event.System.Data.Mft2WriteBytes
+  Mft2Writes:
+  - Event.System.Data.Mft2Writes
+  - Event.RawData.Mft2Writes
+  MftBitmapReadBytes:
+  - Event.System.Data.MftBitmapReadBytes
+  - Event.RawData.MftBitmapReadBytes
+  MftBitmapReads:
+  - Event.RawData.MftBitmapReads
+  - Event.System.Data.MftBitmapReads
+  MftBitmapWriteBytes:
+  - Event.RawData.MftBitmapWriteBytes
+  - Event.System.Data.MftBitmapWriteBytes
+  MftBitmapWrites:
+  - Event.System.Data.MftBitmapWrites
+  - Event.RawData.MftBitmapWrites
+  MftReadBytes:
+  - Event.RawData.MftReadBytes
+  - Event.System.Data.MftReadBytes
+  MftReads:
+  - Event.System.Data.MftReads
+  - Event.RawData.MftReads
+  MftWriteBytes:
+  - Event.System.Data.MftWriteBytes
+  - Event.RawData.MftWriteBytes
+  MftWrites:
+  - Event.RawData.MftWrites
+  - Event.System.Data.MftWrites
+  MgmtFrameProtection:
+  - Event.RawData.MgmtFrameProtection
+  - Event.System.Data.MgmtFrameProtection
+  Migrated:
+  - Event.RawData.Migrated
+  - Event.System.Data.Migrated
+  MigrationRank:
+  - Event.RawData.MigrationRank
+  - Event.System.Data.MigrationRank
+  MigratorErrors:
+  - Event.System.Data.MigratorErrors
+  - Event.RawData.MigratorErrors
+  MinReportedAdjustmentPPM:
+  - Event.System.Data.MinReportedAdjustmentPPM
+  - Event.RawData.MinReportedAdjustmentPPM
+  MinimumFxVersion:
+  - Event.UserData.UMDFServiceInstall.MinimumFxVersion
+  MinimumPasswordLength:
+  - Event.System.Data.MinimumPasswordLength
+  - Event.RawData.MinimumPasswordLength
+  MinimumPasswordLengthAudit:
+  - Event.System.Data.MinimumPasswordLengthAudit
+  - Event.RawData.MinimumPasswordLengthAudit
+  MinimumPerformancePercent:
+  - Event.RawData.MinimumPerformancePercent
+  - Event.System.Data.MinimumPerformancePercent
+  MinimumThrottle:
+  - Event.System.Data.MinimumThrottle
+  - Event.RawData.MinimumThrottle
+  MinimumThrottlePercent:
+  - Event.RawData.MinimumThrottlePercent
+  - Event.System.Data.MinimumThrottlePercent
+  MiniportEventDescription:
+  - Event.RawData.MiniportEventDescription
+  - Event.System.Data.MiniportEventDescription
+  MiniportEventId:
+  - Event.RawData.MiniportEventId
+  - Event.System.Data.MiniportEventId
+  MiniportName:
+  - Event.RawData.MiniportName
+  - Event.System.Data.MiniportName
+  MinorType:
+  - Event.System.Data.MinorType
+  - Event.RawData.MinorType
+  MinorVersion:
+  - Event.RawData.MinorVersion
+  - Event.System.Data.MinorVersion
+  Miscellaneous:
+  - Miscellaneous
+  Model:
+  - Event.RawData.Model
+  - Event.System.Data.Model
+  ModifyingApplication:
+  - Event.System.Data.ModifyingApplication
+  - Event.RawData.ModifyingApplication
+  ModifyingUser:
+  - Event.RawData.ModifyingUser
+  - Event.System.Data.ModifyingUser
+  Module:
+  - Event.RawData.Module
+  - Event.System.Data.Module
+  Module Name:
+  - Event.System.Data.Module Name
+  - Event.RawData.Module Name
+  Monday:
+  - Task.Triggers.CalendarTrigger.ScheduleByWeek.DaysOfWeek.Monday
+  MonitorHeight:
+  - Event.System.Data.MonitorHeight
+  - Event.RawData.MonitorHeight
+  MonitorNum:
+  - Event.RawData.MonitorNum
+  - Event.System.Data.MonitorNum
+  MonitorWidth:
+  - Event.RawData.MonitorWidth
+  - Event.System.Data.MonitorWidth
+  MonitorX:
+  - Event.System.Data.MonitorX
+  - Event.RawData.MonitorX
+  MonitorY:
+  - Event.RawData.MonitorY
+  - Event.System.Data.MonitorY
+  MountPoint:
+  - Event.RawData.MountPoint
+  - Event.System.Data.MountPoint
+  MultipleInstancesPolicy:
+  - Task.Settings.MultipleInstancesPolicy
+  NCReadAvgLatencyNs:
+  - Event.RawData.NCReadAvgLatencyNs
+  - Event.System.Data.NCReadAvgLatencyNs
+  NCReadIOCount:
+  - Event.System.Data.NCReadIOCount
+  - Event.RawData.NCReadIOCount
+  NCReadTotalBytes:
+  - Event.RawData.NCReadTotalBytes
+  - Event.System.Data.NCReadTotalBytes
+  NCWriteAvgLatencyNs:
+  - Event.System.Data.NCWriteAvgLatencyNs
+  - Event.RawData.NCWriteAvgLatencyNs
+  NCWriteIOCount:
+  - Event.System.Data.NCWriteIOCount
+  - Event.RawData.NCWriteIOCount
+  NCWriteTotalBytes:
+  - Event.System.Data.NCWriteTotalBytes
+  - Event.RawData.NCWriteTotalBytes
+  NRI engine version:
+  - Event.System.Data.NRI engine version
+  - Event.RawData.NRI engine version
+  NRI security intelligence version:
+  - Event.System.Data.NRI security intelligence version
+  - Event.RawData.NRI security intelligence version
+  NVCacheEnabled:
+  - Event.System.Data.NVCacheEnabled
+  - Event.RawData.NVCacheEnabled
+  Name:
+  - Event.RawData.Name
+  - Event.RawData.#attributes.Name
+  - Event.UserData.EventData.Name
+  - Event.System.Data.Name
+  - Event.UserData.VmlEventLog.Parameter0.Settings.Name
+  - Event.System.Data.name
+  - Event.RawData.name
+  - Event.System.Provider.#attributes.Name
+  NameLength:
+  - Event.System.Data.NameLength
+  - Event.RawData.NameLength
+  - Event.UserData.EventData.NameLength
+  Namespace:
+  - Event.System.Data.namespace
+  - Event.RawData.namespace
+  - Event.UserData.data_0x8000003F.Namespace
+  - Event.System.Data.Namespace
+  - Event.UserData.Operation_ESStoConsumerBinding.Namespace
+  - Event.RawData.Namespace
+  NamespaceName:
+  - Event.UserData.Operation_TemporaryEssStarted.NamespaceName
+  - Event.UserData.Operation_EssStarted.NamespaceName
+  NetPnpEvent:
+  - Event.RawData.netPnpEvent
+  - Event.System.Data.netPnpEvent
+  NetworkBandwidthInKbps:
+  - Event.System.Data.NetworkBandwidthInKbps
+  - Event.RawData.NetworkBandwidthInKbps
+  NetworkConnectivityLevelChanged:
+  - Event.RawData.NetworkConnectivityLevelChanged
+  - Event.System.Data.NetworkConnectivityLevelChanged
+  NetworkHint:
+  - Event.System.Data.NetworkHint
+  - Event.RawData.NetworkHint
+  NetworkHintString:
+  - Event.RawData.NetworkHintString
+  - Event.System.Data.NetworkHintString
+  NetworkName:
+  - Event.System.Data.NetworkName
+  - Event.RawData.NetworkName
+  New State:
+  - Event.RawData.New State
+  - Event.System.Data.New State
+  New Value:
+  - Event.RawData.New Value
+  - Event.System.Data.New Value
+  NewAddressFamily:
+  - Event.System.Data.NewAddressFamily
+  - Event.RawData.NewAddressFamily
+  NewAvgWaitTimeout:
+  - Event.RawData.NewAvgWaitTimeout
+  - Event.System.Data.NewAvgWaitTimeout
+  NewClockRate:
+  - Event.RawData.NewClockRate
+  - Event.System.Data.NewClockRate
+  NewConsentValue:
+  - Event.RawData.NewConsentValue
+  - Event.System.Data.NewConsentValue
+  NewDUID:
+  - Event.RawData.NewDUID
+  - Event.System.Data.NewDUID
+  NewDUIDLength:
+  - Event.RawData.NewDUIDLength
+  - Event.System.Data.NewDUIDLength
+  NewEngineState:
+  - Event.EventData.Data.NewEngineState
+  NewHWAddress:
+  - Event.System.Data.NewHWAddress
+  - Event.RawData.NewHWAddress
+  NewHWLength:
+  - Event.RawData.NewHWLength
+  - Event.System.Data.NewHWLength
+  NewIndex:
+  - Event.System.Data.NewIndex
+  - Event.RawData.NewIndex
+  NewInfo:
+  - Event.System.Data.NewInfo
+  - Event.RawData.NewInfo
+  NewInternetConnectionProfile:
+  - Event.System.Data.NewInternetConnectionProfile
+  - Event.RawData.NewInternetConnectionProfile
+  NewLanguage:
+  - Event.RawData.NewLanguage
+  - Event.System.Data.NewLanguage
+  NewMainPackageFullName:
+  - Event.System.Data.NewMainPackageFullName
+  - Event.RawData.NewMainPackageFullName
+  NewName:
+  - Event.System.Data.NewName
+  - Event.RawData.NewName
+  NewPhysicalMediumType:
+  - Event.System.Data.NewPhysicalMediumType
+  - Event.RawData.NewPhysicalMediumType
+  NewProcessId:
+  - Event.RawData.NewProcessId
+  - Event.System.Data.NewProcessId
+  NewProcessName:
+  - Event.System.Data.NewProcessName
+  - Event.RawData.NewProcessName
+  NewProfile:
+  - Event.System.Data.NewProfile
+  - Event.RawData.NewProfile
+  NewProviderState:
+  - Event.EventData.Data.NewProviderState
+  NewSchemeGuid:
+  - Event.System.Data.NewSchemeGuid
+  - Event.RawData.NewSchemeGuid
+  NewSize:
+  - Event.RawData.NewSize
+  - Event.System.Data.NewSize
+  NewState:
+  - Event.RawData.NewState
+  - Event.System.Data.NewState
+  NewStateName:
+  - Event.RawData.NewStateName
+  - Event.System.Data.NewStateName
+  NewThreadId:
+  - Event.System.Data.NewThreadId
+  - Event.RawData.NewThreadId
+  NewTime:
+  - Event.RawData.NewTime
+  - Event.System.Data.NewTime
+  NewUnitCount:
+  - Event.System.Data.NewUnitCount
+  - Event.RawData.NewUnitCount
+  NewestLeapSecondsList:
+  - Event.RawData.NewestLeapSecondsList
+  - Event.System.Data.NewestLeapSecondsList
+  NextDeploymentState:
+  - Event.RawData.NextDeploymentState
+  - Event.System.Data.NextDeploymentState
+  NgcHardwarePolicyMet:
+  - Event.System.Data.NgcHardwarePolicyMet
+  - Event.RawData.NgcHardwarePolicyMet
+  NgcPolicyEnabled:
+  - Event.RawData.NgcPolicyEnabled
+  - Event.System.Data.NgcPolicyEnabled
+  NgcPostLogonProvisioningEnabled:
+  - Event.System.Data.NgcPostLogonProvisioningEnabled
+  - Event.RawData.NgcPostLogonProvisioningEnabled
+  NicFName:
+  - Event.RawData.NicFName
+  - Event.System.Data.NicFName
+  NicFNameLen:
+  - Event.System.Data.NicFNameLen
+  - Event.RawData.NicFNameLen
+  NicFriendlyName:
+  - Event.RawData.nicFriendlyName
+  - Event.System.Data.nicFriendlyName
+  NicFriendlyName_Length:
+  - Event.RawData.nicFriendlyName_Length
+  - Event.System.Data.nicFriendlyName_Length
+  NicGuid:
+  - Event.UserData.VmNicNoAvailableMac.NicGuid
+  NicName:
+  - Event.System.Data.nicName
+  - Event.UserData.VmNicNoAvailableMac.NicName
+  - Event.System.Data.NicName
+  - Event.RawData.NicName
+  - Event.RawData.nicName
+  NicNameLen:
+  - Event.System.Data.NicNameLen
+  - Event.RawData.NicNameLen
+  NicName_Length:
+  - Event.System.Data.nicName_Length
+  - Event.RawData.nicName_Length
+  NicStatus:
+  - Event.RawData.NicStatus
+  - Event.System.Data.NicStatus
+  NoMultiStageResumeReason:
+  - Event.RawData.NoMultiStageResumeReason
+  - Event.System.Data.NoMultiStageResumeReason
+  NodeSlot:
+  - NodeSlot
+  NominalFrequency:
+  - Event.System.Data.NominalFrequency
+  - Event.RawData.NominalFrequency
+  NonArchitecturalCoreSharing:
+  - Event.UserData.VmlEventLog.NonArchitecturalCoreSharing
+  NonBroadcast:
+  - Event.System.Data.NonBroadcast
+  - Event.RawData.NonBroadcast
+  None:
+  - Event.EventData.Data.None
+  NormalProcessId:
+  - Event.System.Data.NormalProcessId
+  - Event.RawData.NormalProcessId
+  NotAffectedAtom:
+  - Event.RawData.NotAffectedAtom
+  - Event.System.Data.NotAffectedAtom
+  NotAffectedMdsNo:
+  - Event.RawData.NotAffectedMdsNo
+  - Event.System.Data.NotAffectedMdsNo
+  NotAffectedRdclNo:
+  - Event.System.Data.NotAffectedRdclNo
+  - Event.RawData.NotAffectedRdclNo
+  NotificationType:
+  - Event.System.Data.NotificationType
+  - Event.RawData.NotificationType
+  NtStatus:
+  - Event.System.Data.ntStatus
+  - Event.RawData.ntStatus
+  NtfsFillStatInfoFromMftRecordBailedBecauseOfAttributeListCount:
+  - Event.RawData.NtfsFillStatInfoFromMftRecordBailedBecauseOfAttributeListCount
+  - Event.System.Data.NtfsFillStatInfoFromMftRecordBailedBecauseOfAttributeListCount
+  NtfsFillStatInfoFromMftRecordBailedBecauseOfNonResReparsePointCount:
+  - Event.RawData.NtfsFillStatInfoFromMftRecordBailedBecauseOfNonResReparsePointCount
+  - Event.System.Data.NtfsFillStatInfoFromMftRecordBailedBecauseOfNonResReparsePointCount
+  NtfsFillStatInfoFromMftRecordCalledCount:
+  - Event.RawData.NtfsFillStatInfoFromMftRecordCalledCount
+  - Event.System.Data.NtfsFillStatInfoFromMftRecordCalledCount
+  Num Auto profiles:
+  - Event.RawData.Num Auto profiles
+  - Event.System.Data.Num Auto profiles
+  Num Manual profiles:
+  - Event.RawData.Num Manual profiles
+  - Event.System.Data.Num Manual profiles
+  Number:
+  - Event.System.Data.Number
+  - Event.RawData.Number
+  NumberOfColumns:
+  - Event.System.Data.NumberOfColumns
+  - Event.RawData.NumberOfColumns
+  NumberOfGPOsApplicable:
+  - Event.System.Data.NumberOfGPOsApplicable
+  - Event.RawData.NumberOfGPOsApplicable
+  NumberOfGPOsDownloaded:
+  - Event.RawData.NumberOfGPOsDownloaded
+  - Event.System.Data.NumberOfGPOsDownloaded
+  NumberOfGroupPolicyObjects:
+  - Event.System.Data.NumberOfGroupPolicyObjects
+  - Event.RawData.NumberOfGroupPolicyObjects
+  NumberOfLogicalCopies:
+  - Event.System.Data.NumberOfLogicalCopies
+  - Event.RawData.NumberOfLogicalCopies
+  NumberOfPhysicalCopies:
+  - Event.RawData.NumberOfPhysicalCopies
+  - Event.System.Data.NumberOfPhysicalCopies
+  NumberOfRetriesDone:
+  - Event.RawData.NumberOfRetriesDone
+  - Event.System.Data.NumberOfRetriesDone
+  OA state:
+  - Event.System.Data.OA state
+  - Event.RawData.OA state
+  OSEditionID:
+  - Event.RawData.OSEditionID
+  - Event.System.Data.OSEditionID
+  OSName:
+  - Event.RawData.OSName
+  - Event.System.Data.OSName
+  OSbuildversion:
+  - Event.RawData.OSbuildversion
+  - Event.System.Data.OSbuildversion
+  OSmajorversion:
+  - Event.System.Data.OSmajorversion
+  - Event.RawData.OSmajorversion
+  OSminorversion:
+  - Event.RawData.OSminorversion
+  - Event.System.Data.OSminorversion
+  OSservicepackName:
+  - Event.System.Data.OSservicepackName
+  - Event.RawData.OSservicepackName
+  OSservicepackmajorversion:
+  - Event.System.Data.OSservicepackmajorversion
+  - Event.RawData.OSservicepackmajorversion
+  OSservicepackminorversion:
+  - Event.System.Data.OSservicepackminorversion
+  - Event.RawData.OSservicepackminorversion
+  Object:
+  - Event.System.Data.Object
+  - Event.RawData.Object
+  ObjectName:
+  - Event.RawData.ObjectName
+  - Event.System.Data.ObjectName
+  ObjectServer:
+  - Event.RawData.ObjectServer
+  - Event.System.Data.ObjectServer
+  ObjectType:
+  - Event.System.Data.ObjectType
+  - Event.RawData.ObjectType
+  Official:
+  - Event.RawData.Official
+  - Event.System.Data.Official
+  Old Value:
+  - Event.System.Data.Old Value
+  - Event.RawData.Old Value
+  OldAddressFamily:
+  - Event.RawData.OldAddressFamily
+  - Event.System.Data.OldAddressFamily
+  OldClockRate:
+  - Event.System.Data.OldClockRate
+  - Event.RawData.OldClockRate
+  OldConsentValue:
+  - Event.RawData.OldConsentValue
+  - Event.System.Data.OldConsentValue
+  OldIndex:
+  - Event.System.Data.OldIndex
+  - Event.RawData.OldIndex
+  OldInfo:
+  - Event.RawData.OldInfo
+  - Event.System.Data.OldInfo
+  OldMainPackageFullName:
+  - Event.System.Data.OldMainPackageFullName
+  - Event.RawData.OldMainPackageFullName
+  OldProfile:
+  - Event.System.Data.OldProfile
+  - Event.RawData.OldProfile
+  OldSchemeGuid:
+  - Event.System.Data.OldSchemeGuid
+  - Event.RawData.OldSchemeGuid
+  OldTime:
+  - Event.System.Data.OldTime
+  - Event.RawData.OldTime
+  OnexEnabled:
+  - Event.RawData.OnexEnabled
+  - Event.System.Data.OnexEnabled
+  Online:
+  - Event.System.Data.Online
+  - Event.RawData.Online
+  Opcode:
+  - Event.System.Opcode
+  - Event.RenderingInfo.Opcode
+  Operation:
+  - Event.RawData.Operation
+  - Event.UserData.Operation_ClientFailure.Operation
+  - Event.System.Data.Operation
+  OperationDescription:
+  - Event.RawData.OperationDescription
+  - Event.System.Data.OperationDescription
+  OperationElaspedTimeInMilliSeconds:
+  - Event.RawData.OperationElaspedTimeInMilliSeconds
+  - Event.System.Data.OperationElaspedTimeInMilliSeconds
+  OperationName:
+  - Event.System.Data.operationName
+  - Event.RawData.operationName
+  OperationParameter1:
+  - Event.System.Data.OperationParameter1
+  - Event.RawData.OperationParameter1
+  OperationType:
+  - Event.System.Data.OperationType
+  - Event.RawData.OperationType
+  OptimalUnmapGranularity:
+  - Event.RawData.OptimalUnmapGranularity
+  - Event.System.Data.OptimalUnmapGranularity
+  Options:
+  - Event.RawData.Options
+  - Event.System.Data.Options
+  Origin:
+  - Event.RawData.Origin
+  - Event.System.Data.Origin
+  OriginalActivityId:
+  - Event.RawData.OriginalActivityId
+  - Event.System.Data.OriginalActivityId
+  OriginalFileName:
+  - Event.RawData.OriginalFileName
+  - Event.System.Data.OriginalFileName
+  OriginalSize:
+  - Event.RawData.OriginalSize
+  - Event.System.Data.OriginalSize
+  OutrankedDrivers:
+  - Event.RawData.OutrankedDrivers
+  - Event.System.Data.OutrankedDrivers
+  OverThrottleThreshold:
+  - Event.System.Data.OverThrottleThreshold
+  - Event.RawData.OverThrottleThreshold
+  Owner:
+  - Event.RawData.Owner
+  - Event.System.Data.Owner
+  OwnerService:
+  - Event.RawData.OwnerService
+  - Event.System.Data.OwnerService
+  PHYType:
+  - Event.System.Data.PHYType
+  - Event.RawData.PHYType
+  PID:
+  - Event.System.Data.PID
+  - Event.RawData.PID
+  Package:
+  - Event.RawData.Package
+  - Event.System.Data.Package
+  PackageAware:
+  - Event.UserData.SetupInstallPrinterDriver.PackageAware
+  PackageFamilyName:
+  - Event.System.Data.PackageFamilyName
+  - Event.RawData.PackageFamilyName
+  PackageFlags:
+  - Event.System.Data.PackageFlags
+  - Event.RawData.PackageFlags
+  PackageFlags2:
+  - Event.System.Data.PackageFlags2
+  - Event.RawData.PackageFlags2
+  PackageFullName:
+  - Event.RawData.PackageFullName
+  - Event.System.Data.PackageFullName
+  - Event.RawData.packageFullName
+  - Event.System.Data.packageFullName
+  PackageID:
+  - Event.RawData.PackageID
+  - Event.System.Data.PackageID
+  PackageId:
+  - Event.RawData.PackageId
+  - Event.System.Data.PackageId
+  PackageIdHash:
+  - PackageIdHash
+  PackageIdentifier:
+  - Event.UserData.CbsPackageChangeState.PackageIdentifier
+  - Event.UserData.CbsPackageInitiateChanges.PackageIdentifier
+  PackageMoniker:
+  - Event.System.Data.PackageMoniker
+  - Event.RawData.PackageMoniker
+  PackageName:
+  - Event.RawData.PackageName
+  - Event.System.Data.PackageName
+  PackagePath:
+  - Event.RawData.PackagePath
+  - Event.System.Data.PackagePath
+  PackageSid:
+  - Event.System.Data.PackageSid
+  - Event.RawData.PackageSid
+  PackageSourceUri:
+  - Event.RawData.PackageSourceUri
+  - Event.System.Data.PackageSourceUri
+  PackageType:
+  - Event.System.Data.PackageType
+  - Event.RawData.PackageType
+  PackageUri:
+  - Event.System.Data.PackageUri
+  - Event.RawData.PackageUri
+  PagingCount:
+  - Event.RawData.PagingCount
+  - Event.System.Data.PagingCount
+  PagingPathUsageCount:
+  - Event.RawData.PagingPathUsageCount
+  - Event.System.Data.PagingPathUsageCount
+  Param1:
+  - Event.System.Data.param1
+  - Event.RawData.param1
+  - Event.UserData.EventXML.Param1
+  - Event.UserData.DriverFailedUpgrade.Param1
+  - Event.UserData.VmlEventLog.Param1
+  Param10:
+  - Event.RawData.param10
+  - Event.System.Data.param10
+  Param11:
+  - Event.RawData.param11
+  - Event.System.Data.param11
+  Param2:
+  - Event.UserData.VmlEventLog.Param2
+  - Event.UserData.DriverFailedUpgrade.Param2
+  - Event.UserData.EventXML.Param2
+  - Event.RawData.param2
+  - Event.System.Data.param2
+  Param3:
+  - Event.UserData.EventXML.Param3
+  - Event.UserData.DriverFailedUpgrade.Param3
+  - Event.System.Data.param3
+  - Event.RawData.param3
+  Param4:
+  - Event.System.Data.param4
+  - Event.RawData.param4
+  Param5:
+  - Event.RawData.param5
+  - Event.System.Data.param5
+  Param6:
+  - Event.RawData.param6
+  - Event.System.Data.param6
+  Param7:
+  - Event.System.Data.param7
+  - Event.RawData.param7
+  Param8:
+  - Event.System.Data.param8
+  - Event.RawData.param8
+  Param9:
+  - Event.RawData.param9
+  - Event.System.Data.param9
+  Parameter:
+  - Event.RawData.Parameter
+  - Event.System.Data.Parameter
+  Parameter0:
+  - Event.RawData.Parameter0
+  - Event.System.Data.Parameter0
+  - Event.UserData.VmlEventLog.Parameter0
+  Parameter1:
+  - Event.RawData.Parameter1
+  - Event.System.Data.Parameter1
+  - Event.UserData.VmlEventLog.Parameter1
+  Parameter1Name:
+  - Event.RawData.Parameter1Name
+  - Event.System.Data.Parameter1Name
+  Parameter1Value:
+  - Event.RawData.Parameter1Value
+  - Event.System.Data.Parameter1Value
+  Parameter2:
+  - Event.UserData.VmlEventLog.Parameter2
+  - Event.System.Data.Parameter2
+  - Event.RawData.Parameter2
+  Parameter2Name:
+  - Event.RawData.Parameter2Name
+  - Event.System.Data.Parameter2Name
+  Parameter2Value:
+  - Event.RawData.Parameter2Value
+  - Event.System.Data.Parameter2Value
+  Parameter3:
+  - Event.RawData.Parameter3
+  - Event.UserData.VmlEventLog.Parameter3
+  - Event.System.Data.Parameter3
+  Parameter3Name:
+  - Event.RawData.Parameter3Name
+  - Event.System.Data.Parameter3Name
+  Parameter3Value:
+  - Event.RawData.Parameter3Value
+  - Event.System.Data.Parameter3Value
+  Parameter4:
+  - Event.RawData.Parameter4
+  - Event.System.Data.Parameter4
+  - Event.UserData.VmlEventLog.Parameter4
+  Parameter4Name:
+  - Event.RawData.Parameter4Name
+  - Event.System.Data.Parameter4Name
+  Parameter4Value:
+  - Event.RawData.Parameter4Value
+  - Event.System.Data.Parameter4Value
+  Parameter5Name:
+  - Event.RawData.Parameter5Name
+  - Event.System.Data.Parameter5Name
+  Parameter5Value:
+  - Event.System.Data.Parameter5Value
+  - Event.RawData.Parameter5Value
+  Parameter6Name:
+  - Event.System.Data.Parameter6Name
+  - Event.RawData.Parameter6Name
+  Parameter6Value:
+  - Event.System.Data.Parameter6Value
+  - Event.RawData.Parameter6Value
+  Parameter7Name:
+  - Event.RawData.Parameter7Name
+  - Event.System.Data.Parameter7Name
+  Parameter7Value:
+  - Event.System.Data.Parameter7Value
+  - Event.RawData.Parameter7Value
+  Parameter8Name:
+  - Event.System.Data.Parameter8Name
+  - Event.RawData.Parameter8Name
+  Parameter8Value:
+  - Event.System.Data.Parameter8Value
+  - Event.RawData.Parameter8Value
+  ParentCommandLine:
+  - Event.RawData.ParentCommandLine
+  - Event.System.Data.ParentCommandLine
+  ParentDeviceInstanceId:
+  - Event.RawData.ParentDeviceInstanceId
+  - Event.System.Data.ParentDeviceInstanceId
+  ParentHypervisorFlushes:
+  - Event.System.Data.ParentHypervisorFlushes
+  - Event.RawData.ParentHypervisorFlushes
+  ParentId:
+  - Event.RawData.ParentId
+  - Event.System.Data.ParentId
+  ParentImage:
+  - Event.System.Data.ParentImage
+  - Event.RawData.ParentImage
+  ParentProcessGuid:
+  - Event.RawData.ParentProcessGuid
+  - Event.System.Data.ParentProcessGuid
+  ParentProcessId:
+  - Event.System.Data.ParentProcessId
+  - Event.RawData.ParentProcessId
+  ParentProcessName:
+  - Event.RawData.ParentProcessName
+  - Event.System.Data.ParentProcessName
+  ParsingError:
+  - ParsingError
+  Partition:
+  - Event.System.Data.Partition
+  - Event.RawData.Partition
+  PartitionCount:
+  - Event.System.Data.PartitionCount
+  - Event.RawData.PartitionCount
+  PartitionCreationFlags:
+  - Event.UserData.VmlEventLog.PartitionCreationFlags
+  PartitionId:
+  - Event.RawData.PartitionId
+  - Event.System.Data.PartitionId
+  PartitionStyle:
+  - Event.System.Data.PartitionStyle
+  - Event.RawData.PartitionStyle
+  PartitionTable:
+  - Event.System.Data.PartitionTable
+  - Event.RawData.PartitionTable
+  PartitionTableBytes:
+  - Event.System.Data.PartitionTableBytes
+  - Event.RawData.PartitionTableBytes
+  Path:
+  - Path
+  - Event.UserData.VmlEventLog.Parameter0.Settings.Path
+  - Event.RawData.Path
+  - Event.System.Data.Path
+  PathID:
+  - Event.System.Data.PathID
+  - Event.RawData.PathID
+  PathLength:
+  - Event.RawData.PathLength
+  - Event.System.Data.PathLength
+  PathOne:
+  - Event.RawData.PathOne
+  - Event.System.Data.PathOne
+  PathTwo:
+  - Event.RawData.PathTwo
+  - Event.System.Data.PathTwo
+  Payload:
+  - Payload
+  - Event.RawData.Payload
+  - Event.System.Data.Payload
+  PayloadSize:
+  - Event.System.Data.PayloadSize
+  - Event.RawData.PayloadSize
+  PccChanges:
+  - Event.RawData.PccChanges
+  - Event.System.Data.PccChanges
+  Peer:
+  - Event.System.Data.peer
+  - Event.RawData.peer
+  PeerContextInfo:
+  - Event.RawData.PeerContextInfo
+  - Event.System.Data.PeerContextInfo
+  PeerMac:
+  - Event.System.Data.PeerMac
+  - Event.RawData.PeerMac
+  PeerProtocolFlags:
+  - Event.RawData.peerProtocolFlags
+  - Event.System.Data.peerProtocolFlags
+  PendingCount:
+  - Event.System.Data.PendingCount
+  - Event.RawData.PendingCount
+  PerformanceImplementation:
+  - Event.System.Data.PerformanceImplementation
+  - Event.RawData.PerformanceImplementation
+  Period:
+  - Task.Settings.MaintenanceSettings.Period
+  PeriodicUpdateRecurrence:
+  - Event.RawData.PeriodicUpdateRecurrence
+  - Event.System.Data.PeriodicUpdateRecurrence
+  Persistence Limit Type:
+  - Event.RawData.Persistence Limit Type
+  - Event.System.Data.Persistence Limit Type
+  Persistence Limit Type Index:
+  - Event.RawData.Persistence Limit Type Index
+  - Event.System.Data.Persistence Limit Type Index
+  Persistence Limit Value:
+  - Event.System.Data.Persistence Limit Value
+  - Event.RawData.Persistence Limit Value
+  Persistence Path:
+  - Event.System.Data.Persistence Path
+  - Event.RawData.Persistence Path
+  PhaseID:
+  - Event.System.Data.PhaseID
+  - Event.RawData.PhaseID
+  PhaseOffset:
+  - Event.RawData.PhaseOffset
+  - Event.System.Data.PhaseOffset
+  Pid:
+  - pid
+  PipelineId:
+  - Event.EventData.Data.PipelineId
+  Platform version:
+  - Event.System.Data.Platform version
+  - Event.RawData.Platform version
+  PlatformDeviceId:
+  - PlatformDeviceId
+  PnPType:
+  - Event.System.Data.PnPType
+  - Event.RawData.PnPType
+  PnPUsageInPath:
+  - Event.RawData.PnPUsageInPath
+  - Event.System.Data.PnPUsageInPath
+  Policy:
+  - Event.System.Data.Policy
+  - Event.RawData.Policy
+  PolicyActivityId:
+  - Event.RawData.PolicyActivityId
+  - Event.System.Data.PolicyActivityId
+  PolicyApplicationMode:
+  - Event.System.Data.PolicyApplicationMode
+  - Event.RawData.PolicyApplicationMode
+  PolicyDownloadTimeElapsedInMilliseconds:
+  - Event.RawData.PolicyDownloadTimeElapsedInMilliseconds
+  - Event.System.Data.PolicyDownloadTimeElapsedInMilliseconds
+  PolicyElaspedTimeInSeconds:
+  - Event.RawData.PolicyElaspedTimeInSeconds
+  - Event.System.Data.PolicyElaspedTimeInSeconds
+  PolicyProcessingMode:
+  - Event.System.Data.PolicyProcessingMode
+  - Event.RawData.PolicyProcessingMode
+  PollInterval:
+  - Event.RawData.PollInterval
+  - Event.System.Data.PollInterval
+  PoolId:
+  - Event.System.Data.PoolId
+  - Event.RawData.PoolId
+  Port:
+  - Event.System.Data.Port
+  - Event.UserData.VmlEventLog.Parameter0.Settings.Port
+  - Event.RawData.Port
+  PortDriver:
+  - Event.RawData.PortDriver
+  - Event.System.Data.PortDriver
+  PortFName:
+  - Event.RawData.PortFName
+  - Event.System.Data.PortFName
+  PortFNameLen:
+  - Event.RawData.PortFNameLen
+  - Event.System.Data.PortFNameLen
+  PortName:
+  - Event.System.Data.PortName
+  - Event.RawData.PortName
+  PortNameLen:
+  - Event.System.Data.PortNameLen
+  - Event.RawData.PortNameLen
+  PortNumber:
+  - Event.System.Data.PortNumber
+  - Event.RawData.PortNumber
+  Position:
+  - Event.System.Data.Position
+  - Event.RawData.Position
+  PossibleCause:
+  - Event.UserData.Operation_ClientFailure.PossibleCause
+  - Event.UserData.Operation_ESStoConsumerBinding.PossibleCause
+  - Event.UserData.Operation_EssStarted.PossibleCause
+  - Event.UserData.Operation_TemporaryEssStarted.PossibleCause
+  PowerButtonTimestamp:
+  - Event.RawData.PowerButtonTimestamp
+  - Event.System.Data.PowerButtonTimestamp
+  PowerEventType:
+  - Event.RawData.PowerEventType
+  - Event.System.Data.PowerEventType
+  PpcChanges:
+  - Event.System.Data.PpcChanges
+  - Event.RawData.PpcChanges
+  Precision:
+  - Event.RawData.Precision
+  - Event.System.Data.Precision
+  Present:
+  - Event.RawData.Present
+  - Event.System.Data.Present
+  PrevAvgWaitTimeout:
+  - Event.System.Data.PrevAvgWaitTimeout
+  - Event.RawData.PrevAvgWaitTimeout
+  PrevLanguage:
+  - Event.RawData.PrevLanguage
+  - Event.System.Data.PrevLanguage
+  Previous Engine Version:
+  - Event.RawData.Previous Engine Version
+  - Event.System.Data.Previous Engine Version
+  Previous security intelligence Version:
+  - Event.RawData.Previous security intelligence Version
+  - Event.System.Data.Previous security intelligence Version
+  PreviousCapability:
+  - Event.System.Data.PreviousCapability
+  - Event.RawData.PreviousCapability
+  PreviousCreationUtcTime:
+  - Event.RawData.PreviousCreationUtcTime
+  - Event.System.Data.PreviousCreationUtcTime
+  PreviousDeploymentVersion:
+  - Event.System.Data.PreviousDeploymentVersion
+  - Event.RawData.PreviousDeploymentVersion
+  PreviousEngineState:
+  - Event.EventData.Data.PreviousEngineState
+  PreviousMachineVersion:
+  - Event.RawData.PreviousMachineVersion
+  - Event.System.Data.PreviousMachineVersion
+  PreviousPnpState:
+  - Event.RawData.PreviousPnpState
+  - Event.System.Data.PreviousPnpState
+  PreviousState:
+  - Event.System.Data.PreviousState
+  - Event.RawData.PreviousState
+  PreviousStateName:
+  - Event.RawData.PreviousStateName
+  - Event.System.Data.PreviousStateName
+  PreviousTime:
+  - Event.System.Data.PreviousTime
+  - Event.RawData.PreviousTime
+  PrimaryService:
+  - Event.UserData.AddServiceID.PrimaryService
+  PrincipalCNName:
+  - Event.RawData.PrincipalCNName
+  - Event.System.Data.PrincipalCNName
+  PrincipalDomainName:
+  - Event.System.Data.PrincipalDomainName
+  - Event.RawData.PrincipalDomainName
+  PrincipalName:
+  - Event.RawData.PrincipalName
+  - Event.System.Data.PrincipalName
+  PrincipalNameLength:
+  - Event.System.Data.PrincipalNameLength
+  - Event.RawData.PrincipalNameLength
+  PrincipalSamName:
+  - Event.System.Data.PrincipalSamName
+  - Event.RawData.PrincipalSamName
+  Priority:
+  - Event.System.Data.Priority
+  - Task.Settings.Priority
+  - Event.RawData.Priority
+  PrivilegeList:
+  - Event.System.Data.PrivilegeList
+  - Event.RawData.PrivilegeList
+  Problem:
+  - Event.RawData.Problem
+  - Event.System.Data.Problem
+  Problems:
+  - Event.RawData.Problems
+  - Event.System.Data.Problems
+  Process Name:
+  - Event.System.Data.Process Name
+  - Event.RawData.Process Name
+  ProcessCommandLine:
+  - Event.System.Data.ProcessCommandLine
+  - Event.RawData.ProcessCommandLine
+  ProcessCommandLineLength:
+  - Event.RawData.ProcessCommandLineLength
+  - Event.System.Data.ProcessCommandLineLength
+  ProcessCreationTime:
+  - Event.RawData.ProcessCreationTime
+  - Event.UserData.DroppedLeakDiagnosisEventInfo.ProcessCreationTime
+  - Event.System.Data.ProcessCreationTime
+  ProcessGuid:
+  - Event.System.Data.ProcessGuid
+  - Event.RawData.ProcessGuid
+  ProcessID:
+  - Event.System.Execution.#attributes.ProcessID
+  - Event.UserData.Operation_StartedOperational.ProcessID
+  - Event.RawData.ProcessID
+  - Event.System.Data.ProcessID
+  ProcessId:
+  - Event.UserData.CompatibilityFixEvent.ProcessId
+  - Event.UserData.DroppedLeakDiagnosisEventInfo.ProcessId
+  - Event.System.Data.ProcessId
+  - Event.System.Data.processId
+  - Event.RawData.processId
+  - Event.RawData.ProcessId
+  ProcessImageName:
+  - Event.UserData.DroppedLeakDiagnosisEventInfo.ProcessImageName
+  ProcessImageNameBuffer:
+  - Event.RawData.ProcessImageNameBuffer
+  - Event.System.Data.ProcessImageNameBuffer
+  ProcessImageNameLength:
+  - Event.System.Data.ProcessImageNameLength
+  - Event.RawData.ProcessImageNameLength
+  ProcessName:
+  - Event.RawData.ProcessName
+  - Event.System.Data.ProcessName
+  ProcessNameLength:
+  - Event.System.Data.ProcessNameLength
+  - Event.RawData.ProcessNameLength
+  ProcessPath:
+  - Event.System.Data.processPath
+  - Event.RawData.processPath
+  - Event.RawData.ProcessPath
+  - Event.System.Data.ProcessPath
+  ProcessPathLength:
+  - Event.System.Data.ProcessPathLength
+  - Event.RawData.ProcessPathLength
+  ProcessPid:
+  - Event.System.Data.ProcessPid
+  - Event.RawData.ProcessPid
+  Process_name:
+  - process_name
+  Processid:
+  - Event.UserData.Operation_EssStarted.Processid
+  - Event.UserData.Operation_TemporaryEssStarted.Processid
+  ProcessingMode:
+  - Event.System.Data.ProcessingMode
+  - Event.RawData.ProcessingMode
+  ProcessingTimeInMilliseconds:
+  - Event.RawData.ProcessingTimeInMilliseconds
+  - Event.System.Data.ProcessingTimeInMilliseconds
+  ProcessorArchitecture:
+  - Event.UserData.SetupInstallPrinterDriver.ProcessorArchitecture
+  ProcessorCLFlushSize:
+  - Event.UserData.VmlEventLog.ProcessorCLFlushSize
+  ProcessorFeatures:
+  - Event.RawData.ProcessorFeatures
+  - Event.System.Data.ProcessorFeatures
+  - Event.UserData.VmlEventLog.ProcessorFeatures
+  ProcessorXsaveFeatures:
+  - Event.UserData.VmlEventLog.ProcessorXsaveFeatures
+  Product:
+  - Event.System.Data.Product
+  - Event.RawData.Product
+  Product Name:
+  - Event.RawData.Product Name
+  - Event.System.Data.Product Name
+  Product Version:
+  - Event.System.Data.Product Version
+  - Event.RawData.Product Version
+  Product status:
+  - Event.System.Data.Product status
+  - Event.RawData.Product status
+  ProductId:
+  - Event.System.Data.ProductId
+  - Event.RawData.ProductId
+  ProductIdLength:
+  - Event.RawData.ProductIdLength
+  - Event.System.Data.ProductIdLength
+  ProductName:
+  - Event.System.Data.ProductName
+  - Event.RawData.ProductName
+  ProductNameLength:
+  - Event.System.Data.ProductNameLength
+  - Event.RawData.ProductNameLength
+  ProductRevision:
+  - Event.RawData.ProductRevision
+  - Event.System.Data.ProductRevision
+  ProductRevisionLength:
+  - Event.System.Data.ProductRevisionLength
+  - Event.RawData.ProductRevisionLength
+  ProfileGuid:
+  - Event.RawData.ProfileGuid
+  - Event.System.Data.ProfileGuid
+  ProfileIdNum:
+  - Event.RawData.ProfileIdNum
+  - Event.System.Data.ProfileIdNum
+  ProfileName:
+  - Event.RawData.ProfileName
+  - Event.System.Data.ProfileName
+  ProfileType:
+  - Event.RawData.ProfileType
+  - Event.System.Data.ProfileType
+  Profiles:
+  - Event.RawData.Profiles
+  - Event.System.Data.Profiles
+  ProgId:
+  - Event.System.Data.ProgId
+  - Event.RawData.ProgId
+  ProgrammedWakeTimeAc:
+  - Event.System.Data.ProgrammedWakeTimeAc
+  - Event.RawData.ProgrammedWakeTimeAc
+  ProgrammedWakeTimeDc:
+  - Event.RawData.ProgrammedWakeTimeDc
+  - Event.System.Data.ProgrammedWakeTimeDc
+  PromptForCredentials:
+  - Event.System.Data.PromptForCredentials
+  - Event.RawData.PromptForCredentials
+  PromptForCredentialsDone:
+  - Event.System.Data.PromptForCredentialsDone
+  - Event.RawData.PromptForCredentialsDone
+  Prop_ContainerId:
+  - Event.RawData.Prop_ContainerId
+  - Event.System.Data.Prop_ContainerId
+  Prop_CoreServiceMode:
+  - Event.System.Data.Prop_CoreServiceMode
+  - Event.RawData.Prop_CoreServiceMode
+  Prop_DeviceId:
+  - Event.System.Data.Prop_DeviceId
+  - Event.RawData.Prop_DeviceId
+  Prop_DeviceInstanceId:
+  - Event.RawData.Prop_DeviceInstanceId
+  - Event.System.Data.Prop_DeviceInstanceId
+  Prop_DeviceName:
+  - Event.System.Data.Prop_DeviceName
+  - Event.RawData.Prop_DeviceName
+  Prop_Event_Window_Seconds:
+  - Event.System.Data.Prop_Event_Window_Seconds
+  - Event.RawData.Prop_Event_Window_Seconds
+  Prop_InstallType:
+  - Event.RawData.Prop_InstallType
+  - Event.System.Data.Prop_InstallType
+  Prop_IsFramework:
+  - Event.System.Data.Prop_IsFramework
+  - Event.RawData.Prop_IsFramework
+  Prop_MetadataPackageId:
+  - Event.System.Data.Prop_MetadataPackageId
+  - Event.RawData.Prop_MetadataPackageId
+  Prop_ProductId:
+  - Event.RawData.Prop_ProductId
+  - Event.System.Data.Prop_ProductId
+  Prop_PropertyCount:
+  - Event.RawData.Prop_PropertyCount
+  - Event.System.Data.Prop_PropertyCount
+  Prop_RetryCycleCount:
+  - Event.RawData.Prop_RetryCycleCount
+  - Event.System.Data.Prop_RetryCycleCount
+  Prop_Seconds:
+  - Event.System.Data.Prop_Seconds
+  - Event.RawData.Prop_Seconds
+  Prop_SoftwareLinks:
+  - Event.RawData.Prop_SoftwareLinks
+  - Event.System.Data.Prop_SoftwareLinks
+  Prop_SoftwarePfn:
+  - Event.System.Data.Prop_SoftwarePfn
+  - Event.RawData.Prop_SoftwarePfn
+  Prop_StageTimeMilliSeconds:
+  - Event.RawData.Prop_StageTimeMilliSeconds
+  - Event.System.Data.Prop_StageTimeMilliSeconds
+  Prop_TaskCount:
+  - Event.System.Data.Prop_TaskCount
+  - Event.RawData.Prop_TaskCount
+  Prop_UpTime_Seconds:
+  - Event.RawData.Prop_UpTime_Seconds
+  - Event.System.Data.Prop_UpTime_Seconds
+  Prop_WorkTime_MilliSeconds:
+  - Event.RawData.Prop_WorkTime_MilliSeconds
+  - Event.System.Data.Prop_WorkTime_MilliSeconds
+  Properties:
+  - Event.RawData.Properties
+  - Event.System.Data.Properties
+  ProtectorAssistedResealStatus:
+  - Event.RawData.ProtectorAssistedResealStatus
+  - Event.System.Data.ProtectorAssistedResealStatus
+  ProtectorAssistedUnsealStatus:
+  - Event.System.Data.ProtectorAssistedUnsealStatus
+  - Event.RawData.ProtectorAssistedUnsealStatus
+  ProtectorSealUpdateStatus:
+  - Event.System.Data.ProtectorSealUpdateStatus
+  - Event.RawData.ProtectorSealUpdateStatus
+  Protocol:
+  - Event.System.Data.Protocol
+  - Event.RawData.Protocol
+  Provider:
+  - Event.UserData.Operation_EssStarted.Provider
+  - Event.UserData.data_0x8000003F.Provider
+  - Event.RenderingInfo.Provider
+  ProviderGuid:
+  - Event.System.Data.ProviderGuid
+  - Event.RawData.ProviderGuid
+  ProviderName:
+  - Event.UserData.Operation_StartedOperational.ProviderName
+  - Event.System.Data.ProviderName
+  - Event.RawData.ProviderName
+  - Event.EventData.Data.ProviderName
+  ProviderPath:
+  - Event.UserData.Operation_StartedOperational.ProviderPath
+  Proxy:
+  - Event.RawData.proxy
+  - Event.System.Data.proxy
+  PuaCount:
+  - Event.System.Data.PuaCount
+  - Event.RawData.PuaCount
+  PuaPolicyId:
+  - Event.RawData.PuaPolicyId
+  - Event.System.Data.PuaPolicyId
+  PwszAutoConfigUrl:
+  - Event.System.Data.pwszAutoConfigUrl
+  - Event.RawData.pwszAutoConfigUrl
+  PwszProxy:
+  - Event.RawData.pwszProxy
+  - Event.System.Data.pwszProxy
+  PwszProxyBypass:
+  - Event.RawData.pwszProxyBypass
+  - Event.System.Data.pwszProxyBypass
+  QfeVersion:
+  - Event.System.Data.QfeVersion
+  - Event.RawData.QfeVersion
+  Query:
+  - Event.UserData.Operation_TemporaryEssStarted.Query
+  - Event.System.Data.Query
+  - Event.UserData.data_0x8000003F.Query
+  - Event.RawData.Query
+  - Event.UserData.Operation_EssStarted.Query
+  QueryName:
+  - Event.System.Data.QueryName
+  - Event.RawData.QueryName
+  QueryResults:
+  - Event.RawData.QueryResults
+  - Event.System.Data.QueryResults
+  QueryStatus:
+  - Event.System.Data.QueryStatus
+  - Event.RawData.QueryStatus
+  Queryid:
+  - Event.UserData.Operation_EssStarted.queryid
+  QueueDepth:
+  - Event.System.Data.QueueDepth
+  - Event.RawData.QueueDepth
+  QueuedTaskInstanceId:
+  - Event.System.Data.QueuedTaskInstanceId
+  - Event.RawData.QueuedTaskInstanceId
+  QueuedTileCleanups:
+  - Event.RawData.QueuedTileCleanups
+  - Event.System.Data.QueuedTileCleanups
+  QueuedTileCloses:
+  - Event.System.Data.QueuedTileCloses
+  - Event.RawData.QueuedTileCloses
+  RSSI:
+  - Event.RawData.RSSI
+  - Event.System.Data.RSSI
+  RTP state:
+  - Event.RawData.RTP state
+  - Event.System.Data.RTP state
+  RandomDelay:
+  - Task.Triggers.TimeTrigger.RandomDelay
+  - Task.Triggers.CalendarTrigger.RandomDelay
+  RawData:
+  - Event.RawData.RawData
+  - Event.EventData.RawData
+  - Event.System.Data.RawData
+  ReadOnly:
+  - Event.RawData.ReadOnly
+  - Event.System.Data.ReadOnly
+  ReadOperation:
+  - Event.RawData.ReadOperation
+  - Event.System.Data.ReadOperation
+  ReadWriteLatencyBucket1:
+  - Event.RawData.ReadWriteLatencyBucket1
+  - Event.System.Data.ReadWriteLatencyBucket1
+  ReadWriteLatencyBucket2:
+  - Event.RawData.ReadWriteLatencyBucket2
+  - Event.System.Data.ReadWriteLatencyBucket2
+  ReadWriteLatencyBucket3:
+  - Event.System.Data.ReadWriteLatencyBucket3
+  - Event.RawData.ReadWriteLatencyBucket3
+  ReadWriteLatencyBucket4:
+  - Event.System.Data.ReadWriteLatencyBucket4
+  - Event.RawData.ReadWriteLatencyBucket4
+  ReadWriteLatencyBucket5:
+  - Event.System.Data.ReadWriteLatencyBucket5
+  - Event.RawData.ReadWriteLatencyBucket5
+  ReadWriteLatencyBucket6:
+  - Event.System.Data.ReadWriteLatencyBucket6
+  - Event.RawData.ReadWriteLatencyBucket6
+  ReadWriteLatencyBucket7:
+  - Event.RawData.ReadWriteLatencyBucket7
+  - Event.System.Data.ReadWriteLatencyBucket7
+  Reason:
+  - Event.UserData.AuditEventsDropped.Reason
+  - Event.RawData.Reason
+  - Event.UserData.EventXML.Reason
+  - Event.System.Data.Reason
+  ReasonCode:
+  - Event.RawData.ReasonCode
+  - Event.System.Data.ReasonCode
+  ReasonForFailure:
+  - Event.System.Data.ReasonForFailure
+  - Event.RawData.ReasonForFailure
+  ReasonForSyncProcessing:
+  - Event.System.Data.ReasonForSyncProcessing
+  - Event.RawData.ReasonForSyncProcessing
+  ReasonString:
+  - Event.System.Data.ReasonString
+  - Event.RawData.ReasonString
+  ReasonText:
+  - Event.System.Data.ReasonText
+  - Event.RawData.ReasonText
+  Reboot:
+  - Event.RawData.Reboot
+  - Event.System.Data.Reboot
+  Record_id:
+  - record_id
+  ReferenceAddress:
+  - Event.System.Data.ReferenceAddress
+  - Event.RawData.ReferenceAddress
+  ReferenceId:
+  - Event.RawData.ReferenceId
+  - Event.System.Data.ReferenceId
+  RegistrationTrigger:
+  - Task.Triggers.RegistrationTrigger
+  Registry:
+  - Event.EventData.Data.Registry
+  RegistryId:
+  - Event.RawData.RegistryId
+  - Event.System.Data.RegistryId
+  RegistryKeyName:
+  - Event.System.Data.RegistryKeyName
+  - Event.RawData.RegistryKeyName
+  RelatedActivityID:
+  - Event.System.Correlation.#attributes.RelatedActivityID
+  RelativeTargetName:
+  - Event.System.Data.RelativeTargetName
+  - Event.RawData.RelativeTargetName
+  RelaxMinimumPasswordLengthLimits:
+  - Event.RawData.RelaxMinimumPasswordLengthLimits
+  - Event.System.Data.RelaxMinimumPasswordLengthLimits
+  RemainingCapacity:
+  - Event.System.Data.RemainingCapacity
+  - Event.RawData.RemainingCapacity
+  RemoteAddress:
+  - Event.System.Data.RemoteAddress
+  - Event.RawData.RemoteAddress
+  RemoteAddresses:
+  - Event.RawData.RemoteAddresses
+  - Event.System.Data.RemoteAddresses
+  RemoteEventLogging:
+  - Event.RawData.RemoteEventLogging
+  - Event.System.Data.RemoteEventLogging
+  RemoteMachineAuthorizationList:
+  - Event.RawData.RemoteMachineAuthorizationList
+  - Event.System.Data.RemoteMachineAuthorizationList
+  RemoteName:
+  - Event.RawData.RemoteName
+  - Event.System.Data.RemoteName
+  RemotePorts:
+  - Event.RawData.RemotePorts
+  - Event.System.Data.RemotePorts
+  RemoteUserAuthorizationList:
+  - Event.System.Data.RemoteUserAuthorizationList
+  - Event.RawData.RemoteUserAuthorizationList
+  Removal Reason Index:
+  - Event.System.Data.Removal Reason Index
+  - Event.RawData.Removal Reason Index
+  Removal Reason Value:
+  - Event.System.Data.Removal Reason Value
+  - Event.RawData.Removal Reason Value
+  RemovePackageList:
+  - Event.System.Data.RemovePackageList
+  - Event.RawData.RemovePackageList
+  ReportingApp:
+  - Payload.reportingApp
+  Request:
+  - Event.EventData.Request
+  RequestDuration_ms:
+  - Event.System.Data.RequestDuration_ms
+  - Event.RawData.RequestDuration_ms
+  RequestStatus:
+  - Event.System.Data.RequestStatus
+  - Event.RawData.RequestStatus
+  RequestType:
+  - Event.UserData.VmlEventLog.Parameter0.RequestType
+  ResetEndStart:
+  - Event.RawData.ResetEndStart
+  - Event.System.Data.ResetEndStart
+  ResiliencyFilePath:
+  - Event.RawData.ResiliencyFilePath
+  - Event.System.Data.ResiliencyFilePath
+  ResolutionExpirationDate:
+  - Event.RawData.ResolutionExpirationDate
+  - Event.System.Data.ResolutionExpirationDate
+  ResolutionId:
+  - Event.System.Data.ResolutionId
+  - Event.RawData.ResolutionId
+  ResolutionSID:
+  - Event.RawData.ResolutionSID
+  - Event.System.Data.ResolutionSID
+  ResolutionSessionId:
+  - Event.System.Data.ResolutionSessionId
+  - Event.RawData.ResolutionSessionId
+  ResolverName:
+  - Event.UserData.ResolverFiredEvent.ResolverName
+  Resource:
+  - Event.System.Data.Resource
+  - Event.RawData.Resource
+  ResourceAttributes:
+  - Event.System.Data.ResourceAttributes
+  - Event.RawData.ResourceAttributes
+  ResourcePath:
+  - Event.UserData.VmlEventLog.Parameter0.ResourcePath
+  ResourceURI:
+  - Event.System.Data.ResourceURI
+  - Event.RawData.ResourceURI
+  ResourceUri:
+  - Event.System.Data.resourceUri
+  - Event.RawData.resourceUri
+  RestartOnIdle:
+  - Task.Settings.IdleSettings.RestartOnIdle
+  RestartReason:
+  - Event.System.Data.RestartReason
+  - Event.RawData.RestartReason
+  RestrictedAdminMode:
+  - Event.RawData.RestrictedAdminMode
+  - Event.System.Data.RestrictedAdminMode
+  RestrictedSidCount:
+  - Event.System.Data.RestrictedSidCount
+  - Event.RawData.RestrictedSidCount
+  Result:
+  - Event.System.Data.Result
+  - Event.RawData.Result
+  - Event.UserData.VmlEventLog.Result
+  ResultCode:
+  - Event.System.Data.ResultCode
+  - Event.UserData.Operation_ClientFailure.ResultCode
+  - Event.RawData.ResultCode
+  ResumeAt:
+  - Event.System.Data.ResumeAt
+  - Event.RawData.ResumeAt
+  ResumeCount:
+  - Event.RawData.ResumeCount
+  - Event.System.Data.ResumeCount
+  RetryMinutes:
+  - Event.System.Data.RetryMinutes
+  - Event.RawData.RetryMinutes
+  ReturnCode:
+  - Event.RawData.ReturnCode
+  - Event.System.Data.ReturnCode
+  ReturnValue:
+  - Event.System.Data.ReturnValue
+  - Event.RawData.ReturnValue
+  Revision:
+  - Event.System.Data.Revision
+  - Event.RawData.Revision
+  RmId:
+  - Event.RawData.RmId
+  - Event.System.Data.RmId
+  RmSessionId:
+  - Event.UserData.RmSessionEvent.RmSessionId
+  RootCauseCount:
+  - Event.RawData.RootCauseCount
+  - Event.System.Data.RootCauseCount
+  RootDelay:
+  - Event.System.Data.RootDelay
+  - Event.RawData.RootDelay
+  RootDispersion:
+  - Event.System.Data.RootDispersion
+  - Event.RawData.RootDispersion
+  RootIndexReadBytes:
+  - Event.RawData.RootIndexReadBytes
+  - Event.System.Data.RootIndexReadBytes
+  RootIndexReads:
+  - Event.RawData.RootIndexReads
+  - Event.System.Data.RootIndexReads
+  RootIndexWriteBytes:
+  - Event.System.Data.RootIndexWriteBytes
+  - Event.RawData.RootIndexWriteBytes
+  RootIndexWrites:
+  - Event.RawData.RootIndexWrites
+  - Event.System.Data.RootIndexWrites
+  RotatingMedia:
+  - Event.System.Data.RotatingMedia
+  - Event.RawData.RotatingMedia
+  RotatingMediaLength:
+  - Event.System.Data.RotatingMediaLength
+  - Event.RawData.RotatingMediaLength
+  RpcAccessLevel:
+  - Event.EventData.RpcAccessLevel
+  RpcCallClientLocality:
+  - Event.System.Data.RpcCallClientLocality
+  - Event.RawData.RpcCallClientLocality
+  RuleId:
+  - Event.System.Data.RuleId
+  - Event.RawData.RuleId
+  RuleName:
+  - Event.System.Data.RuleName
+  - Event.RawData.RuleName
+  RuleStatus:
+  - Event.System.Data.RuleStatus
+  - Event.RawData.RuleStatus
+  RunCount:
+  - RunCount
+  RunLevel:
+  - Task.Principals.Principal.RunLevel
+  RunOnlyIfIdle:
+  - Task.Settings.RunOnlyIfIdle
+  RunOnlyIfNetworkAvailable:
+  - Task.Settings.RunOnlyIfNetworkAvailable
+  RunningTaskInstanceId:
+  - Event.System.Data.RunningTaskInstanceId
+  - Event.RawData.RunningTaskInstanceId
+  RunspaceId:
+  - Event.EventData.Data.RunspaceId
+  RuntimeStateAndSettingsConsistent:
+  - Event.System.Data.RuntimeStateAndSettingsConsistent
+  - Event.RawData.RuntimeStateAndSettingsConsistent
+  SID:
+  - Event.RawData.SID
+  - Event.System.Data.SID
+  SQL:
+  - Event.RawData.SQL
+  - Event.System.Data.SQL
+  SSID:
+  - Event.RawData.SSID
+  - Event.System.Data.SSID
+  SSID(s):
+  - Event.RawData.SSID(s)
+  - Event.System.Data.SSID(s)
+  SamAccountName:
+  - Event.System.Data.SamAccountName
+  - Event.RawData.SamAccountName
+  SampledErrorLogArray:
+  - Event.System.Data.SampledErrorLogArray
+  - Event.RawData.SampledErrorLogArray
+  SampledErrorLogArrayLength:
+  - Event.RawData.SampledErrorLogArrayLength
+  - Event.System.Data.SampledErrorLogArrayLength
+  Saturday:
+  - Task.Triggers.CalendarTrigger.ScheduleByWeek.DaysOfWeek.Saturday
+  SaveToCacheTimeElapsedInMilliseconds:
+  - Event.System.Data.SaveToCacheTimeElapsedInMilliseconds
+  - Event.RawData.SaveToCacheTimeElapsedInMilliseconds
+  Scan ID:
+  - Event.RawData.Scan ID
+  - Event.System.Data.Scan ID
+  Scan Parameters:
+  - Event.System.Data.Scan Parameters
+  - Event.RawData.Scan Parameters
+  Scan Parameters Index:
+  - Event.RawData.Scan Parameters Index
+  - Event.System.Data.Scan Parameters Index
+  Scan Resources:
+  - Event.System.Data.Scan Resources
+  - Event.RawData.Scan Resources
+  Scan Time Hours:
+  - Event.RawData.Scan Time Hours
+  - Event.System.Data.Scan Time Hours
+  Scan Time Minutes:
+  - Event.System.Data.Scan Time Minutes
+  - Event.RawData.Scan Time Minutes
+  Scan Time Seconds:
+  - Event.RawData.Scan Time Seconds
+  - Event.System.Data.Scan Time Seconds
+  Scan Type:
+  - Event.RawData.Scan Type
+  - Event.System.Data.Scan Type
+  Scan Type Index:
+  - Event.RawData.Scan Type Index
+  - Event.System.Data.Scan Type Index
+  Scenario:
+  - Event.RawData.Scenario
+  - Event.System.Data.Scenario
+  ScenarioId:
+  - Event.RawData.ScenarioId
+  - Event.System.Data.ScenarioId
+  SchedulerType:
+  - Event.RawData.SchedulerType
+  - Event.System.Data.SchedulerType
+  Schema:
+  - Event.System.Data.Schema
+  - Event.RawData.Schema
+  SchemaFriendlyName:
+  - Event.System.Data.SchemaFriendlyName
+  - Event.RawData.SchemaFriendlyName
+  SchemaType:
+  - Event.RawData.SchemaType
+  - Event.System.Data.SchemaType
+  SchemaVersion:
+  - Event.RawData.SchemaVersion
+  - Event.System.Data.SchemaVersion
+  ScriptBlockId:
+  - Event.RawData.ScriptBlockId
+  - Event.System.Data.ScriptBlockId
+  ScriptBlockText:
+  - Event.RawData.ScriptBlockText
+  - Event.System.Data.ScriptBlockText
+  ScriptName:
+  - Event.EventData.Data.ScriptName
+  ScsiStatus:
+  - Event.RawData.ScsiStatus
+  - Event.System.Data.ScsiStatus
+  SealingAndCachingStatus:
+  - Event.RawData.SealingAndCachingStatus
+  - Event.System.Data.SealingAndCachingStatus
+  SealingStatus:
+  - Event.System.Data.SealingStatus
+  - Event.RawData.SealingStatus
+  Seconds:
+  - Event.System.Data.Seconds
+  - Event.RawData.Seconds
+  SecondsElapsed:
+  - Event.System.Data.SecondsElapsed
+  - Event.RawData.SecondsElapsed
+  SecureBoot:
+  - Event.System.Data.SecureBoot
+  - Event.RawData.SecureBoot
+  Security:
+  - Event.System.Security
+  Security intelligence Type:
+  - Event.RawData.Security intelligence Type
+  - Event.System.Data.Security intelligence Type
+  Security intelligence Type Index:
+  - Event.RawData.Security intelligence Type Index
+  - Event.System.Data.Security intelligence Type Index
+  Security intelligence version:
+  - Event.System.Data.Security intelligence version
+  - Event.RawData.Security intelligence version
+  SecurityDescriptor:
+  - Task.RegistrationInfo.SecurityDescriptor
+  SecurityHint:
+  - Event.RawData.SecurityHint
+  - Event.System.Data.SecurityHint
+  SecurityHintCode:
+  - Event.System.Data.SecurityHintCode
+  - Event.RawData.SecurityHintCode
+  SecurityOptions:
+  - Event.RawData.SecurityOptions
+  - Event.System.Data.SecurityOptions
+  SecurityStatus:
+  - Event.System.Data.SecurityStatus
+  - Event.RawData.SecurityStatus
+  SenseKey:
+  - Event.RawData.SenseKey
+  - Event.System.Data.SenseKey
+  SensorAdapter:
+  - Event.RawData.SensorAdapter
+  - Event.System.Data.SensorAdapter
+  SensorMode:
+  - Event.RawData.SensorMode
+  - Event.System.Data.SensorMode
+  SensorPool:
+  - Event.RawData.SensorPool
+  - Event.System.Data.SensorPool
+  Sent UpdateServer:
+  - Event.RawData.Sent UpdateServer
+  - Event.System.Data.Sent UpdateServer
+  SequenceNumber:
+  - Event.EventData.Data.SequenceNumber
+  SerialNumber:
+  - Event.System.Data.SerialNumber
+  - Event.RawData.SerialNumber
+  ServerErrorMessage:
+  - Event.RawData.ServerErrorMessage
+  - Event.System.Data.ServerErrorMessage
+  ServerName:
+  - Event.RawData.ServerName
+  - Event.System.Data.ServerName
+  ServerNameLength:
+  - Event.System.Data.ServerNameLength
+  - Event.RawData.ServerNameLength
+  ServerRole:
+  - Event.RawData.ServerRole
+  - Event.System.Data.ServerRole
+  ServiceGuid:
+  - Event.System.Data.serviceGuid
+  - Event.RawData.serviceGuid
+  ServiceName:
+  - Event.UserData.UMDFServiceInstall.ServiceName
+  - Event.System.Data.ServiceName
+  - Event.RawData.ServiceName
+  - Event.UserData.AddServiceID.ServiceName
+  ServiceTag:
+  - Event.RawData.ServiceTag
+  - Event.System.Data.ServiceTag
+  ServiceType:
+  - Event.RawData.ServiceType
+  - Event.System.Data.ServiceType
+  ServiceVersion:
+  - Event.System.Data.ServiceVersion
+  - Event.RawData.ServiceVersion
+  Session:
+  - Event.RawData.Session
+  - Event.System.Data.Session
+  - Event.UserData.EventXML.Session
+  SessionErrorCode:
+  - Event.System.Data.SessionErrorCode
+  - Event.RawData.SessionErrorCode
+  SessionID:
+  - Event.RawData.SessionID
+  - Event.System.Data.SessionID
+  - Event.UserData.EventXML.SessionID
+  SessionId:
+  - Event.RawData.SessionId
+  - Event.System.Data.SessionId
+  SessionName:
+  - Event.System.Data.SessionName
+  - Event.RawData.SessionName
+  SessionStateChangeTrigger:
+  - Task.Triggers.SessionStateChangeTrigger
+  SessionTimeElapsedInMilliseconds:
+  - Event.RawData.SessionTimeElapsedInMilliseconds
+  - Event.System.Data.SessionTimeElapsedInMilliseconds
+  SetByHigherAuthority:
+  - Event.System.Data.SetByHigherAuthority
+  - Event.RawData.SetByHigherAuthority
+  SettingAuthority:
+  - Event.RawData.SettingAuthority
+  - Event.System.Data.SettingAuthority
+  SettingName:
+  - Event.RawData.SettingName
+  - Event.System.Data.SettingName
+  SettingSyncEnabled:
+  - Event.System.Data.SettingSyncEnabled
+  - Event.RawData.SettingSyncEnabled
+  SettingType:
+  - Event.System.Data.SettingType
+  - Event.RawData.SettingType
+  SettingValue:
+  - Event.RawData.SettingValue
+  - Event.System.Data.SettingValue
+  SettingValueDisplay:
+  - Event.System.Data.SettingValueDisplay
+  - Event.RawData.SettingValueDisplay
+  SettingValueSize:
+  - Event.RawData.SettingValueSize
+  - Event.System.Data.SettingValueSize
+  Settings:
+  - Event.System.Data.Settings
+  - Event.RawData.Settings
+  ShareLocalPath:
+  - Event.System.Data.ShareLocalPath
+  - Event.RawData.ShareLocalPath
+  ShareName:
+  - Event.System.Data.ShareName
+  - Event.RawData.ShareName
+  ShellType:
+  - ShellType
+  ShimCount:
+  - Event.RawData.ShimCount
+  - Event.System.Data.ShimCount
+  ShimSource:
+  - Event.System.Data.ShimSource
+  - Event.RawData.ShimSource
+  ShutdownActionType:
+  - Event.System.Data.ShutdownActionType
+  - Event.RawData.ShutdownActionType
+  ShutdownEndTime:
+  - Event.RawData.ShutdownEndTime
+  - Event.System.Data.ShutdownEndTime
+  ShutdownEventCode:
+  - Event.RawData.ShutdownEventCode
+  - Event.System.Data.ShutdownEventCode
+  ShutdownIsDegradation:
+  - Event.RawData.ShutdownIsDegradation
+  - Event.System.Data.ShutdownIsDegradation
+  ShutdownKernelTime:
+  - Event.System.Data.ShutdownKernelTime
+  - Event.RawData.ShutdownKernelTime
+  ShutdownPreShutdownNotificationsTime:
+  - Event.RawData.ShutdownPreShutdownNotificationsTime
+  - Event.System.Data.ShutdownPreShutdownNotificationsTime
+  ShutdownReason:
+  - Event.System.Data.ShutdownReason
+  - Event.RawData.ShutdownReason
+  ShutdownRootCauseGradualDegradationBits:
+  - Event.RawData.ShutdownRootCauseGradualDegradationBits
+  - Event.System.Data.ShutdownRootCauseGradualDegradationBits
+  ShutdownRootCauseGradualImprovementBits:
+  - Event.System.Data.ShutdownRootCauseGradualImprovementBits
+  - Event.RawData.ShutdownRootCauseGradualImprovementBits
+  ShutdownRootCauseStepDegradationBits:
+  - Event.System.Data.ShutdownRootCauseStepDegradationBits
+  - Event.RawData.ShutdownRootCauseStepDegradationBits
+  ShutdownRootCauseStepImprovementBits:
+  - Event.RawData.ShutdownRootCauseStepImprovementBits
+  - Event.System.Data.ShutdownRootCauseStepImprovementBits
+  ShutdownServicesTime:
+  - Event.RawData.ShutdownServicesTime
+  - Event.System.Data.ShutdownServicesTime
+  ShutdownStartTime:
+  - Event.RawData.ShutdownStartTime
+  - Event.System.Data.ShutdownStartTime
+  ShutdownSystemSessionsTime:
+  - Event.System.Data.ShutdownSystemSessionsTime
+  - Event.RawData.ShutdownSystemSessionsTime
+  ShutdownTime:
+  - Event.System.Data.ShutdownTime
+  - Event.RawData.ShutdownTime
+  ShutdownTimeChange:
+  - Event.RawData.ShutdownTimeChange
+  - Event.System.Data.ShutdownTimeChange
+  ShutdownTsVersion:
+  - Event.RawData.ShutdownTsVersion
+  - Event.System.Data.ShutdownTsVersion
+  ShutdownUserPolicyTime:
+  - Event.System.Data.ShutdownUserPolicyTime
+  - Event.RawData.ShutdownUserPolicyTime
+  ShutdownUserProfilesTime:
+  - Event.System.Data.ShutdownUserProfilesTime
+  - Event.RawData.ShutdownUserProfilesTime
+  ShutdownUserSessionTime:
+  - Event.System.Data.ShutdownUserSessionTime
+  - Event.RawData.ShutdownUserSessionTime
+  Sid:
+  - Event.RawData.Sid
+  - Event.System.Data.Sid
+  SidHistory:
+  - Event.System.Data.SidHistory
+  - Event.RawData.SidHistory
+  SidLength:
+  - Event.RawData.SidLength
+  - Event.System.Data.SidLength
+  Signature:
+  - Event.RawData.Signature
+  - Event.System.Data.Signature
+  SignatureStatus:
+  - Event.System.Data.SignatureStatus
+  - Event.RawData.SignatureStatus
+  Signed:
+  - Event.RawData.Signed
+  - Event.System.Data.Signed
+  Size:
+  - Event.RawData.Size
+  - Event.System.Data.Size
+  - Size
+  SleepDuration:
+  - Event.System.Data.SleepDuration
+  - Event.RawData.SleepDuration
+  SleepInProgress:
+  - Event.System.Data.SleepInProgress
+  - Event.RawData.SleepInProgress
+  SleepTime:
+  - Event.System.Data.SleepTime
+  - Event.RawData.SleepTime
+  Slot:
+  - Event.System.Data.Slot
+  - Event.RawData.Slot
+  - Slot
+  SmallReadCount:
+  - Event.RawData.SmallReadCount
+  - Event.System.Data.SmallReadCount
+  SmartAttributes:
+  - Event.System.Data.SmartAttributes
+  - Event.RawData.SmartAttributes
+  SmartAttributesLength:
+  - Event.System.Data.SmartAttributesLength
+  - Event.RawData.SmartAttributesLength
+  SmartReturnStatus:
+  - Event.System.Data.SmartReturnStatus
+  - Event.RawData.SmartReturnStatus
+  SmtEnabled:
+  - Event.System.Data.SmtEnabled
+  - Event.RawData.SmtEnabled
+  SnapshotCount:
+  - Event.System.Data.SnapshotCount
+  - Event.RawData.SnapshotCount
+  SnapshotGuid:
+  - Event.System.Data.SnapshotGuid
+  - Event.RawData.SnapshotGuid
+  SnapshotPath:
+  - Event.RawData.SnapshotPath
+  - Event.System.Data.SnapshotPath
+  Socket:
+  - Event.RawData.Socket
+  - Event.System.Data.Socket
+  SocketError:
+  - Event.RawData.SocketError
+  - Event.System.Data.SocketError
+  SolidStateDevice:
+  - Event.RawData.SolidStateDevice
+  - Event.System.Data.SolidStateDevice
+  SolidStateDeviceLength:
+  - Event.RawData.SolidStateDeviceLength
+  - Event.System.Data.SolidStateDeviceLength
+  Source:
+  - Event.System.Data.Source
+  - Task.RegistrationInfo.Source
+  - Event.RawData.Source
+  Source Path:
+  - Event.System.Data.Source Path
+  - Event.RawData.Source Path
+  SourceAddress:
+  - Event.System.Data.SourceAddress
+  - Event.RawData.SourceAddress
+  SourceFile:
+  - Event.System.Data.SourceFile
+  - Event.RawData.SourceFile
+  SourceFilename:
+  - SourceFilename
+  SourceFolderPath:
+  - Event.System.Data.SourceFolderPath
+  - Event.RawData.SourceFolderPath
+  SourceHandleId:
+  - Event.RawData.SourceHandleId
+  - Event.System.Data.SourceHandleId
+  SourceHostname:
+  - Event.RawData.SourceHostname
+  - Event.System.Data.SourceHostname
+  SourceImage:
+  - Event.System.Data.SourceImage
+  - Event.RawData.SourceImage
+  SourceIp:
+  - Event.RawData.SourceIp
+  - Event.System.Data.SourceIp
+  SourceIsIpv6:
+  - Event.System.Data.SourceIsIpv6
+  - Event.RawData.SourceIsIpv6
+  SourceLine:
+  - Event.System.Data.SourceLine
+  - Event.RawData.SourceLine
+  SourcePort:
+  - Event.RawData.SourcePort
+  - Event.System.Data.SourcePort
+  SourcePortName:
+  - Event.RawData.SourcePortName
+  - Event.System.Data.SourcePortName
+  SourceProcessGuid:
+  - Event.RawData.SourceProcessGuid
+  - Event.System.Data.SourceProcessGuid
+  SourceProcessId:
+  - Event.System.Data.SourceProcessId
+  - Event.RawData.SourceProcessId
+  SourceTag:
+  - Event.System.Data.SourceTag
+  - Event.RawData.SourceTag
+  Srb:
+  - Event.System.Data.Srb
+  - Event.RawData.Srb
+  SrbStatus:
+  - Event.System.Data.SrbStatus
+  - Event.RawData.SrbStatus
+  Stage:
+  - Event.RawData.Stage
+  - Event.System.Data.Stage
+  StartAddress:
+  - Event.System.Data.StartAddress
+  - Event.RawData.StartAddress
+  StartBoundary:
+  - Task.Triggers.BootTrigger.StartBoundary
+  - Task.Triggers.CalendarTrigger.StartBoundary
+  - Task.Triggers.LogonTrigger.StartBoundary
+  - Task.Triggers.TimeTrigger.StartBoundary
+  StartFunction:
+  - Event.System.Data.StartFunction
+  - Event.RawData.StartFunction
+  StartModule:
+  - Event.RawData.StartModule
+  - Event.System.Data.StartModule
+  StartOSImageStart:
+  - Event.System.Data.StartOSImageStart
+  - Event.RawData.StartOSImageStart
+  StartTime:
+  - Event.UserData.CompatibilityFixEvent.StartTime
+  - Event.System.Data.StartTime
+  - Event.RawData.StartTime
+  StartTimeOfDay:
+  - Event.RawData.StartTimeOfDay
+  - Event.System.Data.StartTimeOfDay
+  StartType:
+  - Event.System.Data.StartType
+  - Event.RawData.StartType
+  StartWhenAvailable:
+  - Task.Settings.StartWhenAvailable
+  Started:
+  - Event.EventData.Data.Started
+  State:
+  - Event.System.Data.State
+  - Event.RawData.State
+  State Machine:
+  - Event.RawData.State Machine
+  - Event.System.Data.State Machine
+  State Machine Name:
+  - Event.RawData.State Machine Name
+  - Event.System.Data.State Machine Name
+  StateChange:
+  - Task.Triggers.SessionStateChangeTrigger.StateChange
+  StateMachine:
+  - Event.RawData.StateMachine
+  - Event.System.Data.StateMachine
+  StateName:
+  - Task.Triggers.WnfStateChangeTrigger.StateName
+  StateTransition:
+  - Event.RawData.StateTransition
+  - Event.System.Data.StateTransition
+  Status:
+  - Event.System.Data.Status
+  - Event.RawData.Status
+  StatusCode:
+  - Event.System.Data.StatusCode
+  - Event.RawData.StatusCode
+  StatusToClear:
+  - Event.System.Data.StatusToClear
+  - Event.RawData.StatusToClear
+  StatusToSet:
+  - Event.RawData.StatusToSet
+  - Event.System.Data.StatusToSet
+  StopAtDurationEnd:
+  - Task.Triggers.CalendarTrigger.Repetition.StopAtDurationEnd
+  - Task.Triggers.TimeTrigger.Repetition.StopAtDurationEnd
+  StopIfGoingOnBatteries:
+  - Task.Settings.StopIfGoingOnBatteries
+  StopOnIdleEnd:
+  - Task.Settings.IdleSettings.StopOnIdleEnd
+  StopTime:
+  - Event.RawData.StopTime
+  - Event.System.Data.StopTime
+  Stopped:
+  - Event.EventData.Data.Stopped
+  StorageAdapter:
+  - Event.System.Data.StorageAdapter
+  - Event.RawData.StorageAdapter
+  StorageId:
+  - Event.System.Data.StorageId
+  - Event.RawData.StorageId
+  StorageIdAssociation:
+  - Event.System.Data.StorageIdAssociation
+  - Event.RawData.StorageIdAssociation
+  StorageIdBytes:
+  - Event.RawData.StorageIdBytes
+  - Event.System.Data.StorageIdBytes
+  StorageIdCodeSet:
+  - Event.RawData.StorageIdCodeSet
+  - Event.System.Data.StorageIdCodeSet
+  StorageIdCount:
+  - Event.RawData.StorageIdCount
+  - Event.System.Data.StorageIdCount
+  StorageIdType:
+  - Event.System.Data.StorageIdType
+  - Event.RawData.StorageIdType
+  Stratum:
+  - Event.RawData.Stratum
+  - Event.System.Data.Stratum
+  String:
+  - Event.RawData.String
+  - Event.UserData.VmlEventLog.String
+  - Event.System.Data.String
+  SubStatus:
+  - Event.System.Data.SubStatus
+  - Event.RawData.SubStatus
+  SubcategoryGuid:
+  - Event.System.Data.SubcategoryGuid
+  - Event.RawData.SubcategoryGuid
+  SubcategoryId:
+  - Event.System.Data.SubcategoryId
+  - Event.RawData.SubcategoryId
+  SubjectDomainName:
+  - Event.RawData.SubjectDomainName
+  - Event.UserData.LogFileCleared.SubjectDomainName
+  - Event.System.Data.SubjectDomainName
+  SubjectLogonId:
+  - Event.System.Data.SubjectLogonId
+  - Event.UserData.LogFileCleared.SubjectLogonId
+  - Event.RawData.SubjectLogonId
+  SubjectName:
+  - Event.RawData.subjectName
+  - Event.System.Data.subjectName
+  SubjectUserName:
+  - Event.UserData.LogFileCleared.SubjectUserName
+  - Event.System.Data.SubjectUserName
+  - Event.RawData.SubjectUserName
+  SubjectUserSid:
+  - Event.UserData.LogFileCleared.SubjectUserSid
+  - Event.System.Data.SubjectUserSid
+  - Event.RawData.SubjectUserSid
+  SubscriberName:
+  - Event.System.Data.SubscriberName
+  - Event.RawData.SubscriberName
+  Subscription:
+  - Task.Triggers.EventTrigger.Subscription
+  Success:
+  - Event.RawData.Success
+  - Event.System.Data.Success
+  SuccessfulConnections:
+  - Event.System.Data.SuccessfulConnections
+  - Event.RawData.SuccessfulConnections
+  Summary:
+  - Event.System.Data.Summary
+  - Event.RawData.Summary
+  SummaryError:
+  - Event.System.Data.SummaryError
+  - Event.RawData.SummaryError
+  Sunday:
+  - Task.Triggers.CalendarTrigger.ScheduleByWeek.DaysOfWeek.Sunday
+  SupportInfo1:
+  - Event.RawData.SupportInfo1
+  - Event.System.Data.SupportInfo1
+  SupportInfo2:
+  - Event.RawData.SupportInfo2
+  - Event.System.Data.SupportInfo2
+  Suppressed:
+  - Event.RawData.Suppressed
+  - Event.System.Data.Suppressed
+  SwitchFName:
+  - Event.RawData.SwitchFName
+  - Event.System.Data.SwitchFName
+  SwitchFNameLen:
+  - Event.System.Data.SwitchFNameLen
+  - Event.RawData.SwitchFNameLen
+  SwitchFriendlyName:
+  - Event.System.Data.switchFriendlyName
+  - Event.RawData.switchFriendlyName
+  SwitchFriendlyName_Length:
+  - Event.RawData.switchFriendlyName_Length
+  - Event.System.Data.switchFriendlyName_Length
+  SwitchName:
+  - Event.System.Data.SwitchName
+  - Event.System.Data.switchName
+  - Event.RawData.SwitchName
+  - Event.RawData.switchName
+  SwitchNameLen:
+  - Event.RawData.SwitchNameLen
+  - Event.System.Data.SwitchNameLen
+  SwitchName_Length:
+  - Event.System.Data.switchName_Length
+  - Event.RawData.switchName_Length
+  SystemId:
+  - Event.UserData.VmlEventLog.SystemId
+  SystemSleepTransitionsToOn:
+  - Event.RawData.SystemSleepTransitionsToOn
+  - Event.System.Data.SystemSleepTransitionsToOn
+  SystemTime:
+  - Event.System.TimeCreated.#attributes.SystemTime
+  SystemUptime_s:
+  - Event.System.Data.SystemUptime_s
+  - Event.RawData.SystemUptime_s
+  SystemVolume:
+  - Event.RawData.SystemVolume
+  - Event.System.Data.SystemVolume
+  TSId:
+  - Event.RawData.TSId
+  - Event.System.Data.TSId
+  TableDataBytes:
+  - Event.RawData.TableDataBytes
+  - Event.System.Data.TableDataBytes
+  Target:
+  - Event.RawData.Target
+  - Event.System.Data.Target
+  TargetDomainName:
+  - Event.RawData.TargetDomainName
+  - Event.System.Data.TargetDomainName
+  TargetFilename:
+  - Event.System.Data.TargetFilename
+  - Event.RawData.TargetFilename
+  TargetHandleId:
+  - Event.System.Data.TargetHandleId
+  - Event.RawData.TargetHandleId
+  TargetID:
+  - Event.RawData.TargetID
+  - Event.System.Data.TargetID
+  TargetImage:
+  - Event.System.Data.TargetImage
+  - Event.RawData.TargetImage
+  TargetInfo:
+  - Event.System.Data.TargetInfo
+  - Event.RawData.TargetInfo
+  TargetLinkedLogonId:
+  - Event.RawData.TargetLinkedLogonId
+  - Event.System.Data.TargetLinkedLogonId
+  TargetLogonGuid:
+  - Event.System.Data.TargetLogonGuid
+  - Event.RawData.TargetLogonGuid
+  TargetLogonId:
+  - Event.RawData.TargetLogonId
+  - Event.System.Data.TargetLogonId
+  TargetName:
+  - Event.System.Data.TargetName
+  - Event.RawData.TargetName
+  TargetObject:
+  - Event.System.Data.TargetObject
+  - Event.RawData.TargetObject
+  TargetOutboundDomainName:
+  - Event.System.Data.TargetOutboundDomainName
+  - Event.RawData.TargetOutboundDomainName
+  TargetOutboundUserName:
+  - Event.RawData.TargetOutboundUserName
+  - Event.System.Data.TargetOutboundUserName
+  TargetPackageFamilyName:
+  - Event.RawData.TargetPackageFamilyName
+  - Event.System.Data.TargetPackageFamilyName
+  TargetPlatform:
+  - Event.System.Data.TargetPlatform
+  - Event.RawData.TargetPlatform
+  TargetProcessGuid:
+  - Event.System.Data.TargetProcessGuid
+  - Event.RawData.TargetProcessGuid
+  TargetProcessId:
+  - Event.System.Data.TargetProcessId
+  - Event.RawData.TargetProcessId
+  TargetProcessName:
+  - Event.System.Data.TargetProcessName
+  - Event.RawData.TargetProcessName
+  TargetServerName:
+  - Event.System.Data.TargetServerName
+  - Event.RawData.TargetServerName
+  TargetSid:
+  - Event.RawData.TargetSid
+  - Event.System.Data.TargetSid
+  TargetState:
+  - Event.RawData.TargetState
+  - Event.System.Data.TargetState
+  TargetUserName:
+  - Event.System.Data.TargetUserName
+  - Event.RawData.TargetUserName
+  TargetUserSid:
+  - Event.RawData.TargetUserSid
+  - Event.System.Data.TargetUserSid
+  TargetVolumeGuid:
+  - Event.RawData.TargetVolumeGuid
+  - Event.System.Data.TargetVolumeGuid
+  Task:
+  - Event.System.Data.Task
+  - Event.RenderingInfo.Task
+  - Event.RawData.Task
+  - Event.System.Task
+  TaskContentNew:
+  - Event.System.Data.TaskContentNew
+  - Event.RawData.TaskContentNew
+  TaskCount:
+  - Event.RawData.TaskCount
+  - Event.System.Data.TaskCount
+  TaskEntryPoint:
+  - Event.System.Data.TaskEntryPoint
+  - Event.RawData.TaskEntryPoint
+  TaskHResultValue:
+  - Event.RawData.TaskHResultValue
+  - Event.System.Data.TaskHResultValue
+  TaskId:
+  - Event.RawData.TaskId
+  - Event.System.Data.TaskId
+  TaskInstanceId:
+  - Event.System.Data.TaskInstanceId
+  - Event.RawData.TaskInstanceId
+  TaskName:
+  - Event.RawData.TaskName
+  - Event.System.Data.TaskName
+  Task_name:
+  - task_name
+  Temperature:
+  - Event.RawData.Temperature
+  - Event.System.Data.Temperature
+  TemperatureLength:
+  - Event.System.Data.TemperatureLength
+  - Event.RawData.TemperatureLength
+  TenantType:
+  - Event.RawData.TenantType
+  - Event.System.Data.TenantType
+  TerminalSessionId:
+  - Event.System.Data.TerminalSessionId
+  - Event.RawData.TerminalSessionId
+  TestSigning:
+  - Event.RawData.TestSigning
+  - Event.System.Data.TestSigning
+  TetheringClientCountChanged:
+  - Event.System.Data.TetheringClientCountChanged
+  - Event.RawData.TetheringClientCountChanged
+  TetheringOperationalStateChanged:
+  - Event.System.Data.TetheringOperationalStateChanged
+  - Event.RawData.TetheringOperationalStateChanged
+  ThermalZoneDeviceInstance:
+  - Event.System.Data.ThermalZoneDeviceInstance
+  - Event.RawData.ThermalZoneDeviceInstance
+  ThermalZoneDeviceInstanceLength:
+  - Event.System.Data.ThermalZoneDeviceInstanceLength
+  - Event.RawData.ThermalZoneDeviceInstanceLength
+  Thread ID:
+  - Event.System.Data.Thread ID
+  - Event.RawData.Thread ID
+  ThreadID:
+  - Event.System.Execution.#attributes.ThreadID
+  ThreadId:
+  - Event.System.Data.ThreadId
+  - Event.RawData.ThreadId
+  ThresholdInkbps:
+  - Event.RawData.ThresholdInkbps
+  - Event.System.Data.ThresholdInkbps
+  Thursday:
+  - Task.Triggers.CalendarTrigger.ScheduleByWeek.DaysOfWeek.Thursday
+  TickCount:
+  - Event.RawData.TickCount
+  - Event.System.Data.TickCount
+  TierIndex:
+  - Event.RawData.TierIndex
+  - Event.System.Data.TierIndex
+  TileIdentifier:
+  - Event.RawData.tileIdentifier
+  - Event.System.Data.tileIdentifier
+  Time:
+  - time
+  - Event.System.Data.Time
+  - Event.RawData.Time
+  - Event.System.TimeCreated.time
+  TimeProvider:
+  - Event.RawData.TimeProvider
+  - Event.System.Data.TimeProvider
+  TimeProviders:
+  - Event.RawData.TimeProviders
+  - Event.System.Data.TimeProviders
+  TimeSinceLastGoodSync:
+  - Event.System.Data.TimeSinceLastGoodSync
+  - Event.RawData.TimeSinceLastGoodSync
+  TimeSource:
+  - Event.System.Data.TimeSource
+  - Event.RawData.TimeSource
+  TimeSourceFlags:
+  - Event.System.Data.TimeSourceFlags
+  - Event.RawData.TimeSourceFlags
+  TimeSourceRefId:
+  - Event.System.Data.TimeSourceRefId
+  - Event.RawData.TimeSourceRefId
+  TimeTrigger:
+  - Task.Triggers.TimeTrigger
+  TimeWaitedAtStartup:
+  - Event.RawData.TimeWaitedAtStartup
+  - Event.System.Data.TimeWaitedAtStartup
+  TimeZoneInfoCacheUpdated:
+  - Event.RawData.TimeZoneInfoCacheUpdated
+  - Event.System.Data.TimeZoneInfoCacheUpdated
+  Time_field:
+  - time_field
+  TimeoutMSec:
+  - Event.RawData.TimeoutMSec
+  - Event.System.Data.TimeoutMSec
+  TimeoutsInMiniport:
+  - Event.RawData.TimeoutsInMiniport
+  - Event.System.Data.TimeoutsInMiniport
+  Timestamp:
+  - Event.System.Data.Timestamp
+  - timestamp
+  - Event.RawData.Timestamp
+  TimezoneBiasHour:
+  - Event.System.Data.TimezoneBiasHour
+  - Event.RawData.TimezoneBiasHour
+  Title:
+  - title
+  TmId:
+  - Event.System.Data.TmId
+  - Event.RawData.TmId
+  To:
+  - Event.RawData.To
+  - Event.System.Data.To
+  TokenElevationType:
+  - Event.RawData.TokenElevationType
+  - Event.System.Data.TokenElevationType
+  TokenType:
+  - Event.RawData.TokenType
+  - Event.System.Data.TokenType
+  TotalBytes:
+  - Event.System.Data.TotalBytes
+  - Event.RawData.TotalBytes
+  TotalBytesBucketsCount:
+  - Event.RawData.TotalBytesBucketsCount
+  - Event.System.Data.TotalBytesBucketsCount
+  TotalBytesRead:
+  - Event.RawData.TotalBytesRead
+  - Event.System.Data.TotalBytesRead
+  TotalCountDeleteFile:
+  - Event.System.Data.TotalCountDeleteFile
+  - Event.RawData.TotalCountDeleteFile
+  TotalCountDeleteFileLogged:
+  - Event.RawData.TotalCountDeleteFileLogged
+  - Event.System.Data.TotalCountDeleteFileLogged
+  TotalDeviceFailureErrors:
+  - Event.System.Data.TotalDeviceFailureErrors
+  - Event.RawData.TotalDeviceFailureErrors
+  TotalDeviceQueueIoCount:
+  - Event.System.Data.TotalDeviceQueueIoCount
+  - Event.RawData.TotalDeviceQueueIoCount
+  TotalDeviceQueueIoWaitDuration_100ns:
+  - Event.RawData.TotalDeviceQueueIoWaitDuration_100ns
+  - Event.System.Data.TotalDeviceQueueIoWaitDuration_100ns
+  TotalDirectories:
+  - Event.RawData.TotalDirectories
+  - Event.System.Data.TotalDirectories
+  TotalDisks:
+  - Event.System.Data.TotalDisks
+  - Event.RawData.TotalDisks
+  TotalErrors:
+  - Event.System.Data.TotalErrors
+  - Event.RawData.TotalErrors
+  TotalFiles:
+  - Event.System.Data.TotalFiles
+  - Event.RawData.TotalFiles
+  TotalImpendingDeviceFailureErrors:
+  - Event.RawData.TotalImpendingDeviceFailureErrors
+  - Event.System.Data.TotalImpendingDeviceFailureErrors
+  TotalIoCount:
+  - Event.RawData.TotalIoCount
+  - Event.System.Data.TotalIoCount
+  TotalLatencyUs:
+  - Event.System.Data.TotalLatencyUs
+  - Event.RawData.TotalLatencyUs
+  TotalReadBytes:
+  - Event.System.Data.TotalReadBytes
+  - Event.RawData.TotalReadBytes
+  TotalReadWriteErrors:
+  - Event.System.Data.TotalReadWriteErrors
+  - Event.RawData.TotalReadWriteErrors
+  TotalTime:
+  - Event.System.Data.TotalTime
+  - Event.RawData.TotalTime
+  TotalWriteBytes:
+  - Event.System.Data.TotalWriteBytes
+  - Event.RawData.TotalWriteBytes
+  TpcChanges:
+  - Event.RawData.TpcChanges
+  - Event.System.Data.TpcChanges
+  TpmCounterCreateStatus:
+  - Event.RawData.TpmCounterCreateStatus
+  - Event.System.Data.TpmCounterCreateStatus
+  TpmCounterOpStatus:
+  - Event.RawData.TpmCounterOpStatus
+  - Event.System.Data.TpmCounterOpStatus
+  TpmPcrMask:
+  - Event.System.Data.TpmPcrMask
+  - Event.RawData.TpmPcrMask
+  TrID:
+  - Event.RawData.TrID
+  - Event.System.Data.TrID
+  TrackingId:
+  - Event.System.Data.TrackingId
+  - Event.RawData.TrackingId
+  TransactionId:
+  - Event.RawData.TransactionId
+  - Event.System.Data.TransactionId
+  TransferId:
+  - Event.System.Data.transferId
+  - Event.RawData.transferId
+  TransitionsToOn:
+  - Event.RawData.TransitionsToOn
+  - Event.System.Data.TransitionsToOn
+  TransmittedServices:
+  - Event.RawData.TransmittedServices
+  - Event.System.Data.TransmittedServices
+  Transport:
+  - Event.RawData.Transport
+  - Event.System.Data.Transport
+  TransportFlags:
+  - Event.UserData.EventData.TransportFlags
+  TransportLength:
+  - Event.RawData.TransportLength
+  - Event.System.Data.TransportLength
+  TransportName:
+  - Event.UserData.EventData.TransportName
+  TransportNameLength:
+  - Event.UserData.EventData.TransportNameLength
+  TransportProtocolName:
+  - Event.System.Data.TransportProtocolName
+  - Event.RawData.TransportProtocolName
+  TransportType:
+  - Event.System.Data.TransportType
+  - Event.RawData.TransportType
+  TreeId:
+  - Event.System.Data.TreeId
+  - Event.RawData.TreeId
+  TriggerValue:
+  - Event.RawData.TriggerValue
+  - Event.System.Data.TriggerValue
+  Triggers:
+  - Task.Triggers
+  TrimExtentsCount:
+  - Event.RawData.TrimExtentsCount
+  - Event.System.Data.TrimExtentsCount
+  TrimLatencyBucket1:
+  - Event.System.Data.TrimLatencyBucket1
+  - Event.RawData.TrimLatencyBucket1
+  TrimLatencyBucket2:
+  - Event.System.Data.TrimLatencyBucket2
+  - Event.RawData.TrimLatencyBucket2
+  TrimLatencyBucket3:
+  - Event.RawData.TrimLatencyBucket3
+  - Event.System.Data.TrimLatencyBucket3
+  TrimLatencyBucket4:
+  - Event.RawData.TrimLatencyBucket4
+  - Event.System.Data.TrimLatencyBucket4
+  TrimLatencyBucket5:
+  - Event.System.Data.TrimLatencyBucket5
+  - Event.RawData.TrimLatencyBucket5
+  TrimLatencyBucket6:
+  - Event.System.Data.TrimLatencyBucket6
+  - Event.RawData.TrimLatencyBucket6
+  TrimLatencyBucket7:
+  - Event.System.Data.TrimLatencyBucket7
+  - Event.RawData.TrimLatencyBucket7
+  TrustletIdentity:
+  - Event.System.Data.TrustletIdentity
+  - Event.RawData.TrustletIdentity
+  Try Count:
+  - Event.System.Data.Try Count
+  - Event.RawData.Try Count
+  Tuesday:
+  - Task.Triggers.CalendarTrigger.ScheduleByWeek.DaysOfWeek.Tuesday
+  TunnelID:
+  - Event.System.Data.TunnelID
+  - Event.RawData.TunnelID
+  Turn:
+  - Event.System.Data.Turn
+  - Event.RawData.Turn
+  Type:
+  - Event.RawData.Type
+  - Event.UserData.VmlEventLog.Parameter0.Settings.Type
+  - Event.System.Data.Type
+  - Payload.adaptiveContent.type
+  - Payload.type
+  - Type
+  Typed_count:
+  - typed_count
+  URI:
+  - Task.RegistrationInfo.URI
+  UTCStartTime:
+  - Event.UserData.RmSessionEvent.UTCStartTime
+  Uint1:
+  - Event.RawData.uint1
+  - Event.System.Data.uint1
+  Uint2:
+  - Event.RawData.uint2
+  - Event.System.Data.uint2
+  UniqueErrorLogArray:
+  - Event.System.Data.UniqueErrorLogArray
+  - Event.RawData.UniqueErrorLogArray
+  UniqueErrorLogArrayLength:
+  - Event.System.Data.UniqueErrorLogArrayLength
+  - Event.RawData.UniqueErrorLogArrayLength
+  UniqueIdLength:
+  - Event.RawData.UniqueIdLength
+  - Event.System.Data.UniqueIdLength
+  UnmapAlignment:
+  - Event.System.Data.UnmapAlignment
+  - Event.RawData.UnmapAlignment
+  UnsealingCachedCopyStatus:
+  - Event.RawData.UnsealingCachedCopyStatus
+  - Event.System.Data.UnsealingCachedCopyStatus
+  Unused:
+  - Event.System.Data.Unused
+  - Event.RawData.Unused
+  Unused10:
+  - Event.RawData.Unused10
+  - Event.System.Data.Unused10
+  Unused11:
+  - Event.RawData.Unused11
+  - Event.System.Data.Unused11
+  Unused12:
+  - Event.System.Data.Unused12
+  - Event.RawData.Unused12
+  Unused2:
+  - Event.System.Data.Unused2
+  - Event.RawData.Unused2
+  Unused3:
+  - Event.System.Data.Unused3
+  - Event.RawData.Unused3
+  Unused4:
+  - Event.System.Data.Unused4
+  - Event.RawData.Unused4
+  Unused5:
+  - Event.System.Data.Unused5
+  - Event.RawData.Unused5
+  Unused6:
+  - Event.System.Data.Unused6
+  - Event.RawData.Unused6
+  Unused7:
+  - Event.RawData.Unused7
+  - Event.System.Data.Unused7
+  Unused8:
+  - Event.System.Data.Unused8
+  - Event.RawData.Unused8
+  Unused9:
+  - Event.System.Data.Unused9
+  - Event.RawData.Unused9
+  Update Source:
+  - Event.System.Data.Update Source
+  - Event.RawData.Update Source
+  Update Source Index:
+  - Event.RawData.Update Source Index
+  - Event.System.Data.Update Source Index
+  Update State:
+  - Event.RawData.Update State
+  - Event.System.Data.Update State
+  Update State Index:
+  - Event.RawData.Update State Index
+  - Event.System.Data.Update State Index
+  Update Type:
+  - Event.RawData.Update Type
+  - Event.System.Data.Update Type
+  Update Type Index:
+  - Event.System.Data.Update Type Index
+  - Event.RawData.Update Type Index
+  UpdateCount:
+  - Event.System.Data.updateCount
+  - Event.RawData.updateCount
+  UpdateGuid:
+  - Event.System.Data.updateGuid
+  - Event.RawData.updateGuid
+  UpdateReason:
+  - Event.System.Data.UpdateReason
+  - Event.RawData.UpdateReason
+  UpdateRevisionNumber:
+  - Event.System.Data.updateRevisionNumber
+  - Event.RawData.updateRevisionNumber
+  UpdateService:
+  - Event.UserData.AddServiceID.UpdateService
+  UpdateTitle:
+  - Event.System.Data.updateTitle
+  - Event.RawData.updateTitle
+  Upgrade:
+  - Event.UserData.UMDFServiceInstall.Upgrade
+  UploadDuration:
+  - Event.System.Data.UploadDuration
+  - Event.RawData.UploadDuration
+  UpperFilters:
+  - Event.RawData.UpperFilters
+  - Event.System.Data.UpperFilters
+  Uri:
+  - Event.System.Data.Uri
+  - Event.RawData.Uri
+  Url:
+  - Event.RawData.url
+  - Event.System.Data.url
+  - url
+  Url_length:
+  - url_length
+  UseUnifiedSchedulingEngine:
+  - Task.Settings.UseUnifiedSchedulingEngine
+  User:
+  - user
+  - Event.UserData.EventXML.User
+  - Event.System.Data.User
+  - Event.UserData.Operation_ClientFailure.User
+  - Event.UserData.Operation_TemporaryEssStarted.User
+  - Event.RawData.User
+  - Event.UserData.Operation_EssStarted.User
+  UserContext:
+  - Event.System.Data.UserContext
+  - Event.RawData.UserContext
+  UserDiskReads:
+  - Event.RawData.UserDiskReads
+  - Event.System.Data.UserDiskReads
+  UserDiskWrites:
+  - Event.System.Data.UserDiskWrites
+  - Event.RawData.UserDiskWrites
+  UserFileReadBytes:
+  - Event.RawData.UserFileReadBytes
+  - Event.System.Data.UserFileReadBytes
+  UserFileReads:
+  - Event.System.Data.UserFileReads
+  - Event.RawData.UserFileReads
+  UserFileWriteBytes:
+  - Event.RawData.UserFileWriteBytes
+  - Event.System.Data.UserFileWriteBytes
+  UserFileWrites:
+  - Event.System.Data.UserFileWrites
+  - Event.RawData.UserFileWrites
+  UserID:
+  - Event.System.Security.#attributes.UserID
+  UserId:
+  - UserId
+  - Task.Principals.Principal.UserId
+  - Event.System.Data.UserId
+  - Event.RawData.UserId
+  UserIndexReadBytes:
+  - Event.System.Data.UserIndexReadBytes
+  - Event.RawData.UserIndexReadBytes
+  UserIndexReads:
+  - Event.System.Data.UserIndexReads
+  - Event.RawData.UserIndexReads
+  UserIndexWriteBytes:
+  - Event.RawData.UserIndexWriteBytes
+  - Event.System.Data.UserIndexWriteBytes
+  UserIndexWrites:
+  - Event.RawData.UserIndexWrites
+  - Event.System.Data.UserIndexWrites
+  UserIsRemote:
+  - Event.System.Data.UserIsRemote
+  - Event.RawData.UserIsRemote
+  UserName:
+  - Event.System.Data.UserName
+  - Event.RawData.UserName
+  UserNameLength:
+  - Event.System.Data.UserNameLength
+  - Event.RawData.UserNameLength
+  UserRemovalPolicy:
+  - Event.RawData.UserRemovalPolicy
+  - Event.System.Data.UserRemovalPolicy
+  UserSID:
+  - Event.RawData.UserSID
+  - Event.System.Data.UserSID
+  UserSid:
+  - Event.System.Data.UserSid
+  - Event.RawData.UserSid
+  UserStorage:
+  - Event.System.Data.UserStorage
+  - Event.RawData.UserStorage
+  UserTimezone:
+  - Payload.userTimezone
+  User_profile:
+  - user_profile
+  Userid:
+  - userid
+  Username:
+  - Event.RawData.Username
+  - Event.System.Data.Username
+  UtcTime:
+  - Event.RawData.UtcTime
+  - Event.System.Data.UtcTime
+  VM Running State:
+  - Event.RawData.VM Running State
+  - Event.System.Data.VM Running State
+  VMId:
+  - Event.RawData.VMId
+  - Event.System.Data.VMId
+  VMIdLen:
+  - Event.System.Data.VMIdLen
+  - Event.RawData.VMIdLen
+  VMName:
+  - Event.System.Data.VMName
+  - Event.RawData.VMName
+  VMNameLen:
+  - Event.RawData.VMNameLen
+  - Event.System.Data.VMNameLen
+  ValidBatteryCount:
+  - Event.RawData.ValidBatteryCount
+  - Event.System.Data.ValidBatteryCount
+  Value:
+  - Event.RawData.value
+  - Value
+  - Event.System.Data.value
+  - Event.System.Data.Value
+  - Event.RawData.Value
+  Variable:
+  - Event.EventData.Data.Variable
+  Vbr0:
+  - Event.RawData.Vbr0
+  - Event.System.Data.Vbr0
+  Vbr0Bytes:
+  - Event.RawData.Vbr0Bytes
+  - Event.System.Data.Vbr0Bytes
+  Vbr1:
+  - Event.System.Data.Vbr1
+  - Event.RawData.Vbr1
+  Vbr1Bytes:
+  - Event.System.Data.Vbr1Bytes
+  - Event.RawData.Vbr1Bytes
+  Vbr2:
+  - Event.RawData.Vbr2
+  - Event.System.Data.Vbr2
+  Vbr2Bytes:
+  - Event.System.Data.Vbr2Bytes
+  - Event.RawData.Vbr2Bytes
+  Vbr3:
+  - Event.RawData.Vbr3
+  - Event.System.Data.Vbr3
+  Vbr3Size:
+  - Event.RawData.Vbr3Size
+  - Event.System.Data.Vbr3Size
+  VcbExAcquireCount:
+  - Event.RawData.VcbExAcquireCount
+  - Event.System.Data.VcbExAcquireCount
+  VcbExAvgCombinedDurationMs:
+  - Event.System.Data.VcbExAvgCombinedDurationMs
+  - Event.RawData.VcbExAvgCombinedDurationMs
+  VcbExAvgHoldDurationMs:
+  - Event.RawData.VcbExAvgHoldDurationMs
+  - Event.System.Data.VcbExAvgHoldDurationMs
+  VcbExAvgWaitDurationMs:
+  - Event.RawData.VcbExAvgWaitDurationMs
+  - Event.System.Data.VcbExAvgWaitDurationMs
+  VcbExMaxCombinedDurationMs:
+  - Event.RawData.VcbExMaxCombinedDurationMs
+  - Event.System.Data.VcbExMaxCombinedDurationMs
+  VcbExMaxHoldDurationMs:
+  - Event.RawData.VcbExMaxHoldDurationMs
+  - Event.System.Data.VcbExMaxHoldDurationMs
+  VcbExMaxWaitDurationMs:
+  - Event.System.Data.VcbExMaxWaitDurationMs
+  - Event.RawData.VcbExMaxWaitDurationMs
+  Vendor:
+  - Event.System.Data.Vendor
+  - Event.RawData.Vendor
+  VendorID:
+  - Event.RawData.VendorID
+  - Event.System.Data.VendorID
+  VendorId:
+  - Event.RawData.VendorId
+  - Event.System.Data.VendorId
+  VendorIdLength:
+  - Event.System.Data.VendorIdLength
+  - Event.RawData.VendorIdLength
+  VendorType:
+  - Event.RawData.VendorType
+  - Event.System.Data.VendorType
+  Verb:
+  - Event.System.Data.Verb
+  - Event.RawData.Verb
+  Version:
+  - Payload.adaptiveContent.version
+  - Event.System.Data.Version
+  - Task.RegistrationInfo.Version
+  - Event.System.Version
+  - Version
+  - Event.RawData.Version
+  VersionLength:
+  - Event.System.Data.VersionLength
+  - Event.RawData.VersionLength
+  VhdDiskNumber:
+  - Event.RawData.VhdDiskNumber
+  - Event.System.Data.VhdDiskNumber
+  VhdFile:
+  - Event.System.Data.VhdFile
+  - Event.RawData.VhdFile
+  VhdFileName:
+  - Event.System.Data.VhdFileName
+  - Event.RawData.VhdFileName
+  VhdType:
+  - Event.RawData.VhdType
+  - Event.System.Data.VhdType
+  VirtualAccount:
+  - Event.RawData.VirtualAccount
+  - Event.System.Data.VirtualAccount
+  VirtualDisk:
+  - Event.System.Data.VirtualDisk
+  - Event.RawData.VirtualDisk
+  VirtualizationBasedSecurity:
+  - Event.System.Data.VirtualizationBasedSecurity
+  - Event.RawData.VirtualizationBasedSecurity
+  Visible:
+  - Event.System.Data.Visible
+  - Event.RawData.Visible
+  Visit_count:
+  - visit_count
+  Visit_type:
+  - visit_type
+  Visited_from:
+  - visited_from
+  VmFriendlyName:
+  - Event.System.Data.vmFriendlyName
+  - Event.RawData.vmFriendlyName
+  VmFriendlyName_Length:
+  - Event.RawData.vmFriendlyName_Length
+  - Event.System.Data.vmFriendlyName_Length
+  VmId:
+  - Event.RawData.VmId
+  - Event.System.Data.VmId
+  - Event.UserData.VmNicNoAvailableMac.VmId
+  - Event.UserData.VmlEventLog.VmId
+  VmName:
+  - Event.UserData.VmNicNoAvailableMac.VmName
+  - Event.RawData.vmName
+  - Event.UserData.VmlEventLog.VmName
+  - Event.System.Data.vmName
+  VmName_Length:
+  - Event.RawData.vmName_Length
+  - Event.System.Data.vmName_Length
+  VmOperation:
+  - Event.RawData.VmOperation
+  - Event.System.Data.VmOperation
+  Volume0Created:
+  - Volume0Created
+  Volume0Name:
+  - Volume0Name
+  Volume0Serial:
+  - Volume0Serial
+  VolumeCorrelationId:
+  - Event.RawData.VolumeCorrelationId
+  - Event.System.Data.VolumeCorrelationId
+  VolumeCount:
+  - Event.RawData.VolumeCount
+  - Event.System.Data.VolumeCount
+  VolumeFlushAvgLatencyNs:
+  - Event.RawData.VolumeFlushAvgLatencyNs
+  - Event.System.Data.VolumeFlushAvgLatencyNs
+  VolumeFlushCount:
+  - Event.RawData.VolumeFlushCount
+  - Event.System.Data.VolumeFlushCount
+  VolumeGuid:
+  - Event.RawData.VolumeGuid
+  - Event.System.Data.VolumeGuid
+  VolumeName:
+  - Event.System.Data.VolumeName
+  - Event.RawData.VolumeName
+  VolumeNameLength:
+  - Event.RawData.VolumeNameLength
+  - Event.System.Data.VolumeNameLength
+  VolumeTrimAvgLatencyNs:
+  - Event.RawData.VolumeTrimAvgLatencyNs
+  - Event.System.Data.VolumeTrimAvgLatencyNs
+  VolumeTrimCount:
+  - Event.System.Data.VolumeTrimCount
+  - Event.RawData.VolumeTrimCount
+  VolumeTrimExtentsCount:
+  - Event.System.Data.VolumeTrimExtentsCount
+  - Event.RawData.VolumeTrimExtentsCount
+  VolumeTrimSize:
+  - Event.System.Data.VolumeTrimSize
+  - Event.RawData.VolumeTrimSize
+  VolumeTrimSkippedCount:
+  - Event.System.Data.VolumeTrimSkippedCount
+  - Event.RawData.VolumeTrimSkippedCount
+  VolumeTrimSkippedSize:
+  - Event.RawData.VolumeTrimSkippedSize
+  - Event.System.Data.VolumeTrimSkippedSize
+  VolumeTrimTime:
+  - Event.System.Data.VolumeTrimTime
+  - Event.RawData.VolumeTrimTime
+  VolumeTrimTotalBytes:
+  - Event.RawData.VolumeTrimTotalBytes
+  - Event.System.Data.VolumeTrimTotalBytes
+  VolumeUniqueId:
+  - Event.RawData.VolumeUniqueId
+  - Event.System.Data.VolumeUniqueId
+  VsmLaunchType:
+  - Event.System.Data.VsmLaunchType
+  - Event.RawData.VsmLaunchType
+  VsmPolicy:
+  - Event.RawData.VsmPolicy
+  - Event.System.Data.VsmPolicy
+  WCM Preferred Order List:
+  - Event.System.Data.WCM Preferred Order List
+  - Event.RawData.WCM Preferred Order List
+  WLcdLayout:
+  - Event.RawData.wLcdLayout
+  - Event.System.Data.wLcdLayout
+  WSMan:
+  - Event.EventData.Data.WSMan
+  WaitDuration_ms:
+  - Event.System.Data.WaitDuration_ms
+  - Event.RawData.WaitDuration_ms
+  WaitTimeout:
+  - Task.Settings.IdleSettings.WaitTimeout
+  WakeDuration:
+  - Event.System.Data.WakeDuration
+  - Event.RawData.WakeDuration
+  WakeFromState:
+  - Event.System.Data.WakeFromState
+  - Event.RawData.WakeFromState
+  WakeRequesterTypeAc:
+  - Event.System.Data.WakeRequesterTypeAc
+  - Event.RawData.WakeRequesterTypeAc
+  WakeRequesterTypeDc:
+  - Event.RawData.WakeRequesterTypeDc
+  - Event.System.Data.WakeRequesterTypeDc
+  WakeSourceText:
+  - Event.System.Data.WakeSourceText
+  - Event.RawData.WakeSourceText
+  WakeSourceTextLength:
+  - Event.RawData.WakeSourceTextLength
+  - Event.System.Data.WakeSourceTextLength
+  WakeSourceType:
+  - Event.System.Data.WakeSourceType
+  - Event.RawData.WakeSourceType
+  WakeTime:
+  - Event.RawData.WakeTime
+  - Event.System.Data.WakeTime
+  WakeTimerContext:
+  - Event.System.Data.WakeTimerContext
+  - Event.RawData.WakeTimerContext
+  WakeTimerContextLength:
+  - Event.RawData.WakeTimerContextLength
+  - Event.System.Data.WakeTimerContextLength
+  WakeTimerOwner:
+  - Event.System.Data.WakeTimerOwner
+  - Event.RawData.WakeTimerOwner
+  WakeTimerOwnerLength:
+  - Event.RawData.WakeTimerOwnerLength
+  - Event.System.Data.WakeTimerOwnerLength
+  WakeToRun:
+  - Task.Settings.WakeToRun
+  Web_browser:
+  - web_browser
+  Wednesday:
+  - Task.Triggers.CalendarTrigger.ScheduleByWeek.DaysOfWeek.Wednesday
+  WeeksInterval:
+  - Task.Triggers.CalendarTrigger.ScheduleByWeek.WeeksInterval
+  Win32Status:
+  - Event.System.Data.Win32Status
+  - Event.RawData.Win32Status
+  WinlogonReturnTimeElapsedInMilliseconds:
+  - Event.RawData.WinlogonReturnTimeElapsedInMilliseconds
+  - Event.System.Data.WinlogonReturnTimeElapsedInMilliseconds
+  WnfStateChangeTrigger:
+  - Task.Triggers.WnfStateChangeTrigger
+  WorkItemName:
+  - Event.System.Data.WorkItemName
+  - Event.RawData.WorkItemName
+  WorkingDirectory:
+  - Task.Actions.Exec.WorkingDirectory
+  Workstation:
+  - Event.RawData.Workstation
+  - Event.System.Data.Workstation
+  WorkstationName:
+  - Event.System.Data.WorkstationName
+  - Event.RawData.WorkstationName
+  WriteCacheChangeable:
+  - Event.System.Data.WriteCacheChangeable
+  - Event.RawData.WriteCacheChangeable
+  WriteCacheEnabled:
+  - Event.System.Data.WriteCacheEnabled
+  - Event.RawData.WriteCacheEnabled
+  WriteCacheType:
+  - Event.System.Data.WriteCacheType
+  - Event.RawData.WriteCacheType
+  WriteDepth:
+  - Event.RawData.WriteDepth
+  - Event.System.Data.WriteDepth
+  WriteThroughSupported:
+  - Event.RawData.WriteThroughSupported
+  - Event.System.Data.WriteThroughSupported
+  WwanRegistrationStateChanged:
+  - Event.RawData.WwanRegistrationStateChanged
+  - Event.System.Data.WwanRegistrationStateChanged
+  XmlNamespace:
+  - Event.RawData.xmlNamespace
+  - Event.System.Data.xmlNamespace
+  Xmlns:
+  - Event.UserData.UMDFServiceInstall.#attributes.xmlns
+  - Event.UserData.CbsPackageChangeState.#attributes.xmlns
+  - Event.UserData.ServiceShutdown.#attributes.xmlns
+  - Event.UserData.UMDFDeviceInstallEnd.#attributes.xmlns
+  - Event.UserData.ERR_DEVICE_ID.#attributes.xmlns
+  - Event.UserData.DroppedLeakDiagnosisEventInfo.#attributes.xmlns
+  - Event.UserData.EventInfo.#attributes.xmlns
+  - Event.UserData.data_0x8000003F.#attributes.xmlns
+  - Event.UserData.VmNicNoAvailableMac.#attributes.xmlns
+  - Event.UserData.Operation_StartedOperational.#attributes.xmlns
+  - Event.UserData.CbsPackageInitiateChanges.#attributes.xmlns
+  - Event.UserData.SetupInstallPrinterDriver.#attributes.xmlns
+  - Event.UserData.AuditEventsDropped.#attributes.xmlns
+  - Event.UserData.DriverFailedUpgrade.#attributes.xmlns
+  - Event.UserData.Operation_EssStarted.#attributes.xmlns
+  - Event.UserData.UMDFDeviceInstallBegin.#attributes.xmlns
+  - Event.UserData.Operation_ClientFailure.#attributes.xmlns
+  - Event.UserData.AddServiceID.#attributes.xmlns
+  - Event.UserData.Operation_ESStoConsumerBinding.#attributes.xmlns
+  - Event.UserData.EventData.#attributes.xmlns
+  - Event.UserData.ResolverFiredEvent.#attributes.xmlns
+  - Event.UserData.EventXML.#attributes.xmlns
+  - Event.UserData.CompatibilityFixEvent.#attributes.xmlns
+  - Event.UserData.RmSessionEvent.#attributes.xmlns
+  - Event.UserData.Operation_TemporaryEssStarted.#attributes.xmlns
+  - Event.#attributes.xmlns
+  - Event.UserData.LogFileCleared.#attributes.xmlns
+  - Event.UserData.VmlEventLog.#attributes.xmlns
+  Xmlns:auto-ns2:
+  - Event.UserData.EventXML.#attributes.xmlns:auto-ns2
+  XsaveFeatures:
+  - Event.System.Data.XsaveFeatures
+  - Event.RawData.XsaveFeatures
+  _AC0:
+  - Event.System.Data._AC0
+  - Event.RawData._AC0
+  _AC1:
+  - Event.System.Data._AC1
+  - Event.RawData._AC1
+  _AC2:
+  - Event.System.Data._AC2
+  - Event.RawData._AC2
+  _AC3:
+  - Event.System.Data._AC3
+  - Event.RawData._AC3
+  _AC4:
+  - Event.System.Data._AC4
+  - Event.RawData._AC4
+  _AC5:
+  - Event.RawData._AC5
+  - Event.System.Data._AC5
+  _AC6:
+  - Event.RawData._AC6
+  - Event.System.Data._AC6
+  _AC7:
+  - Event.RawData._AC7
+  - Event.System.Data._AC7
+  _AC8:
+  - Event.RawData._AC8
+  - Event.System.Data._AC8
+  _AC9:
+  - Event.RawData._AC9
+  - Event.System.Data._AC9
+  _CR3:
+  - Event.System.Data._CR3
+  - Event.RawData._CR3
+  _CRT:
+  - Event.RawData._CRT
+  - Event.System.Data._CRT
+  _HOT:
+  - Event.System.Data._HOT
+  - Event.RawData._HOT
+  _PSV:
+  - Event.RawData._PSV
+  - Event.System.Data._PSV
+  _TC1:
+  - Event.System.Data._TC1
+  - Event.RawData._TC1
+  _TC2:
+  - Event.System.Data._TC2
+  - Event.RawData._TC2
+  _TSP:
+  - Event.System.Data._TSP
+  - Event.RawData._TSP
+  _TZP:
+  - Event.RawData._TZP
+  - Event.System.Data._TZP
+  _sendmemoryscanreport:
+  - _sendmemoryscanreport
+  _sigseq:
+  - _sigseq
+  _source:
+  - _source
+  "\uFEFFBagPath":
+  - "\uFEFFBagPath"
