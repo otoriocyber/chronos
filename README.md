@@ -160,8 +160,8 @@ All this process is done in a threadpool, so all the parsing is done simultaneou
 
 
 ### Parsers
-There is a base parser ([parser_base.py](parsers/parser_base.py)) that all the parsers would inherit and use his 
-functions, and implement its "parse" function.
+There is a base parser ([parser_base.py](parsers/parser_base.py)) that all the parsers would inherit and use its 
+functions, and implement the "parse" function.
 Eventually, there are 3 stages to the parsing process
 
 #### Stage 1
