@@ -79,17 +79,15 @@ class MFTParser(ParserBase):
 
                         json_rows.append(json_row)
 
-                        if len(json_rows) > 1500:
+                        if len(json_rows) > 5000:
                             self._write_results_tuple(("mft", json_rows))
                             json_rows = []
 
         except Exception as e:
             self.log("Some critical exception occurred with the mft - {exception}".format(exception=e))
 
-        if len(json_rows) > 1500:
+        if json_rows:
             self._write_results_tuple(("mft", json_rows))
             json_rows = []
-
-        self._write_results_tuple(("mft", json_rows))
 
         return json_rows

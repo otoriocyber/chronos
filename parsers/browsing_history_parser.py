@@ -49,7 +49,7 @@ class BrowsingHistoryParser(ParserBase):
                             diction["time"] = datetime.strptime(diction[i], "%d-%b-%y %H:%M:%S").isoformat()
                         except:
                             try:
-                                diction["time"] = datetime.strptime(diction[i], "%d/%m/%Y %H:%M:%S").isoformat()
+                                diction["time"] = datetime.strptime(diction[i], "%m/%d/%Y %H:%M:%S %p").isoformat()
                             except:
                                 self.log("{parser}: Couldn't parse the time to the right format - {time}".format(parser="BrowsingHistoryParser", time=diction[i]))
                                 continue
